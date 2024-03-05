@@ -1,36 +1,41 @@
-body::before {
+CSS
+
+
+/*body::before {
     display: block;
     content: '';
     height: 60px;
 }
 
-@media screen and (max-width: 576px) {
+/*@media screen and (max-width: 576px) {
     .navbar-brand {
         margin: 0 auto;
     }
   }
+  */
 
-  .dropdown-menu {
+ /* .dropdown-menu {
     border-radius: 0;
     border: none;
     padding: .5em;
+    text-align: center;
   }
 
-  .dropdown-menu ul {
+  /*.dropdown-menu ul {
     list-style: none;
     padding: 0;
-  }
+  }*/
 
-  .dropdown-menu.show {
+  /*.dropdown-menu.show {
     display: flex;
-  }
+  }*/
 
- .dropdown-menu li a {
+ /*.dropdown-menu li a {
     color: grey;
     padding: .5em 1em;
-  }
+  }*/
 
-  .dropdown-menu li:first-child a {
+ /* .dropdown-menu li:first-child a {
     font-weight: bold;
     font-size: 1.2em;
     color: black;
@@ -51,3 +56,14 @@ body::before {
         overflow-y: scroll;
     }
   }
+
+  /*.dropdown-menu {
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 800px;
+  }
+
+

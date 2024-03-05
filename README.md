@@ -1,6 +1,6 @@
-# English_Reservoir
+ # English_Reservoir
 
-I founded English Reservoir to provide the ultimate, intuitive, dynamic, and interactive platform for English learners. In a nutshell, English Reservoir offers a wide array of courses within a subscription-based package.
+I founded English Reservoir to provide an intuitive, dynamic, and interactive platform for English learners. In a nutshell, English Reservoir offers a wide array of courses within a subscription-based package.
 
 The English language is the international language of business, science and finance, and the go-to language every person on the planet should learn to communicate with others in an international setting.
 
