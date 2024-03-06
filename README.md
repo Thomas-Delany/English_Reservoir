@@ -1,4 +1,4 @@
- # English_Reservoir
+# English_Reservoir
 
 I founded English Reservoir to provide an intuitive, dynamic, and interactive platform for English learners. In a nutshell, English Reservoir offers a wide array of courses within a subscription-based package.
 
