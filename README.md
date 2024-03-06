@@ -22,7 +22,7 @@ It should be noted that our courses, at this point, are geared to the Spanish-sp
 
 Later on, in 2024, I will embark on my second project which shall be the creation of a new infrastructure for our subdomain (https://cursos.englishreservoir.com/) which will use Moodle and the PHP programming language for the backend. 
 
-Our YouTube channels are where we upload loads of free English learning content. It's here, where you can get a good idea of the layout, style and teaching method of our English courses here:
+Our YouTube channels are where we upload loads of free English learning content. It's here, where you can get a good idea of the layout, style and teaching method of our English courses here
 
 Our main YouTube channel in English https://www.youtube.com/@EnglishReservoir 
 
