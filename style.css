@@ -1,17 +1,17 @@
-/*body::before {
+/*/body::before {
     display: block;
     content: '';
     height: 60px;
 }
 
-/*@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .navbar-brand {
         margin: 0 auto;
     }
   }
   */
 
- /* .dropdown-menu {
+ /*.dropdown-menu {
     border-radius: 0;
     border: none;
     padding: .5em;
