@@ -63,11 +63,22 @@
     height: 800px;
   }*/
 
-  #font_EN {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #1C4F59;
-    font-weight: 700;
-  }
 
-  /*
+.font_EN {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #1C4F59;
+}
+
+.English_Courses {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #1C4F59;
+}
+  
+
 
