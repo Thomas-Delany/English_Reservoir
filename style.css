@@ -4,7 +4,7 @@
     height: 60px;
 }
 
-@media screen and (max-width: 576px) {
+/*@media screen and (max-width: 576px) {
     .navbar-brand {
         margin: 0 auto;
     }
@@ -18,27 +18,27 @@
     text-align: center;
   }
 
-  /*.dropdown-menu ul {
+  .dropdown-menu ul {
     list-style: none;
     padding: 0;
-  }*/
+  }
 
-  /*.dropdown-menu.show {
+  .dropdown-menu.show {
     display: flex;
-  }*/
+  }
 
- /*.dropdown-menu li a {
+ .dropdown-menu li a {
     color: grey;
     padding: .5em 1em;
-  }*/
+  }
 
- /* .dropdown-menu li:first-child a {
+ .dropdown-menu li:first-child a {
     font-weight: bold;
     font-size: 1.2em;
     color: black;
   }
 
-  @media screen and (min-width: 993px){
+  /*@media screen and (min-width: 993px){
     .dropdown:hover .dropdown-menu {
         display: flex;
     }
@@ -46,6 +46,7 @@
         display: flex;
       }
   }
+  
 
   @media screen and (max-width: 993px){
     .dropdown-menu.show {
@@ -54,7 +55,7 @@
     }
   }
 
-  /*.dropdown-menu {
+  .dropdown-menu {
 
     top: 50%;
     left: 50%;
@@ -72,7 +73,7 @@
   color: #1C4F59;
 }
 
-.English_Courses {
+.English_Courses_title {
   font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
@@ -80,5 +81,18 @@
   color: #1C4F59;
 }
 
+.English_Courses_sub_title {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #1C4F59;
+} 
 
+.font_EN_menu {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  color: #1C4F59;
+}
 
