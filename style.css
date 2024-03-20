@@ -9,14 +9,15 @@
         margin: 0 auto;
     }
   }
-  */
+  
 
- /*.dropdown-menu {
+ .dropdown-menu {
     border-radius: 0;
     border: none;
     padding: .5em;
     text-align: center;
   }
+  /*
 
   .dropdown-menu ul {
     list-style: none;
