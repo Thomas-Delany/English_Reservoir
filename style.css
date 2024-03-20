@@ -1,10 +1,10 @@
-/*/body::before {
+  /* /body::before {
     display: block;
     content: '';
     height: 60px;
 }
 
-/*@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .navbar-brand {
         margin: 0 auto;
     }
@@ -17,7 +17,7 @@
     padding: .5em;
     text-align: center;
   }
-  /*
+  /* 
 
   .dropdown-menu ul {
     list-style: none;
@@ -31,13 +31,14 @@
  .dropdown-menu li a {
     color: grey;
     padding: .5em 1em;
-  }
+  } 
+
 
  .dropdown-menu li:first-child a {
     font-weight: bold;
     font-size: 1.2em;
     color: black;
-  }
+  } */
 
   /*@media screen and (min-width: 993px){
     .dropdown:hover .dropdown-menu {
@@ -95,5 +96,31 @@
   font-weight: 100;
   font-style: normal;
   color: #1C4F59;
+}
+
+.menu_EN {
+  text-align: center;
+}
+
+
+
+.navbar .megamenu{ padding: 1rem; }
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+    overflow-y: auto;
+      max-height: 90vh;
+      margin-top:10px;
+  }
 }
 
