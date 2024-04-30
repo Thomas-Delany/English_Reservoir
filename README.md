@@ -12,7 +12,9 @@ Our listed sites above (.com and .es) use WordPress, however, future ccTLDS that
 
 In 2024, I will build a template website for English Reservoir with the CSS and JavaScript framework, Bootstrap which will serve as a template for all future country-specific domains. You can follow the process of all future updates to this template in this project. 
 
-This template site that I am building (you can see in this repository) will not be uploaded as a website, however, it will serve as the main template for English Reservoir's domains that will be built on .co.uk, .pl, in, .cn, .fr etc. Further, the filler information for pages, links, headers, mega menu etc. will be in English so you can get a good general idea how I structure the English Reservoir domains. 
+This template site that I am building (you can see in this repository) will not be uploaded as a website, however, it will serve as the main template for English Reservoir's domains which will be built on .co.uk, .pl, in, .cn, .fr etc. That is, all future domains for English Reservoir will use said template website. Doing this will allow me to streamline all English Reservoir ccTLD's and keep a common framework for an improved workflow, and updating. 
+
+Further, the template website that I am bulding will essentially be a copy of the current website (englishreservoir.com), only it'll be built using Bootstrap and not WordPress. Moreover, it will also contain filler information for pages, links, headers, mega menu etc. which will be in English so you can get a good general idea how I structure the English Reservoir domains. 
 
 All courses and related learning infrastructure are on our subdomain: 
 
