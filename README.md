@@ -14,7 +14,7 @@ In 2024, I will build a template website for English Reservoir with the CSS and 
 
 This template site that I am building (you can see in this repository) will not be uploaded as a website, however, it will serve as the main template for English Reservoir's domains which will be built on .co.uk, .pl, in, .cn, .fr etc. That is, all future domains for English Reservoir will use said template website. Doing this will allow me to streamline all English Reservoir ccTLD's and keep a common framework for an improved workflow, and updating. 
 
-Further, the template website that I am bulding will essentially be a copy of the current website (englishreservoir.com), only it'll be built using Bootstrap and not WordPress. Moreover, it will also contain filler information for pages, links, headers, mega menu etc. which will be in English so you can get a good general idea how I structure the English Reservoir domains. 
+Further, the template website that I am bulding will essentially be a much needed improved copy of the current website (englishreservoir.com), only it'll be built using Bootstrap and not WordPress. Moreover, it will also contain filler information for pages, links, headers, mega menu etc. which will be in English so you can get a good general idea how I structure the English Reservoir domains. 
 
 All courses and related learning infrastructure are on our subdomain: 
 
@@ -24,7 +24,7 @@ It should be noted that our courses, at this point, are geared to the Spanish-sp
 
 Later on, in 2024, I will embark on my second project which shall be the creation of a new infrastructure for our subdomain (https://cursos.englishreservoir.com/) which will use Moodle and the PHP programming language for the backend. 
 
-Our YouTube channels are where we upload loads of free English learning content. It's here, where you can get a good idea of the layout, style and teaching method of our English courses here:
+Our YouTube channels are where we upload loads of free English learning content. It's here, where you can get a good idea of the layout, style and teaching method of our English courses:
 
 Our main YouTube channel in English https://www.youtube.com/@EnglishReservoir 
 
