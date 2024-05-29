@@ -91,8 +91,7 @@
 </head>
 
 <body>
-
-
+	<?php include 'nav.php'; ?>
 	<!-- **************** MAIN CONTENT START **************** -->
 	<main>
 
