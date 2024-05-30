@@ -355,8 +355,8 @@ Main Banner START -->
 		</section>
 	</main>
 	<!-- **************** MAIN CONTENT END **************** -->
-
 	<!-- Footer START -->
+	<?php include 'footer.php'; ?>
 	<!-- Footer END -->
 
 	<!-- Back to top -->
