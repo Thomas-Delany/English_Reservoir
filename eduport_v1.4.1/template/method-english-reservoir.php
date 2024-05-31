@@ -91,7 +91,7 @@
 </head>
 
 <body>
-	<?php include 'nav.php'; ?>
+	<?php include 'includes/nav.php'; ?>
 	<!-- **************** MAIN CONTENT START **************** -->
 	<main>
 
@@ -356,7 +356,7 @@ Main Banner START -->
 	</main>
 	<!-- **************** MAIN CONTENT END **************** -->
 	<!-- Footer START -->
-	<?php include 'footer.php'; ?>
+	<?php include 'includes/footer.php'; ?>
 	<!-- Footer END -->
 
 	<!-- Back to top -->
