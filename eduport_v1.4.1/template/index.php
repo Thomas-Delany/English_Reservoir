@@ -456,8 +456,8 @@
 			</div>
 		</section>
 	</main>
-
 	<!-- MAIN CONTENT END -->
+	
 	<!-- Footer START -->
 	<?php include 'includes/footer.php'; ?>
 	<!-- Footer END -->
