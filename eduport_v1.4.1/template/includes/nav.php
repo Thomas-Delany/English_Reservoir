@@ -6,8 +6,8 @@
 			<div class="container-fluid px-3 px-xl-5">
 				<!-- Logo START -->
 				<a class="navbar-brand me-0" href="index.html">
-					<img class="light-mode-item navbar-brand-item" src="assets/images/logo_ER.png" alt="logo">
-					<img class="dark-mode-item navbar-brand-item" src="assets/images/logo_ER.png" alt="logo">
+					<img class="light-mode-item navbar-brand-item" src="../assets/images/logo_ER.png" alt="logo">
+					<img class="dark-mode-item navbar-brand-item" src="../assets/images/logo_ER.png" alt="logo">
 				</a>
 				<!-- Logo END -->
 
@@ -165,7 +165,7 @@
 											<div class="ms-2">
 												<!-- Image -->
 												<a href="https://cursos.englishreservoir.com/p/b2-cambridge-first">
-													<img class="rounded-2" src="assets/images/courses/b2_first.png"
+													<img class="rounded-2" src="../assets/images/courses/b2_first.png"
 														alt="b2 cambridge first">
 												</a>
 											</div>
