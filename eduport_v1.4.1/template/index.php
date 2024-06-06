@@ -10,7 +10,7 @@
 	<meta name="author" content="Webestica.com">
 	<meta name="description" content="English courses">
 
-	<!-- JS -->
+	<!-- Dark mode -->
 	<script src="/script.js"></script>
 
 
