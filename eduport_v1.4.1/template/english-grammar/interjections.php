@@ -4,6 +4,9 @@
     <title>Interjections</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Dark mode -->
+    <script src="../script.js"></script>
   
 
 <!-- Font Awesome -->
