@@ -5,7 +5,7 @@
 		<nav class="navbar navbar-expand-xl">
 			<div class="container-fluid px-3 px-xl-5">
 				<!-- Logo START -->
-				<a class="navbar-brand me-0" href="index.html">
+				<a class="navbar-brand me-0" href="../index.html"> 
 					<img class="light-mode-item navbar-brand-item" src="../assets/images/logo_ER.png" alt="logo">
 					<img class="dark-mode-item navbar-brand-item" src="../assets/images/logo_ER.png" alt="logo">
 				</a>
@@ -178,7 +178,7 @@
 												<a
 													href="https://cursos.englishreservoir.com/p/verbos-en-ingles-metodo-divertido">
 													<img class="rounded-2"
-														src="assets/images/courses/verbos-en-ingles.png"
+														src="../assets/images/courses/verbos-en-ingles.png"
 														alt="verbos en ingles">
 												</a>
 											</div>
@@ -194,7 +194,7 @@
 											<div class="ms-2">
 												<!-- Image -->
 												<a href="https://cursos.englishreservoir.com/p/c1-cambridge-advanced">
-													<img class="rounded-2" src="assets/images/courses/c1_advanced.png"
+													<img class="rounded-2" src="../assets/images/courses/c1_advanced.png"
 														alt="c1 cambridge advanced">
 												</a>
 											</div>
@@ -207,7 +207,7 @@
 												<a
 													href="https://cursos.englishreservoir.com/p/gramatica-esencial-metodo-divertido">
 													<img class="rounded-2"
-														src="assets/images/courses/Gramatica-esencial.png"
+														src="../assets/images/courses/Gramatica-esencial.png"
 														alt="gramatica esencial">
 												</a>
 											</div>
@@ -222,7 +222,7 @@
 												<!-- Image -->
 												<a
 													href="https://cursos.englishreservoir.com/p/c2-cambridge-proficiency">
-													<img class="rounded-2" src="assets/images/courses/c2_pro.png"
+													<img class="rounded-2" src="../assets/images/courses/c2_pro.png"
 														alt="c2 cambridge proficiency">
 												</a>
 											</div>
@@ -234,7 +234,7 @@
 												<!-- Image -->
 												<a href="https://cursos.englishreservoir.com/p/pronunciacion-en-ingles">
 													<img class="rounded-2"
-														src="assets/images/courses/pronunciacion-en-ingles.png"
+														src="../assets/images/courses/pronunciacion-en-ingles.png"
 														alt="pronunciacion en ingles">
 												</a>
 											</div>

@@ -30,8 +30,8 @@
 </head>
 
 <body>
-<?php include '../includes/nav.php'; ?>
 	<!-- MAIN CONTENT START -->
+    <?php include '../includes/nav.php'; ?>
 
     <main>
         <h1>xxxx</h1>
