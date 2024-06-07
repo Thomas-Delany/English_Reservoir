@@ -34,16 +34,23 @@
 
 <body>
 	<!-- MAIN CONTENT START -->
+    <!-- nav START -->
     <?php include '../includes/nav.php'; ?>
 
+
     <main>
-        <h1>xxxx</h1>
+        <section>
+            <div class="container">
+                <!-- Sidebar START -->
+    <?php include '../includes/sidebar.php'; ?>
+                <h1>xxxxx</h1>
+            </div>
+        </section>
 
     </main>
 
     <!-- Footer START -->
 	<?php include '../includes/footer.php'; ?>
-	<!-- Footer END -->
 
     <!-- Back to top -->
 	<div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
