@@ -38,16 +38,20 @@
     <?php include '../includes/nav.php'; ?>
 
 
-    <main>
         <section>
-            <div class="container">
-                <!-- Sidebar START -->
-    <?php include '../includes/sidebar.php'; ?>
-                <h1>xxxxx</h1>
-            </div>
-        </section>
-
+        <div class="container">
+            <div class="row flex-row-reverse">
+                <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+                    <?php include '../includes/sidebar.php'; ?>
+                </nav>
+    <main class="col-md-9 col-lg-10 px-md-4">
+        <h1>Another Page Content</h1>
+        <p>This is another page.</p>
     </main>
+</div>
+</div>
+</section>
+
 
     <!-- Footer START -->
 	<?php include '../includes/footer.php'; ?>
