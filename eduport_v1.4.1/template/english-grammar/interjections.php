@@ -37,12 +37,30 @@
     <!-- nav START -->
     <?php include '../includes/nav.php'; ?>
 
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 order-1 order-lg-1 my-3">
+      <!-- Main content here -->
+      <h1>xxxxxxxx</h1>
+      <p>This is the main content of the page. It should always appear first on all screen sizes.</p>
+      <h2>xxxxx</h2>
+      <p>xxxxx</p>
+      <h2>xxxxx</h2>
+      <p>xxxxx</p>
+      <h2>xxxxx</h2>
+      <p>xxxxx</p>
+    </div>
+    <div class="col-lg-4 order-2 order-lg-2 my-5 d-flex justify-content-center">
+      <?php include '../includes/sidebar.php'; ?>
+    </div>
+  </div>
+</div>
 
+<!--
         <section>
         <div class="container">
             <div class="row flex-row-reverse">
                 <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
-                    <?php include '../includes/sidebar.php'; ?>
                 </nav>
     <main class="col-md-9 col-lg-10 px-md-4">
         <h1>Another Page Content</h1>
@@ -50,7 +68,7 @@
     </main>
 </div>
 </div>
-</section>
+</section> -->
 
 
     <!-- Footer START -->
