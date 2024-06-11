@@ -34,14 +34,20 @@
 
 <body>
 	<!-- MAIN CONTENT START -->
-    <!-- nav START -->
+    <!-- Nav START -->
     <?php include '../includes/nav.php'; ?>
 
 <div class="container">
+  <!-- Include the breadcrumbs file -->
+  <?php include '../includes/breadcrumbs.php'; ?>
+
+  <!-- Call the breadcrumb generation function -->
+  <?php generate_breadcrumbs(); ?>
+
   <div class="row">
-    <div class="col-lg-8 order-1 order-lg-1 my-3">
+    <div class="col-lg-9 order-1 order-lg-1 my-3">
       <!-- Main content here -->
-      <h1>xxxxxxxx</h1>
+      <h1>Interjections</h1>
       <p>This is the main content of the page. It should always appear first on all screen sizes.</p>
       <h2>xxxxx</h2>
       <p>xxxxx</p>
@@ -49,8 +55,8 @@
       <p>xxxxx</p>
       <h2>xxxxx</h2>
       <p>xxxxx</p>
-    </div>
-    <div class="col-lg-4 order-2 order-lg-2 my-5 d-flex justify-content-center">
+    </div> 
+    <div class="col-lg-3 order-2 order-lg-2 my-5 d-none d-lg-block my-5">
       <?php include '../includes/sidebar.php'; ?>
     </div>
   </div>
@@ -71,11 +77,11 @@
 </section> -->
 
 
-    <!-- Footer START -->
-	<?php include '../includes/footer.php'; ?>
+<!-- Footer START -->
+<?php include '../includes/footer.php'; ?>
 
-    <!-- Back to top -->
-	<div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
+<!-- Back to top -->
+<div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
 
 <!-- Bootstrap JS -->
 <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
