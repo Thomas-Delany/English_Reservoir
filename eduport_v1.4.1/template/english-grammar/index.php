@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Interjections</title>
+    <title>English Grammar</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -47,7 +47,7 @@
   <div class="row">
     <div class="col-lg-9 order-1 order-lg-1 my-3">
       <!-- Main content here -->
-      <h1>Interjections</h1>
+      <h1>English Grammar</h1>
       <p>This is the main content of the page. It should always appear first on all screen sizes.</p>
       <h2>xxxxx</h2>
       <p>xxxxx</p>
