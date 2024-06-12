@@ -19,3 +19,4 @@ if (array_key_exists($request, $routes)) {
     // Handle 404 - Not Found
     include '404.php';
 }
+?> 
