@@ -14,15 +14,21 @@ function generate_breadcrumbs() {
     
     // Loop through each segment
     foreach ($segments as $index => $segment) {
+        // Replace hyphens with spaces and capitalize words
+        $displaySegment = ucwords(str_replace('-', ' ', $segment));
+        
+        // Remove .php extension for the display
+        $displaySegment = str_replace('.php', '', $displaySegment);
+        
         // Accumulate the path
         $path .= '/' . $segment;
         
         // If it's the last segment, make it active
         if ($index == count($segments) - 1) {
-            echo '<li class="breadcrumb-item active" aria-current="page">' . ucfirst($segment) . '</li>';
+            echo '<li class="breadcrumb-item active" aria-current="page">' . $displaySegment . '</li>';
         } else {
             // Create a link for other segments
-            echo '<li class="breadcrumb-item"><a href="' . $path . '">' . ucfirst($segment) . '</a></li>';
+            echo '<li class="breadcrumb-item"><a href="' . $path . '">' . $displaySegment . '</a></li>';
         }
     }
     
