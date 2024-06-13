@@ -1,7 +1,3 @@
-<?php
-// Include the router script to handle routing
-include 'router.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
 
