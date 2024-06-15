@@ -41,7 +41,7 @@
   <!-- Include the breadcrumbs file -->
   <?php include '../includes/breadcrumbs.php'; ?>
 
-  <!-- Call the breadcrumb generation function -->
+  <!-- Call the breadcrumb generation function -->        
   <?php generate_breadcrumbs(); ?>
 
   <div class="row">
@@ -61,22 +61,6 @@
     </div>
   </div>
 </div>
-
-<!--
-        <section>
-        <div class="container">
-            <div class="row flex-row-reverse">
-                <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
-                </nav>
-    <main class="col-md-9 col-lg-10 px-md-4">
-        <h1>Another Page Content</h1>
-        <p>This is another page.</p>
-    </main>
-</div>
-</div>
-</section> -->
-
-
 <!-- Footer START -->
 <?php include '../includes/footer.php'; ?>
 
