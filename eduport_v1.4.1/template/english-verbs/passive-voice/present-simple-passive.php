@@ -1,7 +1,7 @@
-<!-- To Be.php -->
+<!-- Present Simple Passive Voice.php -->
 <?php
-$page_title = "To be";
-$page_heading = "To be";
+$page_title = "Present Simple Passive Voice";
+$page_heading = "Present Simple Passive Voice";
 // Page specific content with HTML and Bootstrap elements
 $page_content = "This is some dummy text.";
 // Include the master template
