@@ -339,15 +339,14 @@ include 'config.php'; // Include config.php for BASE_URL
 				<!-- Main navbar END -->
 
 				<!-- Dark mode options START -->
-				<div class="dropdown">
-					<button class="btn btn-light btn-sm lh-1 p-2 mb-0" id="bd-theme" type="button" aria-expanded="false"
-						data-bs-toggle="dropdown" data-bs-display="static">
-						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
-							class="bi bi-circle-half fa-fw theme-icon-active" viewBox="0 0 16 16">
+				<div class="">
+					<button class="btn btn-light btn-sm lh-1 p-2 mb-0 theme-toggle-button" id="bd-theme" type="button">
+						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-circle-half fa-fw theme-icon-active" viewBox="0 0 16 16">
 							<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
 							<use href="#"></use>
 						</svg>
 					</button>
+
 
 					<ul class="dropdown-menu min-w-auto dropdown-menu-end" aria-labelledby="bd-theme">
 						<li class="mb-1">
