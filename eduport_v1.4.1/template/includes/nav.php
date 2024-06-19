@@ -2,6 +2,14 @@
 // index.php in the root directory
 include 'config.php'; // Include config.php for BASE_URL
 ?>
+<style>
+.navbar-expand-xl .navbar-nav .dropdown:hover>.dropdown-menu {
+	top: 80%;    
+    }
+</style>
+
+
+
 <!-- nav.php -->
 <!-- Header START -->
 <header class="navbar-light navbar-sticky header-static">
@@ -37,7 +45,7 @@ include 'config.php'; // Include config.php for BASE_URL
 							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
 								aria-expanded="false">Reservoir!</a>
 							<div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
-								<div class="row p-4">
+								<div class="row p-4 m-4">
 
 									<!-- column item -->
 									<div class="col-xl-4 col-xxl-4 mb-3">
@@ -160,7 +168,7 @@ include 'config.php'; // Include config.php for BASE_URL
 							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
 								aria-expanded="false">Academy</a>
 							<div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
-								<div class="row p-4">
+								<div class="row p-4 m-4">
 
 									<!-- column item -->
 									<div class="col-md-4 col-lg-4">
@@ -253,7 +261,7 @@ include 'config.php'; // Include config.php for BASE_URL
 							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
 								aria-expanded="false">More</a>
 							<div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
-								<div class="row p-4">
+								<div class="row p-4 m-4">
 
 									<!-- column item -->
 									<div class="col-xl-6 col-xxl-6 mb-3">
