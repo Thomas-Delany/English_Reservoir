@@ -12,7 +12,7 @@ include 'config.php'; // Include config.php for BASE_URL
 
 <!-- nav.php -->
 <!-- Header START -->
-<header class="navbar-light navbar-sticky header-static">
+<header class="navbar-light header-static">
 		<!-- Logo Nav START -->
 		<nav class="navbar navbar-expand-xl">
 			<div class="container-fluid px-3 px-xl-5">
