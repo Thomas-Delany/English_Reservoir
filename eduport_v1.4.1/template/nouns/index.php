@@ -4,15 +4,19 @@ $page_title = "Nouns in English";
 $page_heading = "Nouns in English";
 $page_content = 
 <<<HTML
+<style>
+   
+
+</style>
 <div class="container mt-4">
     <div class="row">
         <!-- Table of Contents -->
-        <nav id="toc" class="col-md-12 rounded-3 bg-light p-4 mb-5 toc">
+        <nav id="toc" class="col-md-12 bg-light rounded-3 p-4 mb-5 toc">
             <h2>Table of Contents</h2>
             <nav class="nav flex-column lead">
             <ul class="nav flex-column">
                 <li class="nav-item">
-        <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center">
             <i class="bi bi-arrow-right text-primary me-2"></i>
             <a class="nav-link" href="#section1">Section 1</a>
         </div>
@@ -21,6 +25,12 @@ $page_content =
       <div class="d-flex align-items-center">
         <i class="bi bi-arrow-right text-primary me-2"></i>
         <a class="nav-link" href="#section2">Section 2</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <div class="d-flex align-items-center">
+        <i class="bi bi-arrow-right text-primary me-2"></i>
+        <a class="nav-link" href="#section3">Section 3</a>
       </div>
     </li>
     <!-- Add more items as needed -->
