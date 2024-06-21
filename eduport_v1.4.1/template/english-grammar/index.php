@@ -44,6 +44,11 @@ $page_content = <<<HTML
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae aliquam maxime aperiam sint facere animi facilis quibusdam illo ad.</p>
             <h3 id="section2" class="mt-5">Section 2</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!</p>
+
+            <div class="ratio ratio-16x9 my-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XwtznfOAwtU?si=ki--d2uehTopSq0l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
             <h3 id="section3" class="mt-5">Section 3</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?</p>
             <h3 id="section4" class="mt-5">Section 4</h3>
