@@ -18,8 +18,8 @@ include 'config.php'; // Include config.php for BASE_URL
 			<div class="container-fluid px-3 px-xl-5">
 				<!-- Logo START -->
 				<a class="navbar-brand me-0" href="<?php echo BASE_URL; ?>../../index.php"> 
-					<img class="light-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>../../assets/images/logo_ER.png" alt="logo">
-					<img class="dark-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>../../assets/images/logo_ER.png" alt="logo">
+					<img class="light-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>../../assets/images/logo_ER_TEST.svg" alt="logo">
+					<img class="dark-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>../../assets/images/logo_ER_TEST.svg" alt="logo">
 				</a>
 				<!-- Logo END -->
 
