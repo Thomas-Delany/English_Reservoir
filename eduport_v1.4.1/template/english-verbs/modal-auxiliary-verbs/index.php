@@ -6,6 +6,9 @@ $page_heading = "Modal Auxiliary Verbs";
 $page_content = <<<HTML
 <div class="container mt-4">
     <div class="row">
+        <div class="col-12">
+            <img src="../assets/images/" class="img-fluid rounded-3 mb-5" alt="">
+        </div>
         <!-- Table of Contents -->
         <nav id="toc" class="col-md-12 rounded-3 p-4 mb-5 toc bg-primary bg-gradient bg-opacity-15">
             <h2>Table of Contents</h2>
