@@ -374,9 +374,7 @@ Portfolio START -->
 					<div class="col-lg-8 my-5">
 						<h3>How much does it cost?
 						</h3>
-						<p class="mb-4 fs-5">USD 7.99 monthly. No, You can only stream your course from your unique
-							login
-							page.
+						<p class="mb-4 fs-5">7,99 USD monthly.
 						</p>
 						<h3>Can I download the course?</h3>
 						<p class="mb-4 fs-5">No. You can only stream your course from your unique login page.

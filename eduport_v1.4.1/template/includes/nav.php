@@ -54,7 +54,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-gear"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="https://www.englishreservoir.com/essential-english-grammar/">Essential
+													href="<?php echo BASE_URL; ?>../english-grammar/">Essential
 													Grammar</a>
 												<p class="mb-0 small">Nouns, Adjectives, Prepositions, Adverbs,
 													Conjunctions and Interjections.</p>
@@ -78,8 +78,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-chat-dots"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="https://www.englishreservoir.com/verbs-in-english/">English
-													Verbs</a>
+													href="<?php echo BASE_URL; ?>../english-verbs/">Verbs in English</a>
 												<p class="mb-0 small">Main and Modal Auxiliaries, Active and Passive
 													forms, Phrasal Verbs, Copulas, Ordinary verbs, "Get" and more!
 												</p>
@@ -89,14 +88,14 @@ include 'config.php'; // Include config.php for BASE_URL
 
 
 
-									<!-- column item -->
+									<!-- column item --> 
 									<div class="col-xl-4 col-xxl-4 mb-3">
 										<!-- sub item -->
 										<div class="d-flex mb-4 position-relative">
 											<h2 class="mb-0"><i class="bi bi-mortarboard"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="https://www.englishreservoir.com/cambridge-courses/">Cambridge
+													href="<?php echo BASE_URL; ?>../cambridge/">Cambridge
 													Courses</a>
 												<p class="mb-0 small">B2 Cambridge First, C1 Cambridge Advanced and C2
 													Cambridge Proficiency.</p>
@@ -108,8 +107,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-question-square"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="https://www.englishreservoir.com/english-confusions/">Frequent
-													Mistakes</a>
+													href="<?php echo BASE_URL; ?>../english-confusions/">English Confusions</a>
 												<p class="mb-0 small">Do vs. make, to vs. for, on vs. upon, every
 													frequent doubt, you name it, we have you covered.</p>
 											</div>
@@ -119,7 +117,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-brush"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="https://www.englishreservoir.com/punctuation/">Punctuation</a>
+													href="<?php echo BASE_URL; ?>../english-punctuation">Punctuation</a>
 												<p class="mb-0 small">Apostrophes, Colons, Semicolons, Commas, Hyphens,
 													Fullstops, Question and Exclamation marks, and Quotation Marks.</p>
 											</div>
@@ -133,7 +131,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-volume-up"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="https://www.englishreservoir.com/pronunciation/">Pronunciation</a>
+													href="<?php echo BASE_URL; ?>../english-pronunciation/">Pronunciation</a>
 												<p class="mb-0 small">IPA, Vowels, Consonants, Dipthongs, Triphthongs,
 													Nasal Sounds, Common Mistakes, and more.</p>
 											</div>
@@ -144,7 +142,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-book"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="https://www.englishreservoir.com/blog/">Blog</a>
+													href="<?php echo BASE_URL; ?>../blog/">Blog</a>
 												<p class="mb-0 small">Lots of Interesting reads in both English and
 													Spanish.</p>
 											</div>
@@ -270,7 +268,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-question-circle"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="https://www.englishreservoir.com/about-us/">About us</a>
+													href="<?php echo BASE_URL; ?>../about-english-reservoir.php">About us</a>
 												<p class="mb-0 small">Who we are, How the courses work and how much time
 													you should dedicate.</p>
 											</div>
@@ -281,7 +279,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-easel2"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="https://www.englishreservoir.com/english-reservoir-method/">English
+													href="<?php echo BASE_URL; ?>../method-english-reservoir.php">English
 													Reservoir Method</a>
 												<p class="mb-0 small">Get to know all about our teaching method.
 												</p>
@@ -298,7 +296,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-currency-exchange"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="https://www.englishreservoir.com/affiliate-program-english-reservoir/">Affiliate
+													href="<?php echo BASE_URL; ?>../affiliate.php">Affiliate
 													Programme</a>
 												<p class="mb-0 small">Are you a content creator or teacher? Would you
 													like to become an English Reservoir affiliate and work with us?</p>

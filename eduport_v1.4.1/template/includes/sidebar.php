@@ -4,12 +4,12 @@
 
     <!-- Title -->
     <li class="nav-item lead fw-bold my-2">Reservoir!</li> 
-    <li class="nav-item"><a href="https://www.englishreservoir.com/essential-english-grammar/" class="nav-link"><i class="bi bi bi-gear fa-fw me-2"></i>English Grammar</a></li>
-    <li class="nav-item"><a href="https://www.englishreservoir.com/verbs-in-english/" class="nav-link"><i class="bi bi-chat-dots fa-fw me-2"></i>English Verbs</a></li>
-    <li class="nav-item"><a href="https://www.englishreservoir.com/english-confusions/" class="nav-link"><i class="bi bi-question-square fa-fw me-2"></i>English Confusions</a></li>
-    <li class="nav-item"><a href="https://www.englishreservoir.com/punctuation/" class="nav-link"><i class="bi bi-brush fa-fw me-2"></i>Punctuation</a></li>
-    <li class="nav-item"><a href="https://www.englishreservoir.com/pronunciation/" class="nav-link"><i class="bi bi-volume-up fa-fw me-2"></i>Pronunciation</a></li>
-    <li class="nav-item"><a href="https://www.englishreservoir.com/blog/" class="nav-link"><i class="bi bi-book fa-fw me-2"></i>Blog</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../english-grammar/" class="nav-link"><i class="bi bi bi-gear fa-fw me-2"></i>English Grammar</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../english-verbs/" class="nav-link"><i class="bi bi-chat-dots fa-fw me-2"></i>English Verbs</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../english-confusions/" class="nav-link"><i class="bi bi-question-square fa-fw me-2"></i>English Confusions</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../english-punctuation/" class="nav-link"><i class="bi bi-brush fa-fw me-2"></i>Punctuation</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../english-pronunciation/" class="nav-link"><i class="bi bi-volume-up fa-fw me-2"></i>Pronunciation</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../blog/" class="nav-link"><i class="bi bi-book fa-fw me-2"></i>Blog</a></li>
     <li class="nav-item"><a href="https://www.youtube.com/@EnglishReservoir" class="nav-link"><i class="bi bi-youtube fa-fw me-2"></i>Learn for Free!</a></li>
 
     <!-- Title -->
@@ -23,9 +23,9 @@
 
     <!-- Title -->
     <li class="nav-item lead fw-bold my-2">More about us</li>
-    <li class="nav-item"><a href="https://www.englishreservoir.com/about-us/" class="nav-link"><i class="bi bi-house fa-fw me-2"></i>About Us</a></li>
-    <li class="nav-item"><a href="https://www.englishreservoir.com/english-reservoir-method/" class="nav-link"><i class="bi bi-easel2 fa-fw me-2"></i>Our Method</a></li>
-    <li class="nav-item"><a href="https://www.englishreservoir.com/affiliate-program-english-reservoir/" class="nav-link"><i class="far fa-chart-bar fa-fw me-2"></i>Affiliate Programme</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../about-english-reservoir.php" class="nav-link"><i class="bi bi-house fa-fw me-2"></i>About Us</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../method-english-reservoir.php" class="nav-link"><i class="bi bi-easel2 fa-fw me-2"></i>Our Method</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../affiliate.php" class="nav-link"><i class="far fa-chart-bar fa-fw me-2"></i>Affiliate Programme</a></li>
     <li class="nav-item"><a href="https://www.youtube.com/@EnglishReservoir/featured" class="nav-link"><i class="bi bi-youtube fa-fw me-2"></i>YouTube</a></li>
     <li class="nav-item"><a href="https://www.facebook.com/Englishreservoir/" class="nav-link"><i class="bi bi-facebook fa-fw me-2"></i>Facebook</a></li>
     <li class="nav-item"><a href="https://twitter.com/EN_Reservoir" class="nav-link"><i class="bi bi-twitter fa-fw me-2"></i>Twitter/X</a></li>
