@@ -26,9 +26,9 @@
     <li class="nav-item"><a href="<?php echo BASE_URL; ?>../about-english-reservoir.php" class="nav-link"><i class="bi bi-house fa-fw me-2"></i>About Us</a></li>
     <li class="nav-item"><a href="<?php echo BASE_URL; ?>../method-english-reservoir.php" class="nav-link"><i class="bi bi-easel2 fa-fw me-2"></i>Our Method</a></li>
     <li class="nav-item"><a href="<?php echo BASE_URL; ?>../affiliate.php" class="nav-link"><i class="far fa-chart-bar fa-fw me-2"></i>Affiliate Programme</a></li>
-    <li class="nav-item"><a href="https://www.youtube.com/@EnglishReservoir/featured" class="nav-link"><i class="bi bi-youtube fa-fw me-2"></i>YouTube</a></li>
-    <li class="nav-item"><a href="https://www.facebook.com/Englishreservoir/" class="nav-link"><i class="bi bi-facebook fa-fw me-2"></i>Facebook</a></li>
-    <li class="nav-item"><a href="https://twitter.com/EN_Reservoir" class="nav-link"><i class="bi bi-twitter fa-fw me-2"></i>Twitter/X</a></li>
-    <li class="nav-item"><a href="https://www.instagram.com/english_reservoir" class="nav-link"><i class="bi bi-instagram fa-fw me-2"></i>Instagram</a></li>
+    <li class="nav-item"><a href="https://www.youtube.com/@EnglishReservoir/featured" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="bi bi-youtube fa-fw me-2"></i>YouTube</a></li>
+    <li class="nav-item"><a href="https://www.facebook.com/Englishreservoir/" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="bi bi-facebook fa-fw me-2"></i>Facebook</a></li>
+    <li class="nav-item"><a href="https://twitter.com/EN_Reservoir" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="bi bi-twitter fa-fw me-2"></i>Twitter/X</a></li>
+    <li class="nav-item"><a href="https://www.instagram.com/english_reservoir" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="bi bi-instagram fa-fw me-2"></i>Instagram</a></li>
     </ul>
 </div>

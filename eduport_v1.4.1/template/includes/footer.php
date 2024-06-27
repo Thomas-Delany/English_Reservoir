@@ -100,13 +100,13 @@
             <!-- Social media -->
             <ul class="nav flex-column">
                 <li class="nav-item"><a class="nav-link text-white"
-                        href="https://www.youtube.com/@EnglishReservoir/featured">YouTube</a></li>
+                        href="https://www.youtube.com/@EnglishReservoir/featured" target="_blank" rel="noopener noreferrer">YouTube</a></li>
                 <li class="nav-item"><a class="nav-link text-white"
-                        href="https://www.instagram.com/english_reservoir/?hl=en">Instagram</a></li>
+                        href="https://www.instagram.com/english_reservoir/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                 <li class="nav-item"><a class="nav-link text-white"
-                        href="https://twitter.com/EN_Reservoir">Twitter / X</a></li>
+                        href="https://twitter.com/EN_Reservoir" target="_blank" rel="noopener noreferrer">Twitter / X</a></li>
                 <li class="nav-item"><a class="nav-link text-white"
-                        href="https://www.facebook.com/Englishreservoir/">Facebook</a></li>
+                        href="https://www.facebook.com/Englishreservoir/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
             </ul>
         </div>
         <!-- Widget 5 END -->

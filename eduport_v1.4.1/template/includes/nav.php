@@ -152,7 +152,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-youtube"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="https://www.youtube.com/@EnglishReservoir">Learn for Free!</a>
+													href="https://www.youtube.com/@EnglishReservoir" target="_blank" rel="noopener noreferrer">Learn for Free!</a>
 												<p class="mb-0 small">100's of free learning tutorials on YouTube!</p>
 											</div>
 										</div>
@@ -308,27 +308,32 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-wechat"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0" href="#">Our Social Media</a>
-												<p class="mb-0 small">Learn even more about us.</p>
+												<p class="mb-0 small">Learn more about us.</p>
 												<div>
 													<ul class="list-inline mb-0 mt-3">
 														<li class="list-inline-item"> <a
 																class="btn btn-white btn-sm shadow px-2 text-facebook"
-																href="https://www.facebook.com/Englishreservoir/"><i
+																href="https://www.facebook.com/Englishreservoir/" target="_blank" rel="noopener noreferrer"><i
 																	class="fab fa-fw fa-facebook-f"></i></a>
 														</li>
 														<li class="list-inline-item"> <a
 																class="btn btn-white btn-sm shadow px-2 text-instagram"
-																href="https://www.instagram.com/english_reservoir/?hl=en"><i
+																href="https://www.instagram.com/english_reservoir/?hl=en" target="_blank" rel="noopener noreferrer"><i
 																	class="fab fa-fw fa-instagram"></i></a>
 														</li>
 														<li class="list-inline-item"> <a
 																class="btn btn-white btn-sm shadow px-2 text-twitter"
-																href="https://twitter.com/EN_Reservoir"><i
+																href="https://twitter.com/EN_Reservoir" target="_blank" rel="noopener noreferrer"><i
 																	class="fab fa-fw fa-twitter"></i></a> </li>
-														<li class="list-inline-item"> <a
+														<li class="list-inline-item"><a
 																class="btn btn-white btn-sm shadow px-2 text-linkedin"
-																href="https://www.youtube.com/@EnglishReservoir/featured"><i
+																href="https://www.youtube.com/@EnglishReservoir/featured" target="_blank" rel="noopener noreferrer"><i
 																	class="fab fa-fw fa-youtube"></i></a>
+														</li>
+														<li class="list-inline-item">
+															<a class="btn btn-white btn-sm shadow px-2 text-linkedin" href="https://www.youtube.com/@EnglishReservoir/featured" target="_blank" rel="noopener noreferrer">
+																<i class="fab fa-fw fa-youtube"></i>
+															</a>
 														</li>
 													</ul>
 												</div>
@@ -343,6 +348,8 @@ include 'config.php'; // Include config.php for BASE_URL
 					</ul>
 				</div>
 				<!-- Main navbar END -->
+
+				
 
 				<!-- Dark mode options START -->
 				<div class="">
