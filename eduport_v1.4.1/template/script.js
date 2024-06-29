@@ -24,3 +24,33 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    fetch('articles.json')
+        .then(response => response.json())
+        .then(articles => {
+            const articlesContainer = document.getElementById('articles');
+
+            articles.forEach(article => {
+                // Create the card element
+                const articleCard = document.createElement('div');
+                articleCard.className = 'col-md-8';
+                articleCard.innerHTML = `
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">${article.title}</h2>
+                            <p class="card-text">${article.snippet}</p>
+                            <a href="${article.link}" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                `;
+
+                // Append the card to the articles container
+                articlesContainer.appendChild(articleCard);
+            });
+        })
+        .catch(error => console.error('Error fetching articles:', error));
+});
+

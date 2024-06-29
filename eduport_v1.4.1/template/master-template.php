@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Dark mode -->
+    <!-- More JavaScript functionalities -->
     <script src="<?php echo BASE_URL; ?>script.js"></script>
   
     <!-- Font Awesome -->
