@@ -1,13 +1,13 @@
-<!-- IPA.php -->
+<!-- Contractions in English.php -->
 <?php
-$page_title = "IPA";
-$page_heading = "IPA";
+$page_title = "Contractions";
+$page_heading = "Contractions";
 // Page specific content with HTML and Bootstrap elements
 $page_content = <<<HTML
 <div class="container mt-4">
     <div class="row">
         <div class="col-12">
-            <img src="../assets/images/IPA.png" class="img-fluid rounded-3 mb-5" alt="IPA">
+            <img src="../assets/images/contractions.png" class="img-fluid rounded-3 mb-5" alt="contractions">
         </div>
         <!-- Table of Contents -->
         <nav id="toc" class="col-md-12 rounded-3 p-4 mb-5 toc bg-primary bg-gradient bg-opacity-15">
