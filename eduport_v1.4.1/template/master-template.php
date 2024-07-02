@@ -45,17 +45,19 @@
                 <!-- Main content -->
                 <h1><?php echo $page_heading; ?></h1>
                 <?php echo $page_content; ?>
+
+                <?php
+                // Include "see also" section only if the $see_also_links array is set and not empty
+                if (isset($see_also_links) && !empty($see_also_links)) {
+                    include 'includes/see-also-template.php';
+                }
+                ?>
+                
             </div>
             <div class="col-lg-3 order-2 order-lg-2 d-lg-block my-5">
                 <?php include 'includes/sidebar.php'; ?>
             </div>
         </div>
-        <?php
-        // Include "see also" section only if the $see_also_links array is set and not empty
-        if (isset($see_also_links) && !empty($see_also_links)) {
-            include 'includes/see-also-template.php';
-        }
-        ?>
     </div>
     <!-- Footer START -->
     <?php include 'includes/footer.php'; ?>
