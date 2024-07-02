@@ -1,6 +1,6 @@
 <?php include 'config.php'; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <title><?php echo $page_title; ?></title>
     <meta charset="UTF-8">
@@ -50,6 +50,12 @@
                 <?php include 'includes/sidebar.php'; ?>
             </div>
         </div>
+        <?php
+        // Include "see also" section only if the $see_also_links array is set and not empty
+        if (isset($see_also_links) && !empty($see_also_links)) {
+            include 'includes/see-also-template.php';
+        }
+        ?>
     </div>
     <!-- Footer START -->
     <?php include 'includes/footer.php'; ?>
