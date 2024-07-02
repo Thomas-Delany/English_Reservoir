@@ -36,7 +36,7 @@
   <!-- MAIN CONTENT START -->
   <!-- Nav START -->
     <?php include 'includes/nav.php'; ?>
-    <div class="container">
+    <div class="container mb-5">
         <!-- Include the breadcrumbs file -->
         <?php include 'includes/breadcrumbs.php'; ?>
         <?php generate_breadcrumbs(); ?>

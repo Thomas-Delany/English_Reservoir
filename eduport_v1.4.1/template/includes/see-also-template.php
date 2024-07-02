@@ -1,4 +1,4 @@
-<div class="see-also col-6 my-5">
+<div class="see-also my-5">
     <h3>See also</h3>
     <ul class="list-group list-group-flush">
         <?php foreach ($see_also_links as $link) : ?>

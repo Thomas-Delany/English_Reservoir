@@ -7,7 +7,7 @@ $page_content = "This is some dummy text.";
 
 // Define the "see also" links
 $see_also_links = [
-    ['url' => 'page1.php', 'title' => 'Page 1'],
+    ['url' => 'adjective-suffixes-ed-ing.php', 'title' => 'Adjective suffixes ed and ing'],
     ['url' => 'page2.php', 'title' => 'Page 2'],
     ['url' => 'page3.php', 'title' => 'Page 3'],
     ['url' => 'page4.php', 'title' => 'Page 4'],
@@ -16,3 +16,5 @@ $see_also_links = [
 // Include the master template
 include '../master-template.php';
 ?>
+
+English_Reservoir/eduport_v1.4.1/template/adjectives/adjective-suffixes-ed-ing.php
