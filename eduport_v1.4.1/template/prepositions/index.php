@@ -2,11 +2,10 @@
 <?php
 $page_title = "Prepositions";
 $page_heading = "Prepositions";
+$image_url = "../assets/images/prepositions.png"; // Set the image URL
+$image_alt = "prepositions"; // Set the image alt text
 // Page specific content with HTML and Bootstrap elements
 $page_content = <<<HTML
-        <div class="col-12">
-            <img src="../assets/images/prepositions.png" class="img-fluid rounded-3 mb-5" alt="prepositions">
-        </div>
         <!-- Table of Contents -->
         <nav id="toc" class="col-md-12 rounded-3 p-4 mb-5 toc bg-primary bg-gradient bg-opacity-15">
             <h2>Table of Contents</h2>
@@ -52,7 +51,6 @@ $page_content = <<<HTML
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?</p>
         </div>
 HTML;
-
 // Include the master template
 include '../master-template.php';
 ?>

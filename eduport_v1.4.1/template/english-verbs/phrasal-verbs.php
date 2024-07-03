@@ -2,11 +2,10 @@
 <?php
 $page_title = "Phrasal Verbs";
 $page_heading = "Phrasal Verbs";
+$image_url = "../assets/images/phrasal-verbs.png"; // Set the image URL
+$image_alt = "phrasal verbs"; // Set the image alt text
 // Page specific content with HTML and Bootstrap elements
 $page_content = <<<HTML
-        <div class="col-12">
-            <img src="../assets/images/phrasal-verbs.png" class="img-fluid rounded-3 mb-5" alt="phrasal verbs">
-        </div>
         <!-- Table of Contents -->
         <nav id="toc" class="col-md-12 rounded-3 p-4 mb-5 toc bg-primary bg-gradient bg-opacity-15">
             <h2>Table of Contents</h2>

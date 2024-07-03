@@ -2,10 +2,9 @@
 <?php
 $page_title = "Nouns in English";
 $page_heading = "Nouns in English";
+$image_url = "../assets/images/nouns.png"; // Set the image URL
+$image_alt = "nouns"; // Set the image alt text
 $page_content =  <<<HTML
-        <div class="col-12">
-            <img src="../assets/images/nouns.png" class="img-fluid rounded-3 mb-5" alt="nouns">
-        </div>
         <!-- Table of Contents -->
         <nav id="toc" class="col-md-12 rounded-3 p-4 mb-5 toc bg-primary bg-gradient bg-opacity-15">
             <h2>Table of Contents</h2>
@@ -51,6 +50,5 @@ $page_content =  <<<HTML
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?</p>
         </div>
 HTML;
-
 include '../master-template.php';
 ?>
