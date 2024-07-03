@@ -4,10 +4,8 @@ $page_title = "Ordinary Verbs";
 $page_heading = "Ordinary Verbs";
 // Page specific content with HTML and Bootstrap elements
 $page_content = <<<HTML
-<div class="container mt-4">
-    <div class="row">
         <!-- Table of Contents -->
-        <nav id="toc" class="col-md-12 rounded-3 p-4 mb-5 toc bg-primary bg-gradient bg-opacity-15">
+        <nav id="toc" class="col-md-12 rounded-3 p-4 my-5 toc bg-primary bg-gradient bg-opacity-15">
             <h2>Table of Contents</h2>
             <nav class="nav flex-column">
                 <ul class="nav flex-column">
@@ -50,8 +48,6 @@ $page_content = <<<HTML
             <h3 id="section4" class="mt-5">Section 4</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?</p>
         </div>
-    </div>
-</div>
 HTML;
 // Include the master template
 include '../master-template.php';

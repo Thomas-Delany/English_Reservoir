@@ -3,8 +3,6 @@
 $page_title = "Nouns in English";
 $page_heading = "Nouns in English";
 $page_content =  <<<HTML
-<div class="container mt-4">
-    <div class="row">
         <div class="col-12">
             <img src="../assets/images/nouns.png" class="img-fluid rounded-3 mb-5" alt="nouns">
         </div>
@@ -52,8 +50,6 @@ $page_content =  <<<HTML
             <h3 id="section4" class="mt-5">Section 4</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?</p>
         </div>
-    </div>
-</div>
 HTML;
 
 include '../master-template.php';

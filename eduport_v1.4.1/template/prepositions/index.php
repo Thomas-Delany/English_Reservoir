@@ -4,8 +4,6 @@ $page_title = "Prepositions";
 $page_heading = "Prepositions";
 // Page specific content with HTML and Bootstrap elements
 $page_content = <<<HTML
-<div class="container mt-4">
-    <div class="row">
         <div class="col-12">
             <img src="../assets/images/prepositions.png" class="img-fluid rounded-3 mb-5" alt="prepositions">
         </div>
@@ -53,8 +51,6 @@ $page_content = <<<HTML
             <h3 id="section4" class="mt-5">Section 4</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?</p>
         </div>
-    </div>
-</div>
 HTML;
 
 // Include the master template

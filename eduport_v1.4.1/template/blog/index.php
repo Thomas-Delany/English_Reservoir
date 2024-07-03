@@ -4,8 +4,6 @@ $page_title = "Blog";
 $page_heading = "Blog";
 // Page specific content with HTML and Bootstrap elements
 $page_content = <<<HTML
- <div class="container">
-    <div class="row">
       <!--Blog Post 1-->
         <div class="blog-post my-5">
           <div class="row" id="articles">
@@ -35,14 +33,6 @@ $page_content = <<<HTML
             </div>
           </div>
         </div>
-
-
-       
-
-
-
-    </div>
-  </div>
 HTML;
 // Include the master template
 include '../master-template.php';
