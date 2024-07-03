@@ -42,8 +42,16 @@
         <?php generate_breadcrumbs(); ?>
         <div class="row">
             <div class="col-lg-9 order-1 order-lg-1">
-                <!-- Main content -->
+                <!-- Page heading -->
                 <h1><?php echo $page_heading; ?></h1>
+
+                <?php
+                // Include image section if the $image_url and $image_alt are set
+                if (isset($image_url) && isset($image_alt)) {
+                    include 'includes/image-template.php';
+                }
+                ?>
+                <!-- Main content of page -->
                 <?php echo $page_content; ?>
 
                 <?php
