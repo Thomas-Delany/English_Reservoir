@@ -28,7 +28,7 @@ $sections = [
         'id' => 'section4',
         'title' => 'Section 4',
         'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?',
-        // YouTube link 'youtube' => '<iframe></iframe>'
+        'youtube' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/N4-r-GFi28g?si=LV5-OKeKeZCvjhDi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
     ],
 ];
 // Define the "see also" links
