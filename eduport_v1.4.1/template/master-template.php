@@ -54,6 +54,9 @@
                 <!-- Main content of page -->
                 <?php echo $page_content; ?>
 
+                 <!-- Include content sections -->
+                <?php include 'includes/content-section.php'; ?>
+
                 <?php
                 // Include "see also" section only if the $see_also_links array is set and not empty
                 if (isset($see_also_links) && !empty($see_also_links)) {
