@@ -1,7 +1,7 @@
-<!-- Quantitative Adjectives.php -->
+<!-- A page.php -->
 <?php
-$page_title = "Quantitative Adjectives";
-$page_heading = "Quantitative Adjectives";
+$page_title = "Page Title";
+$page_heading = "Page Heading";
 // Set the image URL if it exists - $image_url = "../link to image url"; 
 // Set the image alt text if it exists - $image_alt = "image alt"; 
 // Page specific content with HTML and Bootstrap elements

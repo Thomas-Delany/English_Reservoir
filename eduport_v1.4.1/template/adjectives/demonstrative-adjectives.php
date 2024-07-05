@@ -2,7 +2,8 @@
 <?php
 $page_title = "Demonstrative Adjectives";
 $page_heading = "Demonstrative Adjectives";
-
+// Set the image URL if it exists - $image_url = "../link to image url"; 
+// Set the image alt text if it exists - $image_alt = "image alt"; 
 // Page specific content with HTML and Bootstrap elements
 $page_content = <<<HTML
 <p>This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
@@ -19,7 +20,7 @@ $sections = [
         'id' => 'section2',
         'title' => 'Section 2',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
-        'image' => true
+        // 'image' => true
     ],
     [
         'id' => 'section3',

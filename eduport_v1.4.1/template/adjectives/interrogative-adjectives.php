@@ -2,12 +2,41 @@
 <?php
 $page_title = "Interrogative Adjectives";
 $page_heading = "Interrogative Adjectives";
+// Set the image URL if it exists - $image_url = "../link to image url"; 
+// Set the image alt text if it exists - $image_alt = "image alt";
 // Page specific content with HTML and Bootstrap elements
-$page_content = "This is some dummy text.";
+$page_content = <<<HTML
+<p>This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
+HTML;
 
+// Define sections
+$sections = [
+    [
+        'id' => 'section1',
+        'title' => 'Section 1',
+        'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae aliquam maxime aperiam sint facere animi facilis quibusdam illo ad.'
+    ],
+    [
+        'id' => 'section2',
+        'title' => 'Section 2',
+        'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
+        // 'image' => true
+    ],
+    [
+        'id' => 'section3',
+        'title' => 'Section 3',
+        'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?'
+    ],
+    [
+        'id' => 'section4',
+        'title' => 'Section 4',
+        'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?',
+        // YouTube link 'youtube' => '<iframe></iframe>'
+    ],
+];
 // Define the "see also" links
 $see_also_links = [
-    ['url' => 'adjective-suffixes-ed-ing.php', 'title' => 'Adjective suffixes ed and ing'],
+    ['url' => 'page1.php', 'title' => 'Page 1'],
     ['url' => 'page2.php', 'title' => 'Page 2'],
     ['url' => 'page3.php', 'title' => 'Page 3'],
     ['url' => 'page4.php', 'title' => 'Page 4'],
@@ -16,5 +45,3 @@ $see_also_links = [
 // Include the master template
 include '../master-template.php';
 ?>
-
-English_Reservoir/eduport_v1.4.1/template/adjectives/adjective-suffixes-ed-ing.php
