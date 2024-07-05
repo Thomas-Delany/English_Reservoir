@@ -19,7 +19,7 @@ $sections = [
         'id' => 'section2',
         'title' => 'Section 2',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
-        // Enable image for this section 'image' => true
+        'image' => true
     ],
     [
         'id' => 'section3',
