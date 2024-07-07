@@ -1,7 +1,7 @@
-<!-- Future Continuous.php -->
+<!-- On and Upon.php -->
 <?php
-$page_title = "Future Continuous";
-$page_heading = "Future Continuous";
+$page_title = "On and Upon";
+$page_heading = "On and Upon";
 // Set the image URL if it exists - $image_url = "../link to image url"; 
 // Set the image alt text if it exists - $image_alt = "image alt"; 
 // Page specific content with HTML and Bootstrap elements
@@ -44,5 +44,5 @@ $see_also_links = [
 ];
 
 // Include the master template
-include '../../master-template.php';
+include '../master-template.php';
 ?>
