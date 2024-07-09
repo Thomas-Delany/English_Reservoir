@@ -1,5 +1,5 @@
 <!-- Sidebar.php -->
-<div class="d-flex flex-column flex-shrink-0 p-3 bg-light rounded-3">
+<div class="d-none d-md-flex flex-column flex-shrink-0 p-3 bg-light rounded-3">
   <ul class="nav nav-pills flex-column mb-auto">
 
     <!-- Title -->
