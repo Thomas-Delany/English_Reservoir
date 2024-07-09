@@ -6,18 +6,26 @@ include 'config.php'; // Include config.php for BASE_URL
 .navbar-expand-xl .navbar-nav .dropdown:hover>.dropdown-menu {
 	top: 80%;    
     }
+
+	/* Center the logo only on small screens */
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        margin: 0 auto;
+    }
+}
+
 </style>
 
 
 
 <!-- nav.php -->
-<!-- Header START -->
+<!-- Header START -->  
 <header class="navbar-light header-static">
 		<!-- Logo Nav START -->
 		<nav class="navbar navbar-expand-xl">
-			<div class="container-fluid px-3 px-xl-5">
+			<div class="container-fluid px-3 px-xl-5">  
 				<!-- Logo START -->
-				<a class="navbar-brand me-0" href="<?php echo BASE_URL; ?>../../index.php"> 
+				<a class="navbar-brand me-0 d-block text-center d-md-flex" href="<?php echo BASE_URL; ?>../../index.php"> 
 					<img class="light-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>../../assets/images/engish-reservoir_light.png" alt="logo">
 					<img class="dark-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>../../assets/images/engish-reservoir_dark.png" alt="logo">
 				</a>
