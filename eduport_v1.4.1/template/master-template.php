@@ -40,6 +40,7 @@
         <!-- Include the breadcrumbs file -->
         <?php include 'includes/breadcrumbs.php'; ?>
         <?php generate_breadcrumbs(); ?>
+
         <div class="row">
             <div class="col-lg-9 order-1 order-lg-1">
                 <!-- Page heading -->
@@ -51,10 +52,18 @@
                     include 'includes/image-template.php';
                 }
                 ?>
+
                 <!-- Main content of page -->
                 <?php echo $page_content; ?>
+                
+                <?php
+                // Include TOC if $show_toc is set to true
+                if (isset($show_toc) && $show_toc === true) {
+                include 'includes/table-of-contents.php';
+                }
+                ?>
 
-                 <!-- Include content sections -->
+                <!-- Include content sections -->
                 <?php include 'includes/content-section.php'; ?>
 
                 <?php
