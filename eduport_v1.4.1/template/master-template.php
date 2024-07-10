@@ -55,14 +55,14 @@
 
                 <!-- Main content of page -->
                 <?php echo $page_content; ?>
-                
+
                 <?php
                 // Include TOC if $show_toc is set to true
                 if (isset($show_toc) && $show_toc === true) {
                 include 'includes/table-of-contents.php';
                 }
                 ?>
-
+                
                 <!-- Include content sections -->
                 <?php include 'includes/content-section.php'; ?>
 

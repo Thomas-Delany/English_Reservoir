@@ -8,8 +8,18 @@ $show_toc = true; // Set to true to show the Table of Contents
 
 // Page specific content with HTML and Bootstrap elements
 $page_content = <<<HTML
-<p class="lead my-2">This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
+<p class="lead mb-4">This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
 HTML;
+
+// Table of Contents sections
+$toc_sections = [
+    ['url' => '#section1', 'title' => 'Example 1'],
+    ['url' => '#section2', 'title' => 'Example 2'],
+    ['url' => '#section3', 'title' => 'Example 3'],
+    ['url' => '#section4', 'title' => 'Example 4'],
+    // external links
+    ['url' => '#', 'title' => 'External Link']
+];
 
 // Sections
 $sections = [
