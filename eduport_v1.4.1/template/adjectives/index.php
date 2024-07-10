@@ -21,17 +21,30 @@ $toc_sections = [
     ['url' => '#', 'title' => 'External Link']
 ];
 
-// Sections
+// Define sections
 $sections = [
-    ['id' => 'section1', 'title' => 'Section 1', 'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae aliquam maxime aperiam sint facere animi facilis quibusdam illo ad.'],
-
-    ['id' => 'section2', 'title' => 'Section 2', 'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!'],
-
-    ['id' => 'section3', 'title' => 'Section 3', 'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?'],
-
-    ['id' => 'section4', 'title' => 'Section 4', 'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?'],
-
-    ['youtube' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/N4-r-GFi28g?si=Eu8wNNHtD2PTgLJa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>']
+    [
+        'id' => 'section1',
+        'title' => 'Section 1',
+        'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae aliquam maxime aperiam sint facere animi facilis quibusdam illo ad.'
+    ],
+    [
+        'id' => 'section2',
+        'title' => 'Section 2',
+        'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
+        // Course image 'image' => true
+    ],
+    [
+        'id' => 'section3',
+        'title' => 'Section 3',
+        'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?'
+    ],
+    [
+        'id' => 'section4',
+        'title' => 'Section 4',
+        'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?',
+        // YouTube clip 'youtube' => '<iframe></iframe>'
+    ],
 ];
 
 // Include the master template
