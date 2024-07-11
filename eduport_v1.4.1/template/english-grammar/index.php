@@ -13,11 +13,15 @@ HTML;
 
 // Table of Contents sections
 $toc_sections = [
-    ['url' => '#section1', 'title' => 'Nouns'],
-    ['url' => '#section2', 'title' => 'Adjectives'],
-    ['url' => '#section3', 'title' => 'Adverbs'],
-    ['url' => '#section4', 'title' => 'Prepositions'],
-    // external links
+    // Internal links
+    ['url' => '#', 'title' => 'Internal Link'],
+    ['url' => '#', 'title' => 'Internal Link'],
+    ['url' => '#', 'title' => 'Internal Link'],
+    // Anchor links
+    ['url' => '#section1', 'title' => 'Example 1'],
+    ['url' => '#section2', 'title' => 'Example 2'],
+    ['url' => '#section3', 'title' => 'Example 3'],
+    // External links
     ['url' => '#', 'title' => 'External Link']
 ];
 
