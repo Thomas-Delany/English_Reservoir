@@ -14,46 +14,51 @@ HTML;
 // Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
+    ['url' => '#', 'title' => 'Demonstrative Adjectives'],
+    ['url' => '#', 'title' => 'Interrogative Adjectives'],
+    ['url' => '#', 'title' => 'Possessive Adjectives'],
+    ['url' => '#', 'title' => 'Distributive Adjectives'],
+    ['url' => '#', 'title' => 'Quantitative Adjectives'],
+    ['url' => '#', 'title' => 'Qualifying Adjectives'],
+    ['url' => '#', 'title' => 'The Adjective Suffix -ed/-ing'],
     // Anchor links
-    ['url' => '#section1', 'title' => 'Example 1'],
-    ['url' => '#section2', 'title' => 'Example 2'],
-    ['url' => '#section3', 'title' => 'Example 3'],
-    ['url' => '#section4', 'title' => 'Example 4'],
-    ['url' => '#section4', 'title' => 'Example 4'],
+    ['url' => '#section1', 'title' => 'Why do we need adjectives?'],
+    ['url' => '#section2', 'title' => 'Adjectives in English with equalizers, comparatives, and superlatives'],
+    ['url' => '#section3', 'title' => 'Difference between -ed and -ing adjectives in English?'],
+    ['url' => '#section4', 'title' => 'Adjectives ending in -ed suffix'],
+    ['url' => '#section5', 'title' => 'Adjectives ending in -ing suffix'],
     // External links
-    ['url' => '#', 'title' => 'External Link']
+    // ['url' => '#', 'title' => '']
 ];
 
 // Define sections
 $sections = [
     [
         'id' => 'section1',
-        'title' => 'Section 1',
+        'title' => 'Why do we need adjectives?',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae aliquam maxime aperiam sint facere animi facilis quibusdam illo ad.'
     ],
     [
         'id' => 'section2',
-        'title' => 'Section 2',
+        'title' => 'Adjectives in English with equalizers, comparatives, and superlatives',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
-        // Course image 'image' => true
+        'image' => true // Course image
     ],
     [
         'id' => 'section3',
-        'title' => 'Section 3',
+        'title' => 'Difference between -ed and -ing adjectives in English',
         'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?'
     ],
     [
         'id' => 'section4',
-        'title' => 'Section 4',
+        'title' => 'Adjectives ending in -ed suffix',
         'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?',
         // YouTube clip 'youtube' => '<iframe></iframe>'
+    ],
+    [
+        'id' => 'section5',
+        'title' => 'Adjectives ending in -ing suffix',
+        'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?',
     ],
 ];
 
