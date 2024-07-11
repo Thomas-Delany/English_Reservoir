@@ -14,40 +14,38 @@ HTML;
 // Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
+    ['url' => '#', 'title' => 'Verbs'],
+    ['url' => '#', 'title' => 'Nouns'],
+    ['url' => '#', 'title' => 'Adjectives'],
+    ['url' => '#', 'title' => 'Adverbs'],
+    ['url' => '#', 'title' => 'Prepositions'],
+    ['url' => '#', 'title' => 'Conjunctions'],
+    ['url' => '#', 'title' => 'Interjections*'],
     // Anchor links
-    ['url' => '#section1', 'title' => 'Example 1'],
-    ['url' => '#section2', 'title' => 'Example 2'],
-    ['url' => '#section3', 'title' => 'Example 3'],
-    // External links
-    ['url' => '#', 'title' => 'External Link']
+    ['url' => '#section1', 'title' => 'What are the six parts of speech?'],
+    ['url' => '#section2', 'title' => 'Knowing the six parts of speech'],
+    ['url' => '#section3', 'title' => 'Using the six parts of speech in English grammar'],
+    // External links ['url' => '#', 'title' => 'External Link']
 ];
 
 // Define sections
 $sections = [
     [
         'id' => 'section1',
-        'title' => 'Section 1',
+        'title' => 'What are the six parts of speech?',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae aliquam maxime aperiam sint facere animi facilis quibusdam illo ad.'
     ],
     [
         'id' => 'section2',
-        'title' => 'Section 2',
+        'title' => 'Knowing the six parts of speech',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
-        'image' => true
+        'image' => true // Insert image
     ],
     [
         'id' => 'section3',
-        'title' => 'Section 3',
-        'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?'
-    ],
-    [
-        'id' => 'section4',
-        'title' => 'Section 4',
+        'title' => 'Using the six parts of speech in English grammar',
         'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?',
-        'youtube' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/XwtznfOAwtU?si=QCnUDGQC61aev8mz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        // YouTube clip 'youtube' => '<iframe></iframe>'
     ],
 ];
 
