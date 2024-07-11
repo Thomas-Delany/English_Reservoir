@@ -1,6 +1,6 @@
 <?php
 // Default image details
-$image_src = '../assets/images/courses/cursos-de-ingles.png';
+$image_src = '../../assets/images/courses/cursos-de-ingles.png';
 $image_alt = 'cursos de ingles';
 $image_url = 'https://cursos.englishreservoir.com/';
 ?>

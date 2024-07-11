@@ -14,38 +14,43 @@ HTML;
 // Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
+    ['url' => '#', 'title' => 'Can and Could'],
+    ['url' => '#', 'title' => 'May and Might'],
+    ['url' => '#', 'title' => 'Will and Shall'],
+    ['url' => '#', 'title' => 'Ought to and Should'],
+    ['url' => '#', 'title' => 'Must'],
+    ['url' => '#', 'title' => 'Would'],
+    ['url' => '#', 'title' => 'Need to'],
+    ['url' => '#', 'title' => 'Dare to'],
     // Anchor links
-    ['url' => '#section1', 'title' => 'Example 1'],
-    ['url' => '#section2', 'title' => 'Example 2'],
-    ['url' => '#section3', 'title' => 'Example 3'],
-    // External links
-    ['url' => '#', 'title' => 'External Link']
+    ['url' => '#section1', 'title' => 'Why are modal auxiliaries used?'],
+    ['url' => '#section2', 'title' => 'Modal auxiliaries are followed by the bare infinitive'],
+    ['url' => '#section3', 'title' => 'No inflections with modal auxiliary verbs'],
+    ['url' => '#section4', 'title' => 'Modal auxiliaries are followed by normal verbs'],
+    // External links ['url' => '#', 'title' => 'External Link']
 ];
 
 // Define sections
 $sections = [
     [
         'id' => 'section1',
-        'title' => 'Section 1',
+        'title' => 'Why are modal auxiliaries used?',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae aliquam maxime aperiam sint facere animi facilis quibusdam illo ad.'
     ],
     [
         'id' => 'section2',
-        'title' => 'Section 2',
+        'title' => 'Modal auxiliaries are followed by the bare infinitive',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
-        // Course image 'image' => true
+        'image' => true // Course image 
     ],
     [
         'id' => 'section3',
-        'title' => 'Section 3',
+        'title' => 'No inflections with modal auxiliary verbs',
         'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?'
     ],
     [
         'id' => 'section4',
-        'title' => 'Section 4',
+        'title' => 'Modal auxiliaries are followed by normal verbs',
         'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?',
         // YouTube clip 'youtube' => '<iframe></iframe>'
     ],

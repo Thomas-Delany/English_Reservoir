@@ -14,38 +14,47 @@ HTML;
 // Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
+    ['url' => '#', 'title' => 'Present Simple'],
+    ['url' => '#', 'title' => 'Present Continuous'],
+    ['url' => '#', 'title' => 'Present Perfect Continuous'],
+    ['url' => '#', 'title' => 'Present Perfect'],
+    ['url' => '#', 'title' => 'Past Continuous'],
+    ['url' => '#', 'title' => 'Past Perfect Continuous'],
+    ['url' => '#', 'title' => 'Past Simple'],
+    ['url' => '#', 'title' => 'Past Perfect'],
+    ['url' => '#', 'title' => 'Future Simple'],
+    ['url' => '#', 'title' => 'Future Continuous'],
+    ['url' => '#', 'title' => 'Future Perfect'],
+    ['url' => '#', 'title' => 'Future Perfect Continuous'],
     // Anchor links
-    ['url' => '#section1', 'title' => 'Example 1'],
-    ['url' => '#section2', 'title' => 'Example 2'],
-    ['url' => '#section3', 'title' => 'Example 3'],
-    // External links
-    ['url' => '#', 'title' => 'External Link']
+    ['url' => '#section1', 'title' => 'What is the active voice?'],
+    ['url' => '#section2', 'title' => 'In the passive, the above sentence would be as follows'],
+    ['url' => '#section3', 'title' => 'Can I always use active verb forms'],
+    ['url' => '#section4', 'title' => 'How do I learn active verb forms?'],
+    // External links ['url' => '#', 'title' => 'External Link']
 ];
 
 // Define sections
 $sections = [
     [
         'id' => 'section1',
-        'title' => 'Section 1',
+        'title' => 'What is the active voice?',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae aliquam maxime aperiam sint facere animi facilis quibusdam illo ad.'
     ],
     [
         'id' => 'section2',
-        'title' => 'Section 2',
+        'title' => 'In the passive, the above sentence would be as follows',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
-        // Course image 'image' => true
+        'image' => true // Course image 
     ],
     [
         'id' => 'section3',
-        'title' => 'Section 3',
+        'title' => 'Can I always use active verb forms?',
         'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?'
     ],
     [
         'id' => 'section4',
-        'title' => 'Section 4',
+        'title' => 'How do I learn active verb forms?',
         'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?',
         // YouTube clip 'youtube' => '<iframe></iframe>'
     ],

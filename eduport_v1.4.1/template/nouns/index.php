@@ -14,38 +14,34 @@ HTML;
 // Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
+    ['url' => '#', 'title' => 'Countable and Uncoutable Nouns'],
+    ['url' => '#', 'title' => 'Proper and Common Nouns'],
+    ['url' => '#', 'title' => 'Concrete and Abstract Nouns'],
+    ['url' => '#', 'title' => 'Collective Nouns'],
+    ['url' => '#', 'title' => 'Compound Nouns'],
     // Anchor links
-    ['url' => '#section1', 'title' => 'Example 1'],
-    ['url' => '#section2', 'title' => 'Example 2'],
-    ['url' => '#section3', 'title' => 'Example 3'],
-    // External links
-    ['url' => '#', 'title' => 'External Link']
+    ['url' => '#section1', 'title' => 'What are pronouns?'],
+    ['url' => '#section2', 'title' => 'What types of nouns does English have?'],
+    ['url' => '#section3', 'title' => 'Can gerunds function as nouns?'],
+    // External links ['url' => '#', 'title' => 'External Link']
 ];
 
 // Define sections
 $sections = [
     [
         'id' => 'section1',
-        'title' => 'Section 1',
+        'title' => 'What are pronouns?',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae aliquam maxime aperiam sint facere animi facilis quibusdam illo ad.'
     ],
     [
         'id' => 'section2',
-        'title' => 'Section 2',
+        'title' => 'What types of nouns does English have?',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
-        // Course image 'image' => true
+        'image' => true // Course image 
     ],
     [
         'id' => 'section3',
-        'title' => 'Section 3',
-        'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?'
-    ],
-    [
-        'id' => 'section4',
-        'title' => 'Section 4',
+        'title' => 'Can gerunds function as nouns?',
         'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?',
         // YouTube clip 'youtube' => '<iframe></iframe>'
     ],

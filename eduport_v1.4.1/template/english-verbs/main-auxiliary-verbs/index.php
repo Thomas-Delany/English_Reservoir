@@ -14,40 +14,58 @@ HTML;
 // Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
+    ['url' => '#', 'title' => 'To be'],
+    ['url' => '#', 'title' => 'To have'],
+    ['url' => '#', 'title' => 'To do'],
     // Anchor links
-    ['url' => '#section1', 'title' => 'Example 1'],
-    ['url' => '#section2', 'title' => 'Example 2'],
-    ['url' => '#section3', 'title' => 'Example 3'],
-    // External links
-    ['url' => '#', 'title' => 'External Link']
+    ['url' => '#section1', 'title' => 'Why do we use auxiliary verbs?'],
+    ['url' => '#section2', 'title' => 'The main auxiliary verbs'],
+    ['url' => '#section3', 'title' => 'English is an analytic language'],
+    ['url' => '#section4', 'title' => 'Learning how main auxiliaries work'],
+    ['url' => '#section5', 'title' => 'To ask a question, emphasize, negate or use ellipsis - to do'],
+    ['url' => '#section6', 'title' => 'To form all perfect forms, express obligation, and possession - to have'],
+    ['url' => '#section7', 'title' => 'To form all passive forms, use continuous forms, and copulative structures - to be'],
+    // External links ['url' => '#', 'title' => 'External Link']
 ];
 
 // Define sections
 $sections = [
     [
         'id' => 'section1',
-        'title' => 'Section 1',
+        'title' => 'Why do we use auxiliary verbs?',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae aliquam maxime aperiam sint facere animi facilis quibusdam illo ad.'
     ],
     [
         'id' => 'section2',
-        'title' => 'Section 2',
+        'title' => 'The main auxiliary verbs',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
-        // Course image 'image' => true
+        'image' => true // Course image 
     ],
     [
         'id' => 'section3',
-        'title' => 'Section 3',
+        'title' => 'English is an analytic language',
         'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?'
     ],
     [
         'id' => 'section4',
-        'title' => 'Section 4',
+        'title' => 'Learning how main auxiliaries work',
         'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?',
         // YouTube clip 'youtube' => '<iframe></iframe>'
+    ],
+    [
+        'id' => 'section5',
+        'title' => 'To ask a question, emphasize, negate or use ellipsis - to do',
+        'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?'
+    ],
+    [
+        'id' => 'section6',
+        'title' => 'To form all perfect forms, express obligation, and possession - to have',
+        'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?'
+    ],
+    [
+        'id' => 'section7',
+        'title' => 'To form all passive forms, use continuous forms, and copulative structures - to be',
+        'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?'
     ],
 ];
 

@@ -14,40 +14,37 @@ HTML;
 // Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
-    ['url' => '#', 'title' => 'Internal Link'],
+    ['url' => '#', 'title' => 'Simple Prepositions'],
+    ['url' => '#', 'title' => 'Compound Prepositions'],
+    ['url' => '#', 'title' => 'Double Prepositions'],
+    ['url' => '#', 'title' => 'Participial Prepositions'],
+    ['url' => '#', 'title' => 'Phrasal Prepositions'],
     // Anchor links
-    ['url' => '#section1', 'title' => 'Example 1'],
-    ['url' => '#section2', 'title' => 'Example 2'],
-    ['url' => '#section3', 'title' => 'Example 3'],
-    // External links
-    ['url' => '#', 'title' => 'External Link']
+    ['url' => '#section1', 'title' => 'Which preposition do I need to use'],
+    ['url' => '#section2', 'title' => 'The most common prepositions in English'],
+    ['url' => '#section3', 'title' => 'The differences between “to” and “for”?'],
+    // External links ['url' => '#', 'title' => 'External Link']
 ];
 
 // Define sections
 $sections = [
     [
         'id' => 'section1',
-        'title' => 'Section 1',
+        'title' => 'Which preposition do I need to use?',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae aliquam maxime aperiam sint facere animi facilis quibusdam illo ad.'
     ],
     [
         'id' => 'section2',
-        'title' => 'Section 2',
+        'title' => 'The most common prepositions in English',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
-        // Course image 'image' => true
+       'image' => true  // Course image 
     ],
     [
         'id' => 'section3',
-        'title' => 'Section 3',
-        'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?'
-    ],
-    [
-        'id' => 'section4',
-        'title' => 'Section 4',
+        'title' => 'The differences between “to” and “for”?',
         'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?',
         // YouTube clip 'youtube' => '<iframe></iframe>'
+
     ],
 ];
 
