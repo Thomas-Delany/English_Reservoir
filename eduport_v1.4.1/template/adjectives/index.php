@@ -42,7 +42,14 @@ $sections = [
         'id' => 'section2',
         'title' => 'Adjectives in English with equalizers, comparatives, and superlatives',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
-        'image' => true // Course image
+        // Course images
+        'cursos-de-ingles' => true, 
+        'b2-cambridge-first' => false, 
+        'c1-cambridge-advanced' => false, 
+        'c2-cambridge-proficiency' => false, 
+        'gramatica-esencial' => false, 
+        'verbos-en-ingles' => false,
+        'pronunciacion-en-ingles' => false,
     ],
     [
         'id' => 'section3',
