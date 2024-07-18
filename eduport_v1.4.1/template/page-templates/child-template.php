@@ -1,9 +1,11 @@
-<!-- Adjective Suffixes ed ing.php -->
+<!-- Child Page Template.php -->
 <?php
-$page_title = "Adjective Suffixes ed ing";
-$page_heading = "Adjective Suffixes ed ing";
+$page_title = "Child Page Template";
+$page_heading = "Child Page Template";
 // Set the image URL if it exists - $image_url = "../link to image url"; 
 // Set the image alt text if it exists - $image_alt = "image alt";
+$show_toc = false; // Set to true to show a Table of Contents
+
 // Page specific content with HTML and Bootstrap elements
 $page_content = <<<HTML
 <p>This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
@@ -38,7 +40,7 @@ $sections = [
         'id' => 'section4',
         'title' => 'Section 4',
         'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?',
-        'youtube' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/N4-r-GFi28g?si=LV5-OKeKeZCvjhDi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+        // YouTube clip 'youtube' => '<iframe></iframe>'
     ],
 ];
 // Define the "see also" links
