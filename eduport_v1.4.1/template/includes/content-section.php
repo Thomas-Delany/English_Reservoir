@@ -42,7 +42,10 @@ $images = [
 <div class="col-md-12 my-5">
     <?php foreach ($sections as $section): ?>
         <h2 id="<?php echo $section['id']; ?>" class="my-custom-class mt-5"><?php echo $section['title']; ?></h2>
-        <p><?php echo $section['content']; ?></p>
+
+        <?php foreach ($section['content'] as $paragraph): ?>
+            <p class="mb-4"><?php echo $paragraph; ?></p>
+        <?php endforeach; ?>
         
         <?php if (isset($section['youtube'])): ?>
             <div class="ratio ratio-16x9 my-5">
