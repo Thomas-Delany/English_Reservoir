@@ -35,37 +35,48 @@ $toc_sections = [
 $sections = [
     [
         'id' => 'section1',
-        'title' => 'Why do we need adjectives?',
-        'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae aliquam maxime aperiam sint facere animi facilis quibusdam illo ad.'
+        'title' => 'Section 1',
+        'content' => [
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
+            // Add more paragraphs as needed
+        ],
     ],
     [
         'id' => 'section2',
-        'title' => 'Adjectives in English with equalizers, comparatives, and superlatives',
-        'content' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
-        // Course images
-        'cursos-de-ingles' => true, 
-        'b2-cambridge-first' => false, 
-        'c1-cambridge-advanced' => false, 
-        'c2-cambridge-proficiency' => false, 
-        'gramatica-esencial' => false, 
-        'verbos-en-ingles' => false,
-        'pronunciacion-en-ingles' => false,
+        'title' => 'Section 2',
+        'content' => [
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
+            // Add more paragraphs as needed
+        ],
+          // Course images
+          'cursos-de-ingles' => true, 
+          'b2-cambridge-first' => false, 
+          'c1-cambridge-advanced' => false, 
+          'c2-cambridge-proficiency' => false, 
+          'gramatica-esencial' => false, 
+          'verbos-en-ingles' => false,
+          'pronunciacion-en-ingles' => false,
     ],
     [
         'id' => 'section3',
-        'title' => 'Difference between -ed and -ing adjectives in English',
-        'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?'
-    ],
-    [
-        'id' => 'section4',
-        'title' => 'Adjectives ending in -ed suffix',
-        'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?',
+        'title' => 'Section 3',
+        'content' => [
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
+            // Add more paragraphs as needed
+        ],
         // YouTube clip 'youtube' => '<iframe></iframe>'
     ],
     [
-        'id' => 'section5',
-        'title' => 'Adjectives ending in -ing suffix',
-        'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reiciendis? Ab dolore provident repellat, est sequi deserunt unde ex voluptatum?',
+        'id' => 'section4',
+        'title' => 'Section 4',
+        'content' => [
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
+            // Add more paragraphs as needed
+        ],
     ],
 ];
 
