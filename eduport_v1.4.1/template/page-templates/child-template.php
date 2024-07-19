@@ -23,14 +23,14 @@ $sections = [
             // Add more paragraphs as needed
         ],
         // Add a table if needed
-        'table' => [
+        /*'table' => [
             'headers' => ['Column 1', 'Column 2'],
             'rows' => [
                 ['Lorem ipsum dolor amet', 'Lorem ipsum dolor amet'],
                 ['Lorem ipsum dolor amet', 'Lorem ipsum dolor amet'],
                 ['Lorem ipsum dolor amet', 'Lorem ipsum dolor amet'],
             ]
-        ],
+        ],*/ 
     ],
     [
         'id' => 'section2',

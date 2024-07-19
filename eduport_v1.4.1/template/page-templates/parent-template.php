@@ -37,10 +37,19 @@ $sections = [
         'id' => 'section1',
         'title' => 'Section 1',
         'content' => [
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
+            'Lorem ipsum dolor amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
             // Add more paragraphs as needed
         ],
+        // Add a table if needed
+        /*'table' => [
+            'headers' => ['Column 1', 'Column 2'],
+            'rows' => [
+                ['Lorem ipsum dolor amet', 'Lorem ipsum dolor amet'],
+                ['Lorem ipsum dolor amet', 'Lorem ipsum dolor amet'],
+                ['Lorem ipsum dolor amet', 'Lorem ipsum dolor amet'],
+            ]
+        ],*/ 
     ],
     [
         'id' => 'section2',
