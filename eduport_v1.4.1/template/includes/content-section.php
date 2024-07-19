@@ -1,5 +1,5 @@
 <?php
-// Course images
+// Course images that include src, alt and url
 $images = [
     'cursos-de-ingles' => [
         'src' => '../../assets/images/courses/cursos-de-ingles.png',
@@ -55,6 +55,29 @@ $images = [
                     <?php endforeach; ?>
                 </ul>
             <?php endforeach; ?>
+        <?php endif; ?>
+
+        <?php if (!empty($section['table'])): ?>
+            <div class="table-responsive my-5">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <?php foreach ($section['table']['headers'] as $header): ?>
+                                <th class="lead fw-bold"><?php echo $header; ?></th>
+                            <?php endforeach; ?>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($section['table']['rows'] as $row): ?>
+                            <tr>
+                                <?php foreach ($row as $cell): ?>
+                                    <td><?php echo $cell; ?></td>
+                                <?php endforeach; ?>
+                            </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+            </div>
         <?php endif; ?>
         
         <?php if (isset($section['youtube'])): ?>

@@ -77,6 +77,17 @@ $sections = [
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
             // Add more paragraphs as needed
         ],
+        // Add bullets if needed
+        /*'bullets' => [
+            [
+                'First bullet point set',
+                'Second bullet point set',
+            ],
+            [
+                'First bullet point of second set',
+                'Second bullet point of second set',
+            ]
+        ],*/
     ],
     [
         'id' => 'section5',
