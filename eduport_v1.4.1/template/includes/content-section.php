@@ -46,6 +46,16 @@ $images = [
         <?php foreach ($section['content'] as $paragraph): ?>
             <p class="mb-4"><?php echo $paragraph; ?></p>
         <?php endforeach; ?>
+
+        <?php if (!empty($section['bullets'])): ?>
+            <?php foreach ($section['bullets'] as $bullet_list): ?>
+                <ul class="mb-4">
+                    <?php foreach ($bullet_list as $bullet): ?>
+                        <li><?php echo $bullet; ?></li>
+                    <?php endforeach; ?>
+                </ul>
+            <?php endforeach; ?>
+        <?php endif; ?>
         
         <?php if (isset($section['youtube'])): ?>
             <div class="ratio ratio-16x9 my-5">

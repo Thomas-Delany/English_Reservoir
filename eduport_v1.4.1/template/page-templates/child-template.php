@@ -9,7 +9,8 @@ $show_toc = false; // Set to true to show a Table of Contents
 // Page specific content with HTML and Bootstrap elements
 $page_content = <<<HTML
 <p>This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
-HTML;
+HTML; 
+
 
 // Define sections
 $sections = [
@@ -17,7 +18,7 @@ $sections = [
         'id' => 'section1',
         'title' => 'Section 1',
         'content' => [
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
+            'Lorem ipsum dolor amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
             // Add more paragraphs as needed
         ],
@@ -57,6 +58,17 @@ $sections = [
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
             // Add more paragraphs as needed
         ],
+        // Add bullets if needed
+        /*'bullets' => [
+            [
+                'First bullet point set',
+                'Second bullet point set',
+            ],
+            [
+                'First bullet point of second set',
+                'Second bullet point of second set',
+            ]
+        ],*/
     ],
     [
         'id' => 'section5',
