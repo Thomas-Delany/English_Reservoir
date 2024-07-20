@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>About us</title>
+	<title>About English Reservoir</title>
 
 	<!-- Meta Tags -->
 	<meta charset="utf-8">
@@ -11,7 +11,7 @@
 	<meta name="description" content="About English Reservoir">
 
 	<!-- Dark mode -->
-	<script src="/script.js"></script>
+	<script src="script.js"></script>
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="assets/images/favicon.png">
@@ -23,9 +23,22 @@
 		href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap">
 
 	<!-- Plugins CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
-	<link rel="stylesheet" type="text/css" href="assets/vendor/glightbox/css/glightbox.css">
+	<!--<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">-->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+
+	<!-- <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css"> -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"> 
+
+ 
+
+	<!--<link rel="stylesheet" type="text/css" href="assets/vendor/glightbox/css/glightbox.css"> -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.1.0/css/glightbox.min.css">
+
 
 	<!-- Theme CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -440,14 +453,25 @@ Portfolio START -->
 	<!-- Back to top -->
 	<div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
 
-	<!-- Bootstrap JS -->
-	<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Bootstrap JS 
+	<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
 
 	<!-- Vendors -->
-	<script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
+	<!--<script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
 	<script src="assets/vendor/imagesLoaded/imagesloaded.js"></script>
 	<script src="assets/vendor/glightbox/js/glightbox.js"></script>
-	<script src="assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
+	<script src="assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>-->
+
+
+	<!-- Vendors -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/isotope-layout/3.0.6/isotope.pkgd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.1.0/js/glightbox.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/purecounterjs/1.1.5/purecounter_vanilla.js"></script>
+
 
 	<!-- Template Functions -->
 	<script src="assets/js/functions.js"></script>

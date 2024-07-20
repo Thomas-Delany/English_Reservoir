@@ -22,11 +22,19 @@
           href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap">
 
   <!-- Plugins CSS -->
-<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/vendor/font-awesome/css/all.min.css">
+<!--<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/vendor/font-awesome/css/all.min.css">-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 
 <!-- <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/vendor/tiny-slider/tiny-slider.css">
+
+
+<!--<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/vendor/tiny-slider/tiny-slider.css">-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+
 
     <!-- Theme CSS -->
     <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/style.css">
@@ -86,10 +94,14 @@
     <div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>
 
     <!-- Bootstrap JS -->
-    <script src="<?php echo BASE_URL; ?>assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!--<script src="<?php echo BASE_URL; ?>assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
     <!-- Vendors -->
-    <script src="<?php echo BASE_URL; ?>assets/vendor/tiny-slider/tiny-slider.js"></script>
+    <!--<script src="<?php echo BASE_URL; ?>assets/vendor/tiny-slider/tiny-slider.js"></script>-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
 
     <!-- Template Functions -->
     <script src="<?php echo BASE_URL; ?>assets/js/functions.js"></script>
