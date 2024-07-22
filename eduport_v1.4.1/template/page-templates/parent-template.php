@@ -16,13 +16,13 @@ HTML;
 // Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
+    ['url' => BASE_URL . '#', 'title' => '#'],
+    ['url' => BASE_URL . '#', 'title' => '#'],
+    ['url' => BASE_URL . '#', 'title' => '#'],
+    ['url' => BASE_URL . '#', 'title' => '#'],
+    ['url' => BASE_URL . '#', 'title' => '#'],
+    ['url' => BASE_URL . '#', 'title' => '#'],
+    ['url' => BASE_URL . '#', 'title' => '#'],
      // Anchor links
      ['url' => '#section1', 'title' => 'Anchor link'],
      ['url' => '#section2', 'title' => 'Anchor link'],

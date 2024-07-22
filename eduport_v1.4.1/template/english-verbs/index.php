@@ -14,21 +14,22 @@ HTML;
 /* Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-     // Anchor links
-     ['url' => '#section1', 'title' => 'Anchor link'],
-     ['url' => '#section2', 'title' => 'Anchor link'],
-     ['url' => '#section3', 'title' => 'Anchor link'],
-     ['url' => '#section4', 'title' => 'Anchor link'],
-     ['url' => '#section5', 'title' => 'Anchor link']
-     // External links
-     // ['url' => '#', 'title' => '']
+    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs', 'title' => 'Main Auxiliary Verbs'],
+    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs', 'title' => 'Modal Auxiliary Verbs'],
+    ['url' => BASE_URL . 'english-verbs/active-voice', 'title' => 'Active Voice'],
+    ['url' => BASE_URL . 'english-verbs/passive-voice', 'title' => 'Passive Voice'],
+    ['url' => BASE_URL . 'english-verbs/verbal-order', 'title' => 'English Verbal Order'],
+    ['url' => BASE_URL . 'english-verbs/phrasal-verbs', 'title' => 'Phrasal Verbs'],
+    ['url' => BASE_URL . 'english-verbs/copular-verbs', 'title' => 'Copular Verbs'],
+    ['url' => BASE_URL . 'english-verbs/get', 'title' => 'Get'],
+    ['url' => BASE_URL . 'english-verbs/got-and-gotten', 'title' => 'Got and Gotten + Get and Got'],
+    ['url' => BASE_URL . 'english-verbs/ordinary-verbs', 'title' => 'Ordinary Verbs'],
+    // Anchor links
+    ['url' => '#section1', 'title' => 'The present simple in English with the verb see'],
+    ['url' => '#section2', 'title' => 'Present simple in Spanish, with the same verb ver'],
+    ['url' => '#section3', 'title' => 'Knowing how verbs work in English'],
+    ['url' => '#section4', 'title' => 'Fewer inflections but lots of rules'],
+    // External links ['url' => '#', 'title' => 'External Link']
 ]; */
 
 // Table of Contents sections

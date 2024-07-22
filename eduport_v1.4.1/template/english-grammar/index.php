@@ -14,21 +14,18 @@ HTML;
 /* Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-     // Anchor links
-     ['url' => '#section1', 'title' => 'Anchor link'],
-     ['url' => '#section2', 'title' => 'Anchor link'],
-     ['url' => '#section3', 'title' => 'Anchor link'],
-     ['url' => '#section4', 'title' => 'Anchor link'],
-     ['url' => '#section5', 'title' => 'Anchor link']
-     // External links
-     // ['url' => '#', 'title' => '']
+    ['url' => BASE_URL . 'english-verbs', 'title' => 'Verbs'],
+    ['url' => BASE_URL . 'nouns', 'title' => 'Nouns'],
+    ['url' => BASE_URL . 'adjectives', 'title' => 'Adjectives'],
+    ['url' => BASE_URL . 'adverbs', 'title' => 'Adverbs'],
+    ['url' => BASE_URL . 'prepositions', 'title' => 'Prepositions'],
+    ['url' => BASE_URL . 'conjunctions', 'title' => 'Conjunctions'],
+    ['url' => BASE_URL . 'interjections', 'title' => 'Interjections*'],
+    // Anchor links
+    ['url' => '#section1', 'title' => 'What are the six parts of speech?'],
+    ['url' => '#section2', 'title' => 'Knowing the six parts of speech'],
+    ['url' => '#section3', 'title' => 'Using the six parts of speech in English grammar'],
+    // External links ['url' => '#', 'title' => 'External Link']
 ]; */
 
 // Table of Contents sections

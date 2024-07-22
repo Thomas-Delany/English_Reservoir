@@ -14,21 +14,18 @@ HTML;
 /* Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-     // Anchor links
-     ['url' => '#section1', 'title' => 'Anchor link'],
-     ['url' => '#section2', 'title' => 'Anchor link'],
-     ['url' => '#section3', 'title' => 'Anchor link'],
-     ['url' => '#section4', 'title' => 'Anchor link'],
-     ['url' => '#section5', 'title' => 'Anchor link']
-     // External links
-     // ['url' => '#', 'title' => '']
+    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs/to-be', 'title' => 'To be'],
+    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs/to-have', 'title' => 'To have'],
+    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs/to-do', 'title' => 'To do'],
+    // Anchor links
+    ['url' => '#section1', 'title' => 'Why do we use auxiliary verbs?'],
+    ['url' => '#section2', 'title' => 'The main auxiliary verbs'],
+    ['url' => '#section3', 'title' => 'English is an analytic language'],
+    ['url' => '#section4', 'title' => 'Learning how main auxiliaries work'],
+    ['url' => '#section5', 'title' => 'To ask a question, emphasize, negate or use ellipsis - to do'],
+    ['url' => '#section6', 'title' => 'To form all perfect forms, express obligation, and possession - to have'],
+    ['url' => '#section7', 'title' => 'To form all passive forms, use continuous forms, and copulative structures - to be'],
+    // External links ['url' => '#', 'title' => 'External Link']
 ]; */
 
 // Table of Contents sections

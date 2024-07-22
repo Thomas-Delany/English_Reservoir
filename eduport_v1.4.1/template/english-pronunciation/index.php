@@ -14,21 +14,21 @@ HTML;
 /* Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-     // Anchor links
-     ['url' => '#section1', 'title' => 'Anchor link'],
-     ['url' => '#section2', 'title' => 'Anchor link'],
-     ['url' => '#section3', 'title' => 'Anchor link'],
-     ['url' => '#section4', 'title' => 'Anchor link'],
-     ['url' => '#section5', 'title' => 'Anchor link']
-     // External links
-     // ['url' => '#', 'title' => '']
+    ['url' => BASE_URL . 'english-pronunciation/english-pronunciation-our-course', 'title' => 'English Pronunciation - Our Course'],
+    ['url' => BASE_URL . 'english-pronunciation/vowels', 'title' => 'Vowels'],
+    ['url' => BASE_URL . 'english-pronunciation/consonants', 'title' => 'Consonants'],
+    ['url' => BASE_URL . 'english-pronunciation/common-pronunciation-mistakes', 'title' => 'Common Pronunciation Mistakes'],
+    ['url' => BASE_URL . 'english-pronunciation/contractions', 'title' => 'Contractions in English - How to Pronounce them'],
+    ['url' => BASE_URL . 'english-pronunciation/ipa', 'title' => 'Introduction to IPA'],
+    ['url' => BASE_URL . 'english-pronunciation/ipa-chart', 'title' => 'IPA Chart (Inernational Phonetic Alphabet)'],
+    ['url' => BASE_URL . 'english-pronunciation/ed-ending-of-verbs', 'title' => 'The "ed" ending'],
+    ['url' => BASE_URL . 'english-pronunciation/nasal-sounds-in-english', 'title' => 'Nasal sound in English'],
+    // Anchor links
+    ['url' => '#section1', 'title' => 'How to speak English with correct pronunciation'],
+    ['url' => '#section2', 'title' => 'English pronunciation is irregular'],
+    ['url' => '#section3', 'title' => 'So, how do you, the learner, get around this?'],
+    ['url' => '#section4', 'title' => 'To learn or not to learn IPA?'],
+    // External links ['url' => '#', 'title' => 'External Link']
 ]; */
 
 // Table of Contents sections

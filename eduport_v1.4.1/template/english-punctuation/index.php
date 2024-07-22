@@ -14,21 +14,21 @@ HTML;
 /* Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
+    ['url' => BASE_URL . 'english-punctuation/apostrophes', 'title' => 'Apostrophes'],
+    ['url' => BASE_URL . 'english-punctuation/colons', 'title' => 'Colons'],
+    ['url' => BASE_URL . 'english-punctuation/semi-colons', 'title' => 'Semi-colons'],
+    ['url' => BASE_URL . 'english-punctuation/commas', 'title' => 'Commas'],
+    ['url' => BASE_URL . 'english-punctuation/dashes', 'title' => 'Dashes/Hyphens'],
+    ['url' => BASE_URL . 'english-punctuation/full-stops', 'title' => 'Full Stops'],
+    ['url' => BASE_URL . 'english-punctuation/question-marks', 'title' => 'Question Marks'],
+    ['url' => BASE_URL . 'english-punctuation/exclamation-marks', 'title' => 'Exclamation Marks'],
+    ['url' => BASE_URL . 'english-punctuation/quotation-marks', 'title' => 'Quotation Marks'],
      // Anchor links
-     ['url' => '#section1', 'title' => 'Anchor link'],
-     ['url' => '#section2', 'title' => 'Anchor link'],
-     ['url' => '#section3', 'title' => 'Anchor link'],
-     ['url' => '#section4', 'title' => 'Anchor link'],
-     ['url' => '#section5', 'title' => 'Anchor link']
-     // External links
-     // ['url' => '#', 'title' => '']
+    ['url' => '#section1', 'title' => 'Why is punctuation so important?'],
+    ['url' => '#section2', 'title' => 'Mistakes to avoid in English punctuation'],
+    ['url' => '#section3', 'title' => 'Let us analyse the punctuation mistakes above'],
+    ['url' => '#section4', 'title' => 'How to improve your punctuation'],
+    // External links ['url' => '#', 'title' => 'External Link']
 ]; */
 
 // Table of Contents sections

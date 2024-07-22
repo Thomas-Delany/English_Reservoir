@@ -31,6 +31,21 @@ $toc_sections = [
      // ['url' => '#', 'title' => '']
 ]; */
 
+/*
+// Table of Contents sections
+$toc_sections = [
+    // Internal links
+    ['url' => BASE_URL . 'conjunctions/coordinating-conjunctions', 'title' => 'Coordinating Conjunctions'],
+    ['url' => BASE_URL . 'conjunctions/subordinating-conjunctions', 'title' => 'Subordinating Conjunctions'],
+    ['url' => BASE_URL . 'conjunctions/correlative-conjunctions', 'title' => 'Correlative Conjunctions'],
+    // Anchor links
+    ['url' => '#section1', 'title' => 'Why do we need conjunctions in English?'],
+    ['url' => '#section2', 'title' => 'The most common conjunctions in English'],
+    ['url' => '#section3', 'title' => 'Examples of conjunctions connecting phrases'],
+    ['url' => '#section4', 'title' => 'Sentences can start with conjunctions'],
+    // External links ['url' => '#', 'title' => 'External Link']
+]; */
+
 // Table of Contents sections
 $toc_sections = [
     // Internal links

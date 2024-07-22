@@ -14,21 +14,19 @@ HTML;
 /* Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-     // Anchor links
-     ['url' => '#section1', 'title' => 'Anchor link'],
-     ['url' => '#section2', 'title' => 'Anchor link'],
-     ['url' => '#section3', 'title' => 'Anchor link'],
-     ['url' => '#section4', 'title' => 'Anchor link'],
-     ['url' => '#section5', 'title' => 'Anchor link']
-     // External links
-     // ['url' => '#', 'title' => '']
+    ['url' => BASE_URL . 'nouns/abstract-nouns', 'title' => 'Abstract Nouns'],
+    ['url' => BASE_URL . 'nouns/concrete-nouns', 'title' => 'Concrete Nouns'],
+    ['url' => BASE_URL . '', 'title' => 'x'],
+    ['url' => BASE_URL . 'nouns/countable-and-uncountable-nouns', 'title' => 'Countable and Uncoutable Nouns'],
+    ['url' => BASE_URL . 'nouns/proper-nouns', 'title' => 'Proper Nouns'],
+    ['url' => BASE_URL . 'nouns/common-nouns', 'title' => 'common Nouns'],
+    ['url' => BASE_URL . 'nouns/collective-nouns', 'title' => 'Collective Nouns'],
+    ['url' => BASE_URL . 'nouns/compund-nouns', 'title' => 'Compound Nouns'],
+    // Anchor links
+    ['url' => '#section1', 'title' => 'What are pronouns?'],
+    ['url' => '#section2', 'title' => 'What types of nouns does English have?'],
+    ['url' => '#section3', 'title' => 'Can gerunds function as nouns?'],
+    // External links ['url' => '#', 'title' => 'External Link']
 ]; */
 
 // Table of Contents sections

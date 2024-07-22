@@ -14,39 +14,21 @@ HTML;
 /* Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
+    ['url' => BASE_URL . 'adverbs/adverbs-of-frecuency', 'title' => 'Adverbs of Frequency'],
+    ['url' => BASE_URL . 'adverbs/adverbs-of-place', 'title' => 'Adverbs of Place'],
+    ['url' => BASE_URL . 'adverbs/adverbs-of-time', 'title' => 'Adverbs of Time'],
+    ['url' => BASE_URL . 'adverbs/adverbs-of-manner', 'title' => 'Adverbs of Manner'],
+    ['url' => BASE_URL . 'adverbs/adverbs-of-degree', 'title' => 'Adverbs of Degree'],
+    ['url' => BASE_URL . 'adverbs/sentence-adverbs', 'title' => 'Sentence Adverbs'],
+    ['url' => BASE_URL . 'adverbs/relative-adverbs', 'title' => 'Relative Adverbs'],
+    ['url' => BASE_URL . 'adverbs/interrogative-adverbs', 'title' => 'Interrgative Adverbs'],
      // Anchor links
-     ['url' => '#section1', 'title' => 'Anchor link'],
-     ['url' => '#section2', 'title' => 'Anchor link'],
-     ['url' => '#section3', 'title' => 'Anchor link'],
-     ['url' => '#section4', 'title' => 'Anchor link'],
-     ['url' => '#section5', 'title' => 'Anchor link']
+    ['url' => '#section1', 'title' => 'How do we use adverbs in English?'],
+    ['url' => '#section2', 'title' => 'How are adverbs made?'],
      // External links
      // ['url' => '#', 'title' => '']
 ]; */
 
-// Table of Contents sections
-$toc_sections = [
-    // Internal links
-    ['url' => '#', 'title' => 'Adverbs of Frequency'],
-    ['url' => '#', 'title' => 'Adverbs of Place'],
-    ['url' => '#', 'title' => 'Adverbs of Time'],
-    ['url' => '#', 'title' => 'Adverbs of Manner'],
-    ['url' => '#', 'title' => 'Adverbs of Degree'],
-    ['url' => '#', 'title' => 'Sentence Adverbs'],
-    ['url' => '#', 'title' => 'Relative Adverbs'],
-    ['url' => '#', 'title' => 'Interrgative Adverbs'],
-    // Anchor links
-    ['url' => '#section1', 'title' => 'How do we use adverbs in English?'],
-    ['url' => '#section2', 'title' => 'How are adverbs made?'],
-    // External links ['url' => '#', 'title' => 'External Link']
-];
 
 // Define sections
 $sections = [

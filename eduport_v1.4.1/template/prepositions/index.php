@@ -14,21 +14,15 @@ HTML;
 /* Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-     // Anchor links
-     ['url' => '#section1', 'title' => 'Anchor link'],
-     ['url' => '#section2', 'title' => 'Anchor link'],
-     ['url' => '#section3', 'title' => 'Anchor link'],
-     ['url' => '#section4', 'title' => 'Anchor link'],
-     ['url' => '#section5', 'title' => 'Anchor link']
-     // External links
-     // ['url' => '#', 'title' => '']
+    ['url' => BASE_URL . 'prepositions/compound-prepositions', 'title' => 'Compound Prepositions'],
+    ['url' => BASE_URL . 'prepositions/double-prepositions', 'title' => 'Double Prepositions'],
+    ['url' => BASE_URL . 'prepositions/participial-prepositions', 'title' => 'Participial Prepositions'],
+    ['url' => BASE_URL . 'prepositions/phrasal-prepositions', 'title' => 'Phrasal Prepositions'],
+    // Anchor links
+    ['url' => '#section1', 'title' => 'Which preposition do I need to use'],
+    ['url' => '#section2', 'title' => 'The most common prepositions in English'],
+    ['url' => '#section3', 'title' => 'The differences between “to” and “for”?'],
+    // External links ['url' => '#', 'title' => 'External Link']
 ]; */
 
 // Table of Contents sections
