@@ -1,3 +1,5 @@
+<?php include '../config.php'; ?>
+
 <!-- Adjectives in English.php -->
 <?php
 $page_title = "Adjectives in English"; 
@@ -11,7 +13,26 @@ $page_content = <<<HTML
 <p class="lead mb-4">This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
 HTML;
 
-// Table of Contents sections
+// Define the $toc_sections array
+$toc_sections = [
+    ['url' => BASE_URL . 'adjectives/demonstrative-adjectives', 'title' => 'Demonstrative Adjectives'],
+    ['url' => BASE_URL . 'adjectives/interrogative-adjectives', 'title' => 'Interrogative Adjectives'],
+    ['url' => BASE_URL . 'adjectives/possessive-adjectives', 'title' => 'Possessive Adjectives'],
+    ['url' => BASE_URL . 'adjectives/distributive-adjectives', 'title' => 'Distributive Adjectives'],
+    ['url' => BASE_URL . 'adjectives/quantitative-adjectives', 'title' => 'Quantitative Adjectives'],
+    ['url' => BASE_URL . 'adjectives/qualifying-adjectives', 'title' => 'Qualifying Adjectives'],
+    ['url' => BASE_URL . 'adjectives/adjective-suffix-ed-ing', 'title' => 'The Adjective Suffix -ed/-ing'],
+    // Anchor links
+    ['url' => '#section1', 'title' => 'Why do we need adjectives?'],
+    ['url' => '#section2', 'title' => 'Adjectives in English with equalizers, comparatives, and superlatives'],
+    ['url' => '#section3', 'title' => 'Difference between -ed and -ing adjectives in English?'],
+    ['url' => '#section4', 'title' => 'Adjectives ending in -ed suffix'],
+    ['url' => '#section5', 'title' => 'Adjectives ending in -ing suffix']
+    // External links
+    // ['url' => '#', 'title' => '']
+];
+
+/*Table of Contents sections
 $toc_sections = [
     // Internal links
     ['url' => '#', 'title' => 'Demonstrative Adjectives'],
@@ -29,7 +50,7 @@ $toc_sections = [
     ['url' => '#section5', 'title' => 'Adjectives ending in -ing suffix'],
     // External links
     // ['url' => '#', 'title' => '']
-];
+];*/
 
 // Define sections
 $sections = [
