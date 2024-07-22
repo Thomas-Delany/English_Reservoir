@@ -1,3 +1,5 @@
+<?php include '../config.php'; ?>
+
 <!-- Parent Page Template.php -->
 <?php
 $page_title = "Parent Page Template"; 
@@ -31,25 +33,7 @@ $toc_sections = [
      // ['url' => '#', 'title' => '']
 ];
 
-// Table of Contents sections
-$toc_sections = [
-    // Internal links
-    ['url' => '#', 'title' => 'Internal link'],
-    ['url' => '#', 'title' => 'Internal link'],
-    ['url' => '#', 'title' => 'Internal link'],
-    ['url' => '#', 'title' => 'Internal link'],
-    ['url' => '#', 'title' => 'Internal link'],
-    ['url' => '#', 'title' => 'Internal link'],
-    ['url' => '#', 'title' => 'Internal link'],
-    // Anchor links
-    ['url' => '#section1', 'title' => 'Anchor link'],
-    ['url' => '#section2', 'title' => 'Anchor link'],
-    ['url' => '#section3', 'title' => 'Anchor link'],
-    ['url' => '#section4', 'title' => 'Anchor link'],
-    ['url' => '#section5', 'title' => 'Anchor link'],
-    // External links
-    // ['url' => '#', 'title' => '']
-];
+
 
 // Define sections
 $sections = [
