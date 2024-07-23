@@ -15,10 +15,19 @@ $sections = [
         'id' => 'section1',
         'title' => 'Section 1',
         'content' => [
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
+            'Lorem ipsum dolor amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
             // Add more paragraphs as needed
         ],
+        // Add a table if needed
+        /*'table' => [
+            'headers' => ['Column 1', 'Column 2'],
+            'rows' => [
+                ['Lorem ipsum dolor amet', 'Lorem ipsum dolor amet'],
+                ['Lorem ipsum dolor amet', 'Lorem ipsum dolor amet'],
+                ['Lorem ipsum dolor amet', 'Lorem ipsum dolor amet'],
+            ]
+        ],*/ 
     ],
     [
         'id' => 'section2',
@@ -55,8 +64,39 @@ $sections = [
             'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
             // Add more paragraphs as needed
         ],
+        // Add bullets if needed
+        /*'bullets' => [
+            [
+                'First bullet point set',
+                'Second bullet point set',
+            ],
+            [
+                'First bullet point of second set',
+                'Second bullet point of second set',
+            ]
+        ],*/
+    ],
+    [
+        'id' => 'section5',
+        'title' => 'Section 5',
+        'content' => [
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit tempore cum inventore accusamus minima ipsam in praesentium possimus autem!',
+            // Add more paragraphs as needed
+        ],
     ],
 ];
+
+/*
+// Define the "see also" links
+$see_also_links = [
+    ['url' => BASE_URL . 'page1.php', 'title' => 'Page 1'],
+    ['url' => BASE_URL . 'page2.php', 'title' => 'Page 2'],
+    ['url' => BASE_URL . 'page3.php', 'title' => 'Page 3'],
+    ['url' => BASE_URL . 'page4.php', 'title' => 'Page 4'],
+    ['url' => BASE_URL . 'page5.php', 'title' => 'Page 5']
+]; */
+
 // Define the "see also" links
 $see_also_links = [
     ['url' => 'page1.php', 'title' => 'Page 1'],

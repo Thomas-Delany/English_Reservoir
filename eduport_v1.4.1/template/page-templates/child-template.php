@@ -89,14 +89,19 @@ $sections = [
         ],
     ],
 ];
+
+/*
 // Define the "see also" links
 $see_also_links = [
-    ['url' => 'page1.php', 'title' => 'Page 1'],
-    ['url' => 'page2.php', 'title' => 'Page 2'],
-    ['url' => 'page3.php', 'title' => 'Page 3'],
-    ['url' => 'page4.php', 'title' => 'Page 4'],
-    ['url' => 'page5.php', 'title' => 'Page 5']
-];
+    ['url' => BASE_URL . 'page1.php', 'title' => 'Page 1'],
+    ['url' => BASE_URL . 'page2.php', 'title' => 'Page 2'],
+    ['url' => BASE_URL . 'page3.php', 'title' => 'Page 3'],
+    ['url' => BASE_URL . 'page4.php', 'title' => 'Page 4'],
+    ['url' => BASE_URL . 'page5.php', 'title' => 'Page 5']
+]; */
+
+
+
 // Include the master template
 include '../master-template.php';
 ?>

@@ -1,58 +1,17 @@
-<!-- English Punctuation.php -->
-<?php
-$page_title = "English Punctuation";
-$page_heading = "English Punctuation";
-$image_url = "../assets/images/english-punctuation.png"; // Set the image URL
-$image_alt = "english punctuation"; // Set the image alt text
-$show_toc = true; // Set to true to show the Table of Contents
+#!/bin/bash
 
-// Page specific content with HTML and Bootstrap elements
-$page_content = <<<HTML
-<p class="lead mb-4">This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
-HTML;
+# List of directories to process
+directories=(
+    "english-verbs"
+    "active-voice"
+    "modal-auxiliary-verbs"
+    "passive-voice"
+    "verbal-order"
+    "main-auxiliary-verbs"
+)
 
-/* Table of Contents sections
-$toc_sections = [
-    // Internal links
-    ['url' => BASE_URL . 'english-punctuation/apostrophes', 'title' => 'Apostrophes'],
-    ['url' => BASE_URL . 'english-punctuation/colons', 'title' => 'Colons'],
-    ['url' => BASE_URL . 'english-punctuation/semi-colons', 'title' => 'Semi-colons'],
-    ['url' => BASE_URL . 'english-punctuation/commas', 'title' => 'Commas'],
-    ['url' => BASE_URL . 'english-punctuation/dashes', 'title' => 'Dashes/Hyphens'],
-    ['url' => BASE_URL . 'english-punctuation/full-stops', 'title' => 'Full Stops'],
-    ['url' => BASE_URL . 'english-punctuation/question-marks', 'title' => 'Question Marks'],
-    ['url' => BASE_URL . 'english-punctuation/exclamation-marks', 'title' => 'Exclamation Marks'],
-    ['url' => BASE_URL . 'english-punctuation/quotation-marks', 'title' => 'Quotation Marks'],
-     // Anchor links
-    ['url' => '#section1', 'title' => 'Why is punctuation so important?'],
-    ['url' => '#section2', 'title' => 'Mistakes to avoid in English punctuation'],
-    ['url' => '#section3', 'title' => 'Let us analyse the punctuation mistakes above'],
-    ['url' => '#section4', 'title' => 'How to improve your punctuation'],
-    // External links ['url' => '#', 'title' => 'External Link']
-]; */
-
-// Table of Contents sections
-$toc_sections = [
-    // Internal links
-    ['url' => '#', 'title' => 'Apostrophes'],
-    ['url' => '#', 'title' => 'Colons'],
-    ['url' => '#', 'title' => 'Semi-colons'],
-    ['url' => '#', 'title' => 'Commas'],
-    ['url' => '#', 'title' => 'Dashes/Hyphens'],
-    ['url' => '#', 'title' => 'Full Stops'],
-    ['url' => '#', 'title' => 'Question Marks'],
-    ['url' => '#', 'title' => 'Exclamation Marks'],
-    ['url' => '#', 'title' => 'Quotation Marks'],
-    // Anchor links
-    ['url' => '#section1', 'title' => 'Why is punctuation so important?'],
-    ['url' => '#section2', 'title' => 'Mistakes to avoid in English punctuation'],
-    ['url' => '#section3', 'title' => 'Let us analyse the punctuation mistakes above'],
-    ['url' => '#section4', 'title' => 'How to improve your punctuation'],
-    // External links ['url' => '#', 'title' => 'External Link']
-];
-
-// Define sections
-$sections = [
+# New $sections array
+NEW_SECTIONS="\$sections = [
     [
         'id' => 'section1',
         'title' => 'Section 1',
@@ -127,8 +86,49 @@ $sections = [
             // Add more paragraphs as needed
         ],
     ],
-];
+];"
 
-// Include the master template
-include '../master-template.php';
-?>
+# Function to update files
+update_files() {
+    local directory=$1
+    for file in $(find "$directory" -type f -name '*.php'); do
+        if grep -q "\$sections = \[" "$file"; then
+            # Use awk to handle multi-line replacement
+            awk -v new_sections="$NEW_SECTIONS" '
+            BEGIN { found = 0 }
+            {
+                if ($0 ~ /^\$sections = \[/) {
+                    found = 1
+                    print new_sections
+                    while (getline > 0) {
+                        if ($0 ~ /^\];/) {
+                            found = 0
+                            break
+                        }
+                    }
+                } else if (!found) {
+                    print
+                }
+            }' "$file" > tmp && mv tmp "$file"
+            echo "Updated $file"
+        else
+            echo "\$sections array not found in $file"
+        fi
+    done
+}
+
+# Update directories
+for dir in "${directories[@]}"; do
+    if [ -d "$dir" ]; then
+        update_files $dir
+    elif [ "$dir" = "english-verbs" ]; then
+        # Special handling for subdirectories within english-verbs
+        for subdir in $(find "$dir" -type d); do
+            if [ -d "$subdir" ]; then
+                update_files "$subdir"
+            fi
+        done
+    else
+        echo "Directory $dir does not exist."
+    fi
+done
