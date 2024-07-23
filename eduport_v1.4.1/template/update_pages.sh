@@ -2,12 +2,16 @@
 
 # List of directories to process
 directories=(
+    "conjunctions"
+    "english-punctuation"
+    "prepositions"
+    "adjectives"
+    "english-confusions"
+    "adverbs"
+    "english-grammar"
+    "nouns"
+    "english-pronunciation"
     "english-verbs"
-    "active-voice"
-    "modal-auxiliary-verbs"
-    "passive-voice"
-    "verbal-order"
-    "main-auxiliary-verbs"
 )
 
 # New $sections array

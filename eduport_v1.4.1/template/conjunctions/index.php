@@ -137,9 +137,6 @@ $sections = [
     ],
 ];
 
-// Include the master template
-include '../master-template.php';
-?>
 /*
 $see_also_links = [
     ['url' => BASE_URL . 'page1.php', 'title' => 'Page 1'],
@@ -149,3 +146,8 @@ $see_also_links = [
     ['url' => BASE_URL . 'page5.php', 'title' => 'Page 5']
 ];
 */
+
+// Include the master template
+include '../master-template.php';
+?>
+
