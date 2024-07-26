@@ -11,23 +11,23 @@ $page_content = <<<HTML
 <p class="lead mb-4">This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
 HTML;
 
-/* Table of Contents sections
+//Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'adverbs/adverbs-of-frecuency', 'title' => 'Adverbs of Frequency'],
-    ['url' => BASE_URL . 'adverbs/adverbs-of-place', 'title' => 'Adverbs of Place'],
-    ['url' => BASE_URL . 'adverbs/adverbs-of-time', 'title' => 'Adverbs of Time'],
-    ['url' => BASE_URL . 'adverbs/adverbs-of-manner', 'title' => 'Adverbs of Manner'],
-    ['url' => BASE_URL . 'adverbs/adverbs-of-degree', 'title' => 'Adverbs of Degree'],
-    ['url' => BASE_URL . 'adverbs/sentence-adverbs', 'title' => 'Sentence Adverbs'],
-    ['url' => BASE_URL . 'adverbs/relative-adverbs', 'title' => 'Relative Adverbs'],
-    ['url' => BASE_URL . 'adverbs/interrogative-adverbs', 'title' => 'Interrgative Adverbs'],
+    ['url' => BASE_URL . 'adverbs/adverbs-of-frequency.php', 'title' => 'Adverbs of Frequency'],
+    ['url' => BASE_URL . 'adverbs/adverbs-of-place.php', 'title' => 'Adverbs of Place'],
+    ['url' => BASE_URL . 'adverbs/adverbs-of-time.php', 'title' => 'Adverbs of Time'],
+    ['url' => BASE_URL . 'adverbs/adverbs-of-manner.php', 'title' => 'Adverbs of Manner'],
+    ['url' => BASE_URL . 'adverbs/adverbs-of-degree.php', 'title' => 'Adverbs of Degree'],
+    ['url' => BASE_URL . 'adverbs/sentence-adverbs.php', 'title' => 'Sentence Adverbs'],
+    ['url' => BASE_URL . 'adverbs/relative-adverbs.php', 'title' => 'Relative Adverbs'],
+    ['url' => BASE_URL . 'adverbs/interrogative-adverbs.php', 'title' => 'Interrgative Adverbs'],
      // Anchor links
     ['url' => '#section1', 'title' => 'How do we use adverbs in English?'],
     ['url' => '#section2', 'title' => 'How are adverbs made?'],
      // External links
      // ['url' => '#', 'title' => '']
-]; */
+]; 
 
 
 // Define sections
