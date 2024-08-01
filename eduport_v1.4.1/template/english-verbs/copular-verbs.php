@@ -2,7 +2,7 @@
 <?php
 $page_title = "Copular Verbs";
 $page_heading = "Copular Verbs";
-$image_url = "../assets/images/copular-verbs.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/copular-verbs.png"; // Set the image URL
 $image_alt = "copular verbs"; // Set the image alt text
 
 // Page specific content with HTML and Bootstrap elements

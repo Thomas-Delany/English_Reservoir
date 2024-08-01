@@ -2,7 +2,7 @@
 <?php
 $page_title = "Main Auxiliary Verbs";
 $page_heading = "Main Auxiliary Verbs";
-$image_url = "../../assets/images/main-auxiliary-verbs.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/main-auxiliary-verbs.png"; // Set the image URL
 $image_alt = "main auxiliary verbs"; // Set the image alt text
 $show_toc = true; // Set to true to show the Table of Contents
 

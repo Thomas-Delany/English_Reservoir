@@ -2,7 +2,7 @@
 <?php
 $page_title = "English Grammar";
 $page_heading = "English Grammar";
-$image_url = "../assets/images/english-grammar.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/english-grammar.png"; // Set the image URL
 $image_alt = "English Grammar"; // Set the image alt text
 $show_toc = true; // Set to true to show the Table of Contents
 

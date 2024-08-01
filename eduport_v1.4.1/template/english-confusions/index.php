@@ -2,7 +2,7 @@
 <?php
 $page_title = "English Confusions";
 $page_heading = "English Confusions";
-$image_url = "../assets/images/english-confusions.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/english-confusions.png"; // Set the image URL
 $image_alt = "english confusions"; // Set the image alt text
 $show_toc = true; // Set to true to show the Table of Contents
 

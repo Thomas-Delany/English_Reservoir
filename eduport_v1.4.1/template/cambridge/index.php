@@ -2,7 +2,7 @@
 <?php
 $page_title = "Cambridge";
 $page_heading = "Cambridge";
-$image_url = "../assets/images/cambridge.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/cambridge.png"; // Set the image URL
 $image_alt = "cambridge"; // Set the image alt text
 $show_toc = true; // Set to true to show the Table of Contents
 

@@ -2,7 +2,7 @@
 <?php
 $page_title = "Conjunctions";
 $page_heading = "Conjunctions";
-$image_url = "../assets/images/conjunctions.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/conjunctions.png"; // Set the image URL
 $image_alt = "conjunctions"; // Set the image alt text
 $show_toc = true; // Set to true to show the Table of Contents
 

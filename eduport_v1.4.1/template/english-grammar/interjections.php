@@ -2,7 +2,7 @@
 <?php
 $page_title = "Interjections";
 $page_heading = "Interjections";
-$image_url = "../assets/images/interjections.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/interjections.png"; // Set the image URL
 $image_alt = "interjections"; // Set the image alt text
 
 // Page specific content with HTML and Bootstrap elements

@@ -2,7 +2,7 @@
 <?php
 $page_title = "Prepositions";
 $page_heading = "Prepositions";
-$image_url = "../assets/images/prepositions.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/prepositions.png"; // Set the image URL
 $image_alt = "prepositions"; // Set the image alt text
 $show_toc = true; // Set to true to show the Table of Contents
 

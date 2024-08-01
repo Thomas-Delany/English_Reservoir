@@ -2,7 +2,7 @@
 <?php
 $page_title = "Passive Voice";
 $page_heading = "Passive Voice";
-$image_url = "../../assets/images/passive-voice.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/passive-voice.png"; // Set the image URL
 $image_alt = "passive voice"; // Set the image alt text
 $show_toc = true; // Set to true to show the Table of Contents
 

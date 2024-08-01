@@ -19,7 +19,7 @@
 
     <li class="nav-item"><a href="<?php echo BASE_URL; ?>../blog/" class="nav-link"><i class="bi bi-book me-2"></i>Blog</a></li>
 
-    <li class="nav-item"><a href="https://www.youtube.com/@EnglishReservoir" class="nav-link"><i class="bi bi-youtube me-2"></i>Learn for Free!</a></li>
+    <li class="nav-item"><a href="https://www.youtube.com/@EnglishReservoir" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="bi bi-youtube me-2"></i>Learn for Free!</a></li>
 
     <!-- Title -->
     <li class="nav-item lead fw-bold my-2">Academy</li>

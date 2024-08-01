@@ -2,7 +2,7 @@
 <?php
 $page_title = "English Verbs";
 $page_heading = "English Verbs";
-$image_url = "../assets/images/english-verbs.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/english-verbs.png"; // Set the image URL
 $image_alt = "english verbs"; // Set the image alt text
 $show_toc = true; // Set to true to show the Table of Contents
 
@@ -82,12 +82,12 @@ $sections = [
             // Add more paragraphs as needed
         ],
           // Course images
-          'cursos-de-ingles' => true, 
+          'cursos-de-ingles' => false, 
           'b2-cambridge-first' => false, 
           'c1-cambridge-advanced' => false, 
           'c2-cambridge-proficiency' => false, 
           'gramatica-esencial' => false, 
-          'verbos-en-ingles' => false,
+          'verbos-en-ingles' => true,
           'pronunciacion-en-ingles' => false,
     ],
     [

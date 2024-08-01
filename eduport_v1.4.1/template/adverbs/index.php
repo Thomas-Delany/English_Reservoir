@@ -2,7 +2,7 @@
 <?php
 $page_title = "Adverbs in English";
 $page_heading = "Adverbs in English";
-$image_url = "../assets/images/adverbs.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/adverbs.png"; // Set the image URL
 $image_alt = "adverbs"; // Set the image alt text
 $show_toc = true; // Set to true to show the Table of Contents
 

@@ -2,7 +2,7 @@
 <?php
 $page_title = "Nouns in English";
 $page_heading = "Nouns in English";
-$image_url = "../assets/images/nouns.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/nouns.png"; // Set the image URL
 $image_alt = "nouns"; // Set the image alt text
 $show_toc = true; // Set to true to show the Table of Contents
 

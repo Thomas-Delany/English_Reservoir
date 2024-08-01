@@ -2,7 +2,7 @@
 <?php
 $page_title = "Phrasal Verbs";
 $page_heading = "Phrasal Verbs";
-$image_url = "../assets/images/phrasal-verbs.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/phrasal-verbs.png"; // Set the image URL
 $image_alt = "phrasal verbs"; // Set the image alt text
 
 // Page specific content with HTML and Bootstrap elements

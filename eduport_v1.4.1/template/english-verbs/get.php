@@ -2,7 +2,7 @@
 <?php
 $page_title = "Get";
 $page_heading = "Get";
-$image_url = "../assets/images/get.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/get.png"; // Set the image URL
 $image_alt = "get"; // Set the image alt text
 
 // Page specific content with HTML and Bootstrap elements
@@ -39,12 +39,12 @@ $sections = [
             // Add more paragraphs as needed
         ],
           // Course images
-          'cursos-de-ingles' => true, 
+          'cursos-de-ingles' => false, 
           'b2-cambridge-first' => false, 
           'c1-cambridge-advanced' => false, 
           'c2-cambridge-proficiency' => false, 
           'gramatica-esencial' => false, 
-          'verbos-en-ingles' => false,
+          'verbos-en-ingles' => true,
           'pronunciacion-en-ingles' => false,
     ],
     [

@@ -2,7 +2,7 @@
 <?php
 $page_title = "English Pronunciation";
 $page_heading = "English Pronunciation";
-$image_url = "../assets/images/english-pronunciation.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/english-pronunciation.png"; // Set the image URL
 $image_alt = "english pronunciation"; // Set the image alt text
 $show_toc = true; // Set to true to show the Table of Contents
 

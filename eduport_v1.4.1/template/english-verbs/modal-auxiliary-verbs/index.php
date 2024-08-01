@@ -2,7 +2,7 @@
 <?php
 $page_title = "Modal Auxiliary Verbs";
 $page_heading = "Modal Auxiliary Verbs";
-$image_url = "../../assets/images/modal-auxiliary-verbs.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/modal-auxiliary-verbs.png"; // Set the image URL
 $image_alt = "modal auxiliary verbs"; // Set the image alt text
 $show_toc = true; // Set to true to show the Table of Contents
 

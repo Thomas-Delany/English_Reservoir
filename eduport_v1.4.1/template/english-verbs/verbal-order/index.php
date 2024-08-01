@@ -2,7 +2,7 @@
 <?php
 $page_title = "Verbal Order";
 $page_heading = "Verbal Order";
-$image_url = "../assets/images/verbal-order.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/verbal-order.png"; // Set the image URL
 $image_alt = "verbal order"; // Set the image alt text
 $show_toc = true; // Set to true to show the Table of Contents
 
