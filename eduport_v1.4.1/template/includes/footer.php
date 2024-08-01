@@ -53,7 +53,7 @@
             <!-- Courses -->
             <ul class="nav flex-column">
                 <li class="nav-item"><a class="nav-link text-white"
-                        href="../english-grammar/">Essential Grammar</a>
+                        href="<?php echo BASE_URL; ?>../english-grammar/">Essential Grammar</a>
                 </li>
                 <li class="nav-item"><a class="nav-link text-white"
                         href="https://www.englishreservoir.com/advanced-english-grammar/">Advanced Grammar</a>

@@ -320,28 +320,24 @@ include 'config.php'; // Include config.php for BASE_URL
 												<div>
 													<ul class="list-inline mb-0 mt-3">
 														<li class="list-inline-item"> <a
-																class="btn btn-white btn-sm shadow px-2 text-facebook"
+																class="btn btn-white btn-sm shadow px-2 text-facebook stretched-link"
 																href="https://www.facebook.com/Englishreservoir/" target="_blank" rel="noopener noreferrer"><i
 																	class="fab fa-fw fa-facebook-f"></i></a>
+
 														</li>
 														<li class="list-inline-item"> <a
-																class="btn btn-white btn-sm shadow px-2 text-instagram"
+																class="btn btn-white btn-sm shadow px-2 text-instagram stretched-link"
 																href="https://www.instagram.com/english_reservoir/?hl=en" target="_blank" rel="noopener noreferrer"><i
 																	class="fab fa-fw fa-instagram"></i></a>
 														</li>
 														<li class="list-inline-item"> <a
-																class="btn btn-white btn-sm shadow px-2 text-twitter"
+																class="btn btn-white btn-sm shadow px-2 text-twitter stretched-link"
 																href="https://twitter.com/EN_Reservoir" target="_blank" rel="noopener noreferrer"><i
 																	class="fab fa-fw fa-twitter"></i></a> </li>
 														<li class="list-inline-item"><a
-																class="btn btn-white btn-sm shadow px-2 text-linkedin"
+																class="btn btn-white btn-sm shadow px-2 text-linkedin stretched-link"
 																href="https://www.youtube.com/@EnglishReservoir/featured" target="_blank" rel="noopener noreferrer"><i
 																	class="fab fa-fw fa-youtube"></i></a>
-														</li>
-														<li class="list-inline-item">
-															<a class="btn btn-white btn-sm shadow px-2 text-linkedin" href="https://www.youtube.com/@EnglishReservoir/featured" target="_blank" rel="noopener noreferrer">
-																<i class="fab fa-fw fa-youtube"></i>
-															</a>
 														</li>
 													</ul>
 												</div>
