@@ -83,7 +83,7 @@
 					<div class="col-sm-4 text-center mx-auto position-relative pt-md-5 d-none d-sm-block">
 						<!-- Image -->
 						<div class="position-relative">
-							<img src="assets/images/element/cart.svg" alt="affiliate programme">
+							<img src="<?php echo BASE_URL; ?>assets/images/element/cart.svg" alt="affiliate programme">
 						</div>
 					</div>
 					<!-- Right content END -->
@@ -370,7 +370,7 @@
 						</ul>
 						<!-- Image -->
 						<div class="text-center m-5">
-							<img class="rounded-2" src="assets/images/affiliate/affiliate_programme_1.png"
+							<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/affiliate/affiliate_programme_1.png"
 								alt="affiliate dashboard">
 							</a>
 						</div>
@@ -394,7 +394,7 @@
 								href="https://sso.teachable.com/secure/528091/identity/login">this link.</a>
 						</p>
 						<div class="text-center m-5">
-							<img class="rounded-2" src="assets/images/affiliate/affiliate_programme_2.png"
+							<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/affiliate/affiliate_programme_2.png"
 								alt="affiliate data">
 							</a>
 						</div>
@@ -415,17 +415,17 @@
 						<div class="d-flex justify-content-center">
 							<div class="text-center m-2">
 								<a href="https://cursos.englishreservoir.com/p/b2-cambridge-first">
-									<img class="rounded-2" src="assets/images/courses/b2_first.png" alt="x">
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/b2_first.png" alt="x">
 								</a>
 							</div>
 							<div class="text-center m-2">
 								<a href="https://cursos.englishreservoir.com/p/c1-cambridge-advanced">
-									<img class="rounded-2" src="assets/images/courses/c1_advanced.png" alt="x">
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/c1_advanced.png" alt="x">
 								</a>
 							</div>
 							<div class="text-center m-2">
 								<a href="https://cursos.englishreservoir.com/p/c2-cambridge-proficiency">
-									<img class="rounded-2" src="assets/images/courses/pronunciacion-en-ingles.png"
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/pronunciacion-en-ingles.png"
 										alt="x">
 								</a>
 							</div>
@@ -434,18 +434,18 @@
 						<div class="d-flex justify-content-center">
 							<div class="text-center m-2">
 								<a href="https://cursos.englishreservoir.com/p/verbos-en-ingles-metodo-divertido">
-									<img class="rounded-2" src="assets/images/courses/verbos-en-ingles.png" alt="x">
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/verbos-en-ingles.png" alt="x">
 								</a>
 							</div>
 							<div class="text-center m-2">
 								<a href="https://cursos.englishreservoir.com/p/pronunciacion-en-ingles">
-									<img class="rounded-2" src="assets/images/courses/pronunciacion-en-ingles.png"
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/pronunciacion-en-ingles.png"
 										alt="x">
 								</a>
 							</div>
 							<div class="text-center m-2">
 								<a href="https://cursos.englishreservoir.com/p/gramatica-esencial-metodo-divertido">
-									<img class="rounded-2" src="assets/images/courses/Gramatica-esencial.png" alt="x">
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/Gramatica-esencial.png" alt="x">
 								</a>
 							</div>
 						</div>
@@ -454,7 +454,7 @@
 								free
 								portion of each course is available to anyone.</a></p>
 						<div class="text-center m-5">
-							<img class="rounded-2" src="assets/images/affiliate/affiliate_programme_3.png"
+							<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/affiliate/affiliate_programme_3.png"
 								alt="affiliate programme">
 							</a>
 						</div>
@@ -481,7 +481,7 @@
 						<p class="mb-3">Here's what your dashboard looks like:
 						</p>
 						<div class="text-center m-5">
-							<img class="rounded-2" src="assets/images/affiliate/affiliate_programme_4.png"
+							<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/affiliate/affiliate_programme_4.png"
 								alt="affiliate payments">
 							</a>
 						</div>

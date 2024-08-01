@@ -25,9 +25,9 @@ include 'config.php'; // Include config.php for BASE_URL
 		<nav class="navbar navbar-expand-xl">
 			<div class="container-fluid px-3 px-xl-5">  
 				<!-- Logo START -->
-				<a class="navbar-brand me-0 d-block text-center d-md-flex" href="<?php echo BASE_URL; ?>../../index.php"> 
-					<img class="light-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>../../assets/images/engish-reservoir_light.png" alt="logo">
-					<img class="dark-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>../../assets/images/engish-reservoir_dark.png" alt="logo">
+				<a class="navbar-brand me-0 d-block text-center d-md-flex" href="<?php echo BASE_URL; ?>index.php"> 
+					<img class="light-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>assets/images/engish-reservoir_light.png" alt="logo">
+					<img class="dark-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>assets/images/engish-reservoir_dark.png" alt="logo">
 				</a>
 				<!-- Logo END -->
 
@@ -62,7 +62,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-gear"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="<?php echo BASE_URL; ?>../english-grammar/">Essential
+													href="<?php echo BASE_URL; ?>english-grammar/">Essential
 													Grammar</a>
 												<p class="mb-0 small">Nouns, Adjectives, Prepositions, Adverbs,
 													Conjunctions and Interjections.</p>
@@ -86,7 +86,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-chat-dots"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="<?php echo BASE_URL; ?>../english-verbs/">Verbs in English</a>
+													href="<?php echo BASE_URL; ?>english-verbs/">Verbs in English</a>
 												<p class="mb-0 small">Main and Modal Auxiliaries, Active and Passive
 													forms, Phrasal Verbs, Copulas, Ordinary verbs, "Get" and more!
 												</p>
@@ -103,7 +103,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-mortarboard"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="<?php echo BASE_URL; ?>../cambridge/">Cambridge
+													href="<?php echo BASE_URL; ?>cambridge/">Cambridge
 													Courses</a>
 												<p class="mb-0 small">B2 Cambridge First, C1 Cambridge Advanced and C2
 													Cambridge Proficiency.</p>
@@ -115,7 +115,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-question-square"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="<?php echo BASE_URL; ?>../english-confusions/">English Confusions</a>
+													href="<?php echo BASE_URL; ?>english-confusions/">English Confusions</a>
 												<p class="mb-0 small">Do vs. make, to vs. for, on vs. upon, every
 													frequent doubt, you name it, we have you covered.</p>
 											</div>
@@ -125,7 +125,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-brush"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="<?php echo BASE_URL; ?>../english-punctuation">Punctuation</a>
+													href="<?php echo BASE_URL; ?>english-punctuation">Punctuation</a>
 												<p class="mb-0 small">Apostrophes, Colons, Semicolons, Commas, Hyphens,
 													Fullstops, Question and Exclamation marks, and Quotation Marks.</p>
 											</div>
@@ -139,7 +139,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-volume-up"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="<?php echo BASE_URL; ?>../english-pronunciation/">Pronunciation</a>
+													href="<?php echo BASE_URL; ?>english-pronunciation/">Pronunciation</a>
 												<p class="mb-0 small">IPA, Vowels, Consonants, Dipthongs, Triphthongs,
 													Nasal Sounds, Common Mistakes, and more.</p>
 											</div>
@@ -150,7 +150,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-book"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="<?php echo BASE_URL; ?>../blog/">Blog</a>
+													href="<?php echo BASE_URL; ?>blog/">Blog</a>
 												<p class="mb-0 small">Lots of Interesting reads in both English and
 													Spanish.</p>
 											</div>
@@ -183,7 +183,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<div class="ms-2">
 												<!-- Image -->
 												<a href="https://cursos.englishreservoir.com/p/b2-cambridge-first">
-													<img class="rounded-2" src="<?php echo BASE_URL; ?>../../assets/images/courses/b2_first.png"
+													<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/b2_first.png"
 														alt="b2 cambridge first">
 												</a>
 											</div>
@@ -196,7 +196,7 @@ include 'config.php'; // Include config.php for BASE_URL
 												<a
 													href="https://cursos.englishreservoir.com/p/verbos-en-ingles-metodo-divertido">
 													<img class="rounded-2"
-														src="<?php echo BASE_URL; ?>../../assets/images/courses/verbos-en-ingles.png"
+														src="<?php echo BASE_URL; ?>assets/images/courses/verbos-en-ingles.png"
 														alt="verbos en ingles">
 												</a>
 											</div>
@@ -212,7 +212,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<div class="ms-2">
 												<!-- Image -->
 												<a href="https://cursos.englishreservoir.com/p/c1-cambridge-advanced">
-													<img class="rounded-2" src="<?php echo BASE_URL; ?>../../assets/images/courses/c1_advanced.png"
+													<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/c1_advanced.png"
 														alt="c1 cambridge advanced">
 												</a>
 											</div>
@@ -225,7 +225,7 @@ include 'config.php'; // Include config.php for BASE_URL
 												<a
 													href="https://cursos.englishreservoir.com/p/gramatica-esencial-metodo-divertido">
 													<img class="rounded-2"
-														src="<?php echo BASE_URL; ?>../../assets/images/courses/Gramatica-esencial.png"
+														src="<?php echo BASE_URL; ?>assets/images/courses/Gramatica-esencial.png"
 														alt="gramatica esencial">
 												</a>
 											</div>
@@ -240,7 +240,7 @@ include 'config.php'; // Include config.php for BASE_URL
 												<!-- Image -->
 												<a
 													href="https://cursos.englishreservoir.com/p/c2-cambridge-proficiency">
-													<img class="rounded-2" src="<?php echo BASE_URL; ?>../../assets/images/courses/c2_pro.png"
+													<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/c2_pro.png"
 														alt="c2 cambridge proficiency">
 												</a>
 											</div>
@@ -252,7 +252,7 @@ include 'config.php'; // Include config.php for BASE_URL
 												<!-- Image -->
 												<a href="https://cursos.englishreservoir.com/p/pronunciacion-en-ingles">
 													<img class="rounded-2"
-														src="<?php echo BASE_URL; ?>../../assets/images/courses/pronunciacion-en-ingles.png"
+														src="<?php echo BASE_URL; ?>assets/images/courses/pronunciacion-en-ingles.png"
 														alt="pronunciacion en ingles">
 												</a>
 											</div>
@@ -276,7 +276,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-question-circle"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="<?php echo BASE_URL; ?>../about-english-reservoir.php">About us</a>
+													href="<?php echo BASE_URL; ?>about-english-reservoir.php">About us</a>
 												<p class="mb-0 small">Who we are, How the courses work and how much time
 													you should dedicate.</p>
 											</div>
@@ -287,7 +287,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-easel2"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="<?php echo BASE_URL; ?>../method-english-reservoir.php">English
+													href="<?php echo BASE_URL; ?>method-english-reservoir.php">English
 													Reservoir Method</a>
 												<p class="mb-0 small">Get to know all about our teaching method.
 												</p>
@@ -304,7 +304,7 @@ include 'config.php'; // Include config.php for BASE_URL
 											<h2 class="mb-0"><i class="bi bi-currency-exchange"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="<?php echo BASE_URL; ?>../affiliate.php">Affiliate
+													href="<?php echo BASE_URL; ?>affiliate.php">Affiliate
 													Programme</a>
 												<p class="mb-0 small">Are you a content creator or teacher? Would you
 													like to become an English Reservoir affiliate and work with us?</p>

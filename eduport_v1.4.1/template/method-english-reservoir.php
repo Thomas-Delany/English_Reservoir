@@ -115,7 +115,7 @@ Main Banner START -->
 						<div class="position-relative">
 							<!-- Image -->
 							<div class="d-flex justify-content-center align-items-center">
-								<img src="assets/images/element/10.svg" class="img-fluid">
+								<img src="<?php echo BASE_URL; ?>assets/images/element/10.svg" class="img-fluid">
 							</div>
 						</div>
 					</div>
@@ -140,7 +140,7 @@ Main Banner START -->
 						<div class="px-4">
 							<!-- Image -->
 							<div class="icon-xxl bg-body shadow mx-auto rounded-circle mb-3">
-								<img src="assets/images/element/21.svg" alt="">
+								<img src="<?php echo BASE_URL; ?>assets/images/element/21.svg" alt="">
 							</div>
 							<!-- Title -->
 							<h3>Explanation</h3>
@@ -163,7 +163,7 @@ Main Banner START -->
 						<div class="px-4">
 							<!-- Image -->
 							<div class="icon-xxl bg-body shadow mx-auto rounded-circle mb-3">
-								<img src="assets/images/element/account.svg" alt="">
+								<img src="<?php echo BASE_URL; ?>assets/images/element/account.svg" alt="">
 							</div>
 							<!-- Title -->
 							<h3>Context</h3>
@@ -180,7 +180,7 @@ Main Banner START -->
 						<div class="px-4">
 							<!-- Image -->
 							<div class="icon-xxl bg-body shadow mx-auto rounded-circle mb-3">
-								<img src="assets/images/element/23.svg" alt="">
+								<img src="<?php echo BASE_URL; ?>assets/images/element/23.svg" alt="">
 							</div>
 							<!-- Title -->
 							<h3>Analysis</h3>
@@ -228,7 +228,7 @@ Main Banner START -->
 						</p>
 					</div>
 					<div class="col-md-5 d-flex justify-content-center align-items-center">
-						<img src="assets/images/element/category-1.svg" class="img-fluid" alt="">
+						<img src="<?php echo BASE_URL; ?>assets/images/element/category-1.svg" class="img-fluid" alt="">
 					</div>
 				</div>
 			</div>
@@ -266,7 +266,7 @@ Main Banner START -->
 							<!-- Country item -->
 							<div class="col-sm-6 col-md-4">
 								<div class="d-flex align-items-center">
-									<img src="assets/images/courses/b2_first.png" class="img-fluid rounded-3" alt="">
+									<img src="<?php echo BASE_URL; ?>assets/images/courses/b2_first.png" class="img-fluid rounded-3" alt="">
 								</div>
 
 							</div>
@@ -274,21 +274,21 @@ Main Banner START -->
 							<!-- Country item -->
 							<div class="col-sm-6 col-md-4">
 								<div class="d-flex align-items-center">
-									<img src="assets/images/courses/c1_advanced.png" class="img-fluid rounded-3" alt="">
+									<img src="<?php echo BASE_URL; ?>assets/images/courses/c1_advanced.png" class="img-fluid rounded-3" alt="">
 								</div>
 							</div>
 
 							<!-- Country item -->
 							<div class="col-sm-6 col-md-4">
 								<div class="d-flex align-items-center">
-									<img src="assets/images/courses/c2_pro.png" class="img-fluid rounded-3" alt="">
+									<img src="<?php echo BASE_URL; ?>assets/images/courses/c2_pro.png" class="img-fluid rounded-3" alt="">
 								</div>
 							</div>
 
 							<!-- Country item -->
 							<div class="col-sm-6 col-md-4">
 								<div class="d-flex align-items-center">
-									<img src="assets/images/courses/verbos-en-ingles.png" class="img-fluid rounded-3"
+									<img src="<?php echo BASE_URL; ?>assets/images/courses/verbos-en-ingles.png" class="img-fluid rounded-3"
 										alt="">
 								</div>
 							</div>
@@ -296,7 +296,7 @@ Main Banner START -->
 							<!-- Country item -->
 							<div class="col-sm-6 col-md-4">
 								<div class="d-flex align-items-center">
-									<img src="assets/images/courses/Gramatica-esencial.png" class="img-fluid rounded-3"
+									<img src="<?php echo BASE_URL; ?>assets/images/courses/Gramatica-esencial.png" class="img-fluid rounded-3"
 										alt="">
 								</div>
 							</div>
@@ -304,7 +304,7 @@ Main Banner START -->
 							<!-- Country item -->
 							<div class="col-sm-6 col-md-4">
 								<div class="d-flex align-items-center">
-									<img src="assets/images/courses/pronunciacion-en-ingles.png"
+									<img src="<?php echo BASE_URL; ?>assets/images/courses/pronunciacion-en-ingles.png"
 										class="img-fluid rounded-3" alt="">
 								</div>
 							</div>

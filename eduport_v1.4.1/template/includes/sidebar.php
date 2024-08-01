@@ -5,19 +5,19 @@
     <!-- Title -->
     <li class="nav-item lead fw-bold my-2">Reservoir!</li> 
 
-    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../english-grammar/" class="nav-link"><i class="fa-solid fa-wrench me-3"></i>English Grammar</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>english-grammar/" class="nav-link"><i class="fa-solid fa-wrench me-3"></i>English Grammar</a></li>
 
-    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../cambridge/" class="nav-link"><i class="fa-solid fa-graduation-cap me-2"></i>Cambridge</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>cambridge/" class="nav-link"><i class="fa-solid fa-graduation-cap me-2"></i>Cambridge</a></li>
 
-    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../english-verbs/" class="nav-link"><i class="fa-solid fa-hammer me-2"></i>English Verbs</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>english-verbs/" class="nav-link"><i class="fa-solid fa-hammer me-2"></i>English Verbs</a></li>
 
-    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../english-confusions/" class="nav-link"><i class="fa-regular fa-face-grin-beam-sweat me-2"></i>English Confusions</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>english-confusions/" class="nav-link"><i class="fa-regular fa-face-grin-beam-sweat me-2"></i>English Confusions</a></li>
 
-    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../english-punctuation/" class="nav-link"><i class="fa-solid fa-quote-left me-2"></i>Punctuation</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>english-punctuation/" class="nav-link"><i class="fa-solid fa-quote-left me-2"></i>Punctuation</a></li>
 
-    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../english-pronunciation/" class="nav-link"><i class="bi bi-volume-up me-2"></i>Pronunciation</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>english-pronunciation/" class="nav-link"><i class="bi bi-volume-up me-2"></i>Pronunciation</a></li>
 
-    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../blog/" class="nav-link"><i class="bi bi-book me-2"></i>Blog</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>blog/" class="nav-link"><i class="bi bi-book me-2"></i>Blog</a></li>
 
     <li class="nav-item"><a href="https://www.youtube.com/@EnglishReservoir" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="bi bi-youtube me-2"></i>Learn for Free!</a></li>
 
@@ -39,11 +39,11 @@
     <!-- Title -->
     <li class="nav-item lead fw-bold my-2">More about us</li>
 
-    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../about-english-reservoir.php" class="nav-link"><i class="bi bi-house me-2"></i>About Us</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>about-english-reservoir.php" class="nav-link"><i class="bi bi-house me-2"></i>About Us</a></li>
 
-    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../method-english-reservoir.php" class="nav-link"><i class="bi bi-easel2 me-2"></i>Our Method</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>method-english-reservoir.php" class="nav-link"><i class="bi bi-easel2 me-2"></i>Our Method</a></li>
 
-    <li class="nav-item"><a href="<?php echo BASE_URL; ?>../affiliate.php" class="nav-link"><i class="far fa-chart-bar me-2"></i>Affiliate Programme</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>affiliate.php" class="nav-link"><i class="far fa-chart-bar me-2"></i>Affiliate Programme</a></li>
 
     <li class="nav-item"><a href="https://www.youtube.com/@EnglishReservoir/featured" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="bi bi-youtube me-2"></i>YouTube</a></li>
     

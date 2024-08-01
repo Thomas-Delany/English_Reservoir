@@ -2,37 +2,37 @@
 // Course images that include src, alt and url
 $images = [
     'cursos-de-ingles' => [
-        'src' => BASE_URL . '../../assets/images/courses/cursos-de-ingles.png',
+        'src' => BASE_URL . 'assets/images/courses/cursos-de-ingles.png',
         'alt' => 'cursos de ingles',
         'url' => 'https://cursos.englishreservoir.com/'
     ],
     'b2-cambridge-first' => [
-        'src' => BASE_URL . '../../assets/images/courses/b2_first.png',
+        'src' => BASE_URL . 'assets/images/courses/b2_first.png',
         'alt' => 'B2 Cambridge First',
         'url' => 'https://cursos.englishreservoir.com/p/b2-cambridge-first'
     ],
     'c1-cambridge-advanced' => [
-        'src' => BASE_URL . '../../assets/images/courses/c1_advanced.png',
+        'src' => BASE_URL . 'assets/images/courses/c1_advanced.png',
         'alt' => 'C1 Cambridge Advanced',
         'url' => 'https://cursos.englishreservoir.com/p/c1-cambridge-advanced'
     ],
     'c2-cambridge-proficiency' => [
-        'src' => BASE_URL . '../../assets/images/courses/c2_pro.png',
+        'src' => BASE_URL . 'assets/images/courses/c2_pro.png',
         'alt' => 'C2 Cambridge Proficiency',
         'url' => 'https://cursos.englishreservoir.com/p/c2-cambridge-proficiency'
     ],
     'gramatica-esencial' => [
-        'src' => BASE_URL . '../../assets/images/courses/Gramatica-esencial.png',
+        'src' => BASE_URL . 'assets/images/courses/Gramatica-esencial.png',
         'alt' => 'Gramatica Esencial',
         'url' => 'https://cursos.englishreservoir.com/p/gramatica-esencial-metodo-divertido'
     ],
     'verbos-en-ingles' => [
-        'src' => BASE_URL . '../../assets/images/courses/verbos-en-ingles.png',
+        'src' => BASE_URL . 'assets/images/courses/verbos-en-ingles.png',
         'alt' => 'Verbos en inglés',
         'url' => 'https://cursos.englishreservoir.com/p/verbos-en-ingles-metodo-divertido'
     ],
     'pronunciacion-en-ingles' => [
-        'src' => BASE_URL . '../../assets/images/courses/pronunciacion-en-ingles.png',
+        'src' => BASE_URL . 'assets/images/courses/pronunciacion-en-ingles.png',
         'alt' => 'Pronunciacion en ingles',
         'url' => 'https://cursos.englishreservoir.com/p/pronunciacion-en-ingles'
     ],

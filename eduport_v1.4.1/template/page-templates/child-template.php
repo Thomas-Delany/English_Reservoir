@@ -2,7 +2,7 @@
 <?php
 $page_title = "Child Page Template";
 $page_heading = "Child Page Template";
-// Set the image URL if it exists - $image_url = "../link to image url"; 
+// Set the image URL if it exists - $image_url = BASE_URL . "link to image url"; 
 // Set the image alt text if it exists - $image_alt = "image alt";
 $show_toc = false; // Set to true to show a Table of Contents
 

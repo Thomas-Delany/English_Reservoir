@@ -4,7 +4,7 @@
 <?php
 $page_title = "Parent Page Template"; 
 $page_heading = "Parent Page Template";
-$image_url = "../assets/images/x.png"; // Set the image URL
+$image_url = BASE_URL . "assets/images/x.png"; // Set the image URL
 $image_alt = "image alt"; // Set the image alt text
 $show_toc = true; // Set to true to show the Table of Contents
 

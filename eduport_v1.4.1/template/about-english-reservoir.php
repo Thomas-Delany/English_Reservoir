@@ -66,7 +66,7 @@
 						</p>
 					</div>
 					<div class="col-md-5 d-flex justify-content-center align-items-center">
-						<img src="assets/images/element/08.png" class="" alt="">
+						<img src="<?php echo BASE_URL; ?>assets/images/element/08.png" class="" alt="">
 					</div>
 				</div>
 
@@ -88,7 +88,7 @@
 						<div class="px-4">
 							<!-- Image -->
 							<div class="icon-xxl bg-body shadow mx-auto rounded-circle mb-3">
-								<img src="assets/images/element/26.svg" alt="">
+								<img src="<?php echo BASE_URL; ?>assets/images/element/26.svg" alt="">
 							</div>
 							<!-- Title -->
 							<h3>Method</h3>
@@ -112,7 +112,7 @@
 						<div class="px-4">
 							<!-- Image -->
 							<div class="icon-xxl bg-body shadow mx-auto rounded-circle mb-3">
-								<img src="assets/images/element/account.svg" alt="">
+								<img src="<?php echo BASE_URL; ?>assets/images/element/account.svg" alt="">
 							</div>
 							<!-- Title -->
 							<h3>How does it work?</h3>
@@ -128,7 +128,7 @@
 						<div class="px-4">
 							<!-- Image -->
 							<div class="icon-xxl bg-body shadow mx-auto rounded-circle mb-3">
-								<img src="assets/images/element/23.svg" alt="">
+								<img src="<?php echo BASE_URL; ?>assets/images/element/23.svg" alt="">
 							</div>
 							<!-- Title -->
 							<h3>In a nutshell</h3>
@@ -298,7 +298,7 @@
 
 			<!-- SVG image decoration -->
 			<div class="position-absolute bottom-0 end-0 d-none d-lg-block">
-				<img src="assets/images/element/rocket.svg" alt="">
+				<img src="<?php echo BASE_URL; ?>assets/images/element/rocket.svg" alt="">
 			</div>
 
 			<div class="container position-relative py-5">
@@ -313,7 +313,7 @@
 					<div class="col-sm-4 col-xl-4">
 						<div class="text-center p-4 position-relative">
 							<a href="https://cursos.englishreservoir.com/p/b2-cambridge-first">
-								<img src="assets/images/courses/b2_first.png" class="rounded-3"
+								<img src="<?php echo BASE_URL; ?>assets/images/courses/b2_first.png" class="rounded-3"
 									alt="b2 cambridge first">
 							</a>
 						</div>
@@ -323,7 +323,7 @@
 					<div class="col-sm-4 col-xl-4">
 						<div class="text-center p-4 position-relative">
 							<a href="https://cursos.englishreservoir.com/p/c1-cambridge-advanced">
-								<img src="assets/images/courses/c1_advanced.png" class="rounded-3"
+								<img src="<?php echo BASE_URL; ?>assets/images/courses/c1_advanced.png" class="rounded-3"
 									alt="c1 cambridge advanced">
 							</a>
 						</div>
@@ -333,7 +333,7 @@
 					<div class="col-sm-4 col-xl-4">
 						<div class="text-center p-4 position-relative">
 							<a href="https://cursos.englishreservoir.com/p/c2-cambridge-proficiency">
-								<img src="assets/images/courses/c2_pro.png" class="rounded-3"
+								<img src="<?php echo BASE_URL; ?>assets/images/courses/c2_pro.png" class="rounded-3"
 									alt="c2 cambridge proficiency">
 							</a>
 						</div>
@@ -347,7 +347,7 @@
 					<div class="col-sm-4 col-xl-4">
 						<div class="text-center p-4 position-relative">
 							<a href="https://cursos.englishreservoir.com/p/pronunciacion-en-ingles">
-								<img src="assets/images/courses/pronunciacion-en-ingles.png" class="rounded-3"
+								<img src="<?php echo BASE_URL; ?>assets/images/courses/pronunciacion-en-ingles.png" class="rounded-3"
 									alt="pronunciacion en ingles">
 							</a>
 						</div>
@@ -357,7 +357,7 @@
 					<div class="col-sm-4 col-xl-4">
 						<div class="text-center p-4 position-relative">
 							<a href="https://cursos.englishreservoir.com/p/gramatica-esencial-metodo-divertido">
-								<img src="assets/images/courses/Gramatica-esencial.png" class="rounded-3"
+								<img src="<?php echo BASE_URL; ?>assets/images/courses/Gramatica-esencial.png" class="rounded-3"
 									alt="gramatica esencial">
 							</a>
 						</div>
@@ -367,7 +367,7 @@
 					<div class="col-sm-4 col-xl-4">
 						<div class="text-center p-4 position-relative">
 							<a href="https://cursos.englishreservoir.com/p/verbos-en-ingles-metodo-divertido">
-								<img src="assets/images/courses/verbos-en-ingles.png" class="rounded-3"
+								<img src="<?php echo BASE_URL; ?>assets/images/courses/verbos-en-ingles.png" class="rounded-3"
 									alt="verbos en ingles">
 							</a>
 						</div>
@@ -399,13 +399,13 @@ Portfolio START -->
 							are in English with various native accents.</p>
 					</div>
 					<div class="col-lg-3 d-flex justify-content-center align-items-center">
-						<img src="assets/images/element/abc.svg" class="img-fluid" alt="">
+						<img src="<?php echo BASE_URL; ?>assets/images/element/abc.svg" class="img-fluid" alt="">
 					</div>
 				</div>
 
 				<div class="row my-5">
 					<div class="col-lg-3 d-flex justify-content-center align-items-center">
-						<img src="assets/images/element/06.svg"
+						<img src="<?php echo BASE_URL; ?>assets/images/element/06.svg"
 							class="img-fluid d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" alt="">
 					</div>
 					<div class="col-lg-8 mb-4">

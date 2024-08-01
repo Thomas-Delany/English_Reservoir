@@ -93,7 +93,7 @@
 					<div class="col-lg-4 col-xl-4 text-center mx-auto position-relative pt-md-5 d-none d-sm-block">
 						<!-- Image -->
 						<div class="position-relative">
-							<img src="assets/images/element/20.svg" alt="">
+							<img src="<?php echo BASE_URL; ?>assets/images/element/20.svg" alt="">
 						</div>
 					</div>
 					<!-- Right content END -->
@@ -113,7 +113,7 @@
 							<!-- Image -->
 							<div class="">
 								<a href="https://cursos.englishreservoir.com/p/b2-cambridge-first">
-									<img class="rounded-2" src="assets/images/courses/b2_first.png"
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/b2_first.png"
 										alt="b2 cambridge first">
 								</a>
 							</div>
@@ -126,7 +126,7 @@
 							<!-- Image -->
 							<div class="">
 								<a href="https://cursos.englishreservoir.com/p/c1-cambridge-advanced">
-									<img class="rounded-2" src="assets/images/courses/c1_advanced.png"
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/c1_advanced.png"
 										alt="c1 cambridge advanced">
 								</a>
 							</div>
@@ -139,7 +139,7 @@
 							<!-- Image -->
 							<div class="">
 								<a href="https://cursos.englishreservoir.com/p/c2-cambridge-proficiency">
-									<img class="rounded-2" src="assets/images/courses/c2_pro.png"
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/c2_pro.png"
 										alt="c2 cambridge proficiency">
 								</a>
 							</div>
@@ -152,7 +152,7 @@
 							<!-- Image -->
 							<div class="">
 								<a href="https://cursos.englishreservoir.com/p/verbos-en-ingles-metodo-divertido">
-									<img class="rounded-2" src="assets/images/courses/verbos-en-ingles.png"
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/verbos-en-ingles.png"
 										alt="verbos en ingles">
 								</a>
 							</div>
@@ -165,7 +165,7 @@
 							<!-- Image -->
 							<div class="">
 								<a href="https://cursos.englishreservoir.com/p/pronunciacion-en-ingles">
-									<img class="rounded-2" src="assets/images/courses/pronunciacion-en-ingles.png"
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/pronunciacion-en-ingles.png"
 										alt="pronunciacion en inglés">
 								</a>
 							</div>
@@ -178,7 +178,7 @@
 							<!-- Image -->
 							<div class="">
 								<a href="https://cursos.englishreservoir.com/p/gramatica-esencial-metodo-divertido">
-									<img class="rounded-2" src="assets/images/courses/Gramatica-esencial.png"
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/Gramatica-esencial.png"
 										alt="gramatica esencial">
 								</a>
 							</div>
@@ -196,7 +196,7 @@
 					<div class="col-lg-6 position-relative text-center order-2">
 
 						<!-- Image -->
-						<img src="assets/images/element/29.svg" class="position-relative" alt="">
+						<img src="<?php echo BASE_URL; ?>assets/images/element/29.svg" class="position-relative" alt="">
 					</div>
 
 					<div class="col-lg-6 position-relative order-1 order-lg-2">
@@ -245,7 +245,7 @@
 
 					<div class="col-md-4 text-md-end text-center mx-auto">
 						<!-- Image -->
-						<img src="assets/images/element/10.svg" class="position-relative" alt="">
+						<img src="<?php echo BASE_URL; ?>assets/images/element/10.svg" class="position-relative" alt="">
 					</div>
 				</div>
 			</div>
@@ -258,7 +258,7 @@
 				<div class="row g-4 g-lg-5 align-items-center">
 					<div class="col-lg-5 text-center order-2 d-none d-sm-block">
 						<!-- Image -->
-						<img src="assets/images/element/category-1.svg" class="position-relative" alt="">
+						<img src="<?php echo BASE_URL; ?>assets/images/element/category-1.svg" class="position-relative" alt="">
 					</div>
 
 					<div class="col-lg-6 position-relative order-1 order-lg-2">
@@ -313,7 +313,7 @@
 
 					<div class="col-md-4 text-md-end mx-auto text-center">
 						<!-- Image -->
-						<img src="assets/images/element/instructor-course.svg" class="position-relative" alt="">
+						<img src="<?php echo BASE_URL; ?>assets/images/element/instructor-course.svg" class="position-relative" alt="">
 					</div>
 				</div>
 			</div>
@@ -326,7 +326,7 @@
 				<div class="row g-4 g-lg-5">
 					<div class="col-lg-6 order-2 text-center mx-auto">
 						<!-- Image -->
-						<img src="assets/images/element/category-2.svg" class="position-relative" alt="">
+						<img src="<?php echo BASE_URL; ?>assets/images/element/category-2.svg" class="position-relative" alt="">
 					</div>
 
 					<div class="col-lg-5 position-relative mx-auto order-1 order-lg-2">
@@ -362,7 +362,7 @@
 					<div class="col-lg-3 mx-auto position-relative text-center order-2">
 
 						<!-- Image -->
-						<img src="assets/images/element/rocket.svg" class="position-relative" alt="">
+						<img src="<?php echo BASE_URL; ?>assets/images/element/rocket.svg" class="position-relative" alt="">
 					</div>
 				</div>
 			</div>
