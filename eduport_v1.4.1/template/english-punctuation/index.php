@@ -11,27 +11,27 @@ $page_content = <<<HTML
 <p class="lead mb-4">This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
 HTML;
 
-/* Table of Contents sections
+// Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'english-punctuation/apostrophes', 'title' => 'Apostrophes'],
-    ['url' => BASE_URL . 'english-punctuation/colons', 'title' => 'Colons'],
-    ['url' => BASE_URL . 'english-punctuation/semi-colons', 'title' => 'Semi-colons'],
-    ['url' => BASE_URL . 'english-punctuation/commas', 'title' => 'Commas'],
-    ['url' => BASE_URL . 'english-punctuation/dashes', 'title' => 'Dashes/Hyphens'],
-    ['url' => BASE_URL . 'english-punctuation/full-stops', 'title' => 'Full Stops'],
-    ['url' => BASE_URL . 'english-punctuation/question-marks', 'title' => 'Question Marks'],
-    ['url' => BASE_URL . 'english-punctuation/exclamation-marks', 'title' => 'Exclamation Marks'],
-    ['url' => BASE_URL . 'english-punctuation/quotation-marks', 'title' => 'Quotation Marks'],
+    ['url' => BASE_URL . 'english-punctuation/apostrophes.php', 'title' => 'Apostrophes'],
+    ['url' => BASE_URL . 'english-punctuation/colons.php', 'title' => 'Colons'],
+    ['url' => BASE_URL . 'english-punctuation/semi-colons.php', 'title' => 'Semi-colons'],
+    ['url' => BASE_URL . 'english-punctuation/commas.php', 'title' => 'Commas'],
+    ['url' => BASE_URL . 'english-punctuation/dashes.php', 'title' => 'Dashes/Hyphens'],
+    ['url' => BASE_URL . 'english-punctuation/full-stops.php', 'title' => 'Full Stops'],
+    ['url' => BASE_URL . 'english-punctuation/question-marks.php', 'title' => 'Question Marks'],
+    ['url' => BASE_URL . 'english-punctuation/exclamation-marks.php', 'title' => 'Exclamation Marks'],
+    ['url' => BASE_URL . 'english-punctuation/quotation-marks.php', 'title' => 'Quotation Marks'],
      // Anchor links
     ['url' => '#section1', 'title' => 'Why is punctuation so important?'],
     ['url' => '#section2', 'title' => 'Mistakes to avoid in English punctuation'],
     ['url' => '#section3', 'title' => 'Let us analyse the punctuation mistakes above'],
     ['url' => '#section4', 'title' => 'How to improve your punctuation'],
     // External links ['url' => '#', 'title' => 'External Link']
-]; */
+]; 
 
-// Table of Contents sections
+/* Table of Contents sections
 $toc_sections = [
     // Internal links
     ['url' => '#', 'title' => 'Apostrophes'],
@@ -49,7 +49,7 @@ $toc_sections = [
     ['url' => '#section3', 'title' => 'Let us analyse the punctuation mistakes above'],
     ['url' => '#section4', 'title' => 'How to improve your punctuation'],
     // External links ['url' => '#', 'title' => 'External Link']
-];
+];*/
 
 // Define sections
 $sections = [

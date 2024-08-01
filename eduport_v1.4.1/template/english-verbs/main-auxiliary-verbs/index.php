@@ -11,12 +11,12 @@ $page_content = <<<HTML
 <p class="lead mb-4">This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
 HTML;
 
-/* Table of Contents sections
+// Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs/to-be', 'title' => 'To be'],
-    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs/to-have', 'title' => 'To have'],
-    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs/to-do', 'title' => 'To do'],
+    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs/to-be.php', 'title' => 'To be'],
+    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs/to-have.php', 'title' => 'To have'],
+    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs/to-do.php', 'title' => 'To do'],
     // Anchor links
     ['url' => '#section1', 'title' => 'Why do we use auxiliary verbs?'],
     ['url' => '#section2', 'title' => 'The main auxiliary verbs'],
@@ -26,9 +26,9 @@ $toc_sections = [
     ['url' => '#section6', 'title' => 'To form all perfect forms, express obligation, and possession - to have'],
     ['url' => '#section7', 'title' => 'To form all passive forms, use continuous forms, and copulative structures - to be'],
     // External links ['url' => '#', 'title' => 'External Link']
-]; */
+]; 
 
-// Table of Contents sections
+/* Table of Contents sections
 $toc_sections = [
     // Internal links
     ['url' => '#', 'title' => 'To be'],
@@ -43,7 +43,7 @@ $toc_sections = [
     ['url' => '#section6', 'title' => 'To form all perfect forms, express obligation, and possession - to have'],
     ['url' => '#section7', 'title' => 'To form all passive forms, use continuous forms, and copulative structures - to be'],
     // External links ['url' => '#', 'title' => 'External Link']
-];
+];*/
 
 // Define sections
 $sections = [

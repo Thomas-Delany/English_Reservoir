@@ -11,7 +11,7 @@ $page_content = <<<HTML
 <p class="lead mb-4">This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
 HTML;
 
-/* Table of Contents sections
+// Table of Contents sections
 $toc_sections = [
     // Internal links
     ['url' => BASE_URL . 'english-verbs', 'title' => 'Verbs'],
@@ -20,15 +20,15 @@ $toc_sections = [
     ['url' => BASE_URL . 'adverbs', 'title' => 'Adverbs'],
     ['url' => BASE_URL . 'prepositions', 'title' => 'Prepositions'],
     ['url' => BASE_URL . 'conjunctions', 'title' => 'Conjunctions'],
-    ['url' => BASE_URL . 'interjections', 'title' => 'Interjections*'],
+    ['url' => BASE_URL . 'english-grammar/interjections.php', 'title' => 'Interjections*'],
     // Anchor links
     ['url' => '#section1', 'title' => 'What are the six parts of speech?'],
     ['url' => '#section2', 'title' => 'Knowing the six parts of speech'],
     ['url' => '#section3', 'title' => 'Using the six parts of speech in English grammar'],
     // External links ['url' => '#', 'title' => 'External Link']
-]; */
+]; 
 
-// Table of Contents sections
+/* Table of Contents sections
 $toc_sections = [
     // Internal links
     ['url' => '#', 'title' => 'Verbs'],
@@ -43,7 +43,7 @@ $toc_sections = [
     ['url' => '#section2', 'title' => 'Knowing the six parts of speech'],
     ['url' => '#section3', 'title' => 'Using the six parts of speech in English grammar'],
     // External links ['url' => '#', 'title' => 'External Link']
-];
+];*/
 
 // Define sections
 $sections = [

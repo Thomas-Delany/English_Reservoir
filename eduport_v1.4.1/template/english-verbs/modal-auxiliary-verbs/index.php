@@ -11,27 +11,26 @@ $page_content = <<<HTML
 <p class="lead mb-4">This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
 HTML;
 
-/* Table of Contents sections
+// Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'x', 'title' => 'x'],
-    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/', 'title' => 'Can and Could'],
-    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/may-and-might', 'title' => 'May and Might'],
-    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/will-and-shall', 'title' => 'Will and Shall'],
-    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/ought-to-and-should', 'title' => 'Ought to and Should'],
-    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/must', 'title' => 'Must'],
-    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/would', 'title' => 'Would'],
-    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/need-to', 'title' => 'Need to'],
-    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/dare-to', 'title' => 'Dare to'],
+    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/can-and-could.php', 'title' => 'Can and Could'],
+    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/may-and-might.php', 'title' => 'May and Might'],
+    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/will-and-shall.php', 'title' => 'Will and Shall'],
+    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/ought-to-and-should.php', 'title' => 'Ought to and Should'],
+    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/must.php', 'title' => 'Must'],
+    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/would.php', 'title' => 'Would'],
+    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/need-to.php', 'title' => 'Need to'],
+    ['url' => BASE_URL . 'english-verbs/modal-auxiliary-verbs/dare-to.php', 'title' => 'Dare to'],
     // Anchor links
     ['url' => '#section1', 'title' => 'Why are modal auxiliaries used?'],
     ['url' => '#section2', 'title' => 'Modal auxiliaries are followed by the bare infinitive'],
     ['url' => '#section3', 'title' => 'No inflections with modal auxiliary verbs'],
     ['url' => '#section4', 'title' => 'Modal auxiliaries are followed by normal verbs'],
     // External links ['url' => '#', 'title' => 'External Link']
-]; */
+]; 
 
-// Table of Contents sections
+/* Table of Contents sections
 $toc_sections = [
     // Internal links
     ['url' => '#', 'title' => 'Can and Could'],
@@ -48,7 +47,7 @@ $toc_sections = [
     ['url' => '#section3', 'title' => 'No inflections with modal auxiliary verbs'],
     ['url' => '#section4', 'title' => 'Modal auxiliaries are followed by normal verbs'],
     // External links ['url' => '#', 'title' => 'External Link']
-];
+];*/
 
 $sections = [
     [

@@ -11,7 +11,7 @@ $page_content = <<<HTML
 <p class="lead mb-4">This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
 HTML;
 
-/* Table of Contents sections
+// Table of Contents sections
 $toc_sections = [
     // Internal links
     ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs', 'title' => 'Main Auxiliary Verbs'],
@@ -19,20 +19,20 @@ $toc_sections = [
     ['url' => BASE_URL . 'english-verbs/active-voice', 'title' => 'Active Voice'],
     ['url' => BASE_URL . 'english-verbs/passive-voice', 'title' => 'Passive Voice'],
     ['url' => BASE_URL . 'english-verbs/verbal-order', 'title' => 'English Verbal Order'],
-    ['url' => BASE_URL . 'english-verbs/phrasal-verbs', 'title' => 'Phrasal Verbs'],
-    ['url' => BASE_URL . 'english-verbs/copular-verbs', 'title' => 'Copular Verbs'],
-    ['url' => BASE_URL . 'english-verbs/get', 'title' => 'Get'],
-    ['url' => BASE_URL . 'english-verbs/got-and-gotten', 'title' => 'Got and Gotten + Get and Got'],
-    ['url' => BASE_URL . 'english-verbs/ordinary-verbs', 'title' => 'Ordinary Verbs'],
+    ['url' => BASE_URL . 'english-verbs/phrasal-verbs.php', 'title' => 'Phrasal Verbs'],
+    ['url' => BASE_URL . 'english-verbs/copular-verbs.php', 'title' => 'Copular Verbs'],
+    ['url' => BASE_URL . 'english-verbs/get.php', 'title' => 'Get'],
+    ['url' => BASE_URL . 'english-verbs/got-and-gotten.php', 'title' => 'Got and Gotten + Get and Got'],
+    ['url' => BASE_URL . 'english-verbs/ordinary-verbs.php', 'title' => 'Ordinary Verbs'],
     // Anchor links
     ['url' => '#section1', 'title' => 'The present simple in English with the verb see'],
     ['url' => '#section2', 'title' => 'Present simple in Spanish, with the same verb ver'],
     ['url' => '#section3', 'title' => 'Knowing how verbs work in English'],
     ['url' => '#section4', 'title' => 'Fewer inflections but lots of rules'],
     // External links ['url' => '#', 'title' => 'External Link']
-]; */
+]; 
 
-// Table of Contents sections
+/* Table of Contents sections
 $toc_sections = [
     // Internal links
     ['url' => '#', 'title' => 'Main Auxiliary Verbs'],
@@ -51,7 +51,7 @@ $toc_sections = [
     ['url' => '#section3', 'title' => 'Knowing how verbs work in English'],
     ['url' => '#section4', 'title' => 'Fewer inflections but lots of rules'],
     // External links ['url' => '#', 'title' => 'External Link']
-];
+];*/
 
 // Define sections
 $sections = [

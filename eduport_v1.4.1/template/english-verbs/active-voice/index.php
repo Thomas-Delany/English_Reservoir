@@ -11,30 +11,30 @@ $page_content = <<<HTML
 <p class="lead mb-4">This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
 HTML;
 
-/* Table of Contents sections
+// Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'english-verbs/active-voice/present-simple', 'title' => 'Present Simple'],
-    ['url' => BASE_URL . 'english-verbs/active-voice/present-continuous', 'title' => 'Present Continuous'],
-    ['url' => BASE_URL . 'english-verbs/active-voice/present-perfect-continuous', 'title' => 'Present Perfect Continuous'],
-    ['url' => BASE_URL . 'english-verbs/active-voice/present-perfect', 'title' => 'Present Perfect'],
-    ['url' => BASE_URL . 'english-verbs/active-voice/past-continuous', 'title' => 'Past Continuous'],
-    ['url' => BASE_URL . 'english-verbs/active-voice/past-perfect-continuous', 'title' => 'Past Perfect Continuous'],
-    ['url' => BASE_URL . 'english-verbs/active-voice/past-simple', 'title' => 'Past Simple'],
-    ['url' => BASE_URL . 'english-verbs/active-voice/past-perfect', 'title' => 'Past Perfect'],
-    ['url' => BASE_URL . 'english-verbs/active-voice/future-simple', 'title' => 'Future Simple'],
-    ['url' => BASE_URL . 'english-verbs/active-voice/future-continuous', 'title' => 'Future Continuous'],
-    ['url' => BASE_URL . 'english-verbs/active-voice/future-perfect', 'title' => 'Future Perfect'],
-    ['url' => BASE_URL . 'english-verbs/active-voice/future-perfect-continuous', 'title' => 'Future Perfect Continuous'],
+    ['url' => BASE_URL . 'english-verbs/active-voice/present-simple.php', 'title' => 'Present Simple'],
+    ['url' => BASE_URL . 'english-verbs/active-voice/present-continuous.php', 'title' => 'Present Continuous'],
+    ['url' => BASE_URL . 'english-verbs/active-voice/present-perfect-continuous.php', 'title' => 'Present Perfect Continuous'],
+    ['url' => BASE_URL . 'english-verbs/active-voice/present-perfect.php', 'title' => 'Present Perfect'],
+    ['url' => BASE_URL . 'english-verbs/active-voice/past-continuous.php', 'title' => 'Past Continuous'],
+    ['url' => BASE_URL . 'english-verbs/active-voice/past-perfect-continuous.php', 'title' => 'Past Perfect Continuous'],
+    ['url' => BASE_URL . 'english-verbs/active-voice/past-simple.php', 'title' => 'Past Simple'],
+    ['url' => BASE_URL . 'english-verbs/active-voice/past-perfect.php', 'title' => 'Past Perfect'],
+    ['url' => BASE_URL . 'english-verbs/active-voice/future-simple.php', 'title' => 'Future Simple'],
+    ['url' => BASE_URL . 'english-verbs/active-voice/future-continuous.php', 'title' => 'Future Continuous'],
+    ['url' => BASE_URL . 'english-verbs/active-voice/future-perfect.php', 'title' => 'Future Perfect'],
+    ['url' => BASE_URL . 'english-verbs/active-voice/future-perfect-continuous.php', 'title' => 'Future Perfect Continuous'],
     // Anchor links
     ['url' => '#section1', 'title' => 'What is the active voice?'],
     ['url' => '#section2', 'title' => 'In the passive, the above sentence would be as follows'],
     ['url' => '#section3', 'title' => 'Can I always use active verb forms'],
     ['url' => '#section4', 'title' => 'How do I learn active verb forms?'],
     // External links ['url' => '#', 'title' => 'External Link']
-]; */
+]; 
 
-// Table of Contents sections
+/* Table of Contents sections
 $toc_sections = [
     // Internal links
     ['url' => '#', 'title' => 'Present Simple'],
@@ -55,7 +55,7 @@ $toc_sections = [
     ['url' => '#section3', 'title' => 'Can I always use active verb forms'],
     ['url' => '#section4', 'title' => 'How do I learn active verb forms?'],
     // External links ['url' => '#', 'title' => 'External Link']
-];
+];*/
 
 // Define sections
 $sections = [

@@ -11,24 +11,24 @@ $page_content = <<<HTML
 <p class="lead mb-4">This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
 HTML;
 
-/* Table of Contents sections
+// Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'nouns/abstract-nouns', 'title' => 'Abstract Nouns'],
-    ['url' => BASE_URL . 'nouns/concrete-nouns', 'title' => 'Concrete Nouns'],
-    ['url' => BASE_URL . 'nouns/countable-and-uncountable-nouns', 'title' => 'Countable and Uncoutable Nouns'],
-    ['url' => BASE_URL . 'nouns/proper-nouns', 'title' => 'Proper Nouns'],
-    ['url' => BASE_URL . 'nouns/common-nouns', 'title' => 'common Nouns'],
-    ['url' => BASE_URL . 'nouns/collective-nouns', 'title' => 'Collective Nouns'],
-    ['url' => BASE_URL . 'nouns/compund-nouns', 'title' => 'Compound Nouns'],
+    ['url' => BASE_URL . 'nouns/abstract-nouns.php', 'title' => 'Abstract Nouns'],
+    ['url' => BASE_URL . 'nouns/concrete-nouns.php', 'title' => 'Concrete Nouns'],
+    ['url' => BASE_URL . 'nouns/countable-and-uncountable-nouns.php', 'title' => 'Countable and Uncoutable Nouns'],
+    ['url' => BASE_URL . 'nouns/proper-nouns.php', 'title' => 'Proper Nouns'],
+    ['url' => BASE_URL . 'nouns/common-nouns.php', 'title' => 'common Nouns'],
+    ['url' => BASE_URL . 'nouns/collective-nouns.php', 'title' => 'Collective Nouns'],
+    ['url' => BASE_URL . 'nouns/compund-nouns.php', 'title' => 'Compound Nouns'],
     // Anchor links
     ['url' => '#section1', 'title' => 'What are pronouns?'],
     ['url' => '#section2', 'title' => 'What types of nouns does English have?'],
     ['url' => '#section3', 'title' => 'Can gerunds function as nouns?'],
     // External links ['url' => '#', 'title' => 'External Link']
-]; */
+]; 
 
-// Table of Contents sections
+/* Table of Contents sections
 $toc_sections = [
     // Internal links
     ['url' => '#', 'title' => 'Countable and Uncoutable Nouns'],
@@ -41,7 +41,7 @@ $toc_sections = [
     ['url' => '#section2', 'title' => 'What types of nouns does English have?'],
     ['url' => '#section3', 'title' => 'Can gerunds function as nouns?'],
     // External links ['url' => '#', 'title' => 'External Link']
-];
+];*/
 
 // Define sections
 $sections = [

@@ -11,21 +11,21 @@ $page_content = <<<HTML
 <p class="lead mb-4">This is some additional content that is specific to this child page. It might include introductory text, images, or other elements that don't fit into the structured sections.</p>
 HTML;
 
-/* Table of Contents sections
+// Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'prepositions/compound-prepositions', 'title' => 'Compound Prepositions'],
-    ['url' => BASE_URL . 'prepositions/double-prepositions', 'title' => 'Double Prepositions'],
-    ['url' => BASE_URL . 'prepositions/participial-prepositions', 'title' => 'Participial Prepositions'],
-    ['url' => BASE_URL . 'prepositions/phrasal-prepositions', 'title' => 'Phrasal Prepositions'],
+    ['url' => BASE_URL . 'prepositions/compound-prepositions.php', 'title' => 'Compound Prepositions'],
+    ['url' => BASE_URL . 'prepositions/double-prepositions.php', 'title' => 'Double Prepositions'],
+    ['url' => BASE_URL . 'prepositions/participial-prepositions.php', 'title' => 'Participial Prepositions'],
+    ['url' => BASE_URL . 'prepositions/phrasal-prepositions.php', 'title' => 'Phrasal Prepositions'],
     // Anchor links
     ['url' => '#section1', 'title' => 'Which preposition do I need to use'],
     ['url' => '#section2', 'title' => 'The most common prepositions in English'],
     ['url' => '#section3', 'title' => 'The differences between “to” and “for”?'],
     // External links ['url' => '#', 'title' => 'External Link']
-]; */
+];
 
-// Table of Contents sections
+/* Table of Contents sections
 $toc_sections = [
     // Internal links
     ['url' => '#', 'title' => 'Simple Prepositions'],
@@ -38,7 +38,7 @@ $toc_sections = [
     ['url' => '#section2', 'title' => 'The most common prepositions in English'],
     ['url' => '#section3', 'title' => 'The differences between “to” and “for”?'],
     // External links ['url' => '#', 'title' => 'External Link']
-];
+];*/
 
 // Define sections
 $sections = [
