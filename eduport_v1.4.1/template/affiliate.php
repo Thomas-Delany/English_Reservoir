@@ -11,13 +11,13 @@
 	<meta name="description" content="Affiliate Programme">
 
 	<!-- Dark mode -->
-	<script src="script.js"></script>
+	<script src="<?php echo BASE_URL; ?>script.js"></script>
 
 	<!-- Font Awesome -->
 	<script src="https://kit.fontawesome.com/fed40285ab.js" crossorigin="anonymous"></script>
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="assets/images/favicon.png">
+	<link rel="shortcut icon" href="<?php echo BASE_URL; ?>assets/images/favicon.png">
 
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +42,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
 
 	<!-- Theme CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/style.css">
 
 </head>
 
@@ -525,7 +525,7 @@
 	
 
 	<!-- Template Functions -->
-	<script src="assets/js/functions.js"></script>
+	<script src="<?php echo BASE_URL; ?>assets/js/functions.js"></script>
 
 </body>
 

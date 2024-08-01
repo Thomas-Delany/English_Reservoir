@@ -11,14 +11,14 @@
 	<meta name="description" content="English courses">
 
 	<!-- Dark mode -->
-	<script src="script.js"></script>
+	<script src="<?php echo BASE_URL; ?>script.js"></script>
 
 
 	<!-- Font Awesome -->
 	<script src="https://kit.fontawesome.com/fed40285ab.js" crossorigin="anonymous"></script>
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="assets/images/favicon.png">
+	<link rel="shortcut icon" href="<?php echo BASE_URL; ?>assets/images/favicon.png">
 
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +42,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
 
 	<!-- Theme CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/style.css">
 
 </head>
 
@@ -84,7 +84,7 @@
 
 						<div class="d-sm-flex align-items-center justify-content-center justify-content-lg-start">
 							<!-- Button -->
-							<a href="#" class="btn btn-lg btn-success me-2 mb-4 mb-sm-0">Get Started</a>
+							<a href="https://cursos.englishreservoir.com/p/cursos-de-ingles-metodo-divertido" class="btn btn-lg btn-success me-2 mb-4 mb-sm-0">Get Started</a>
 						</div>
 					</div>
 					<!-- Left content END -->
@@ -429,7 +429,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
 
 	<!-- Template Functions -->
-	<script src="assets/js/functions.js"></script>
+	<script src="<?php echo BASE_URL; ?>assets/js/functions.js"></script>
 
 </body>
 

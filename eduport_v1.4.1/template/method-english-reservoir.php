@@ -11,10 +11,10 @@
 	<meta name="description" content="Eduport- LMS, Education and Course Theme">
 
 	<!-- Dark mode -->
-	<script src="script.js"></script>
+	<script src="<?php echo BASE_URL; ?>script.js"></script>
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="assets/images/favicon.png">
+	<link rel="shortcut icon" href="<?php echo BASE_URL; ?>assets/images/favicon.png">
 
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,7 +47,7 @@
 
 
 	<!-- Theme CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/style.css">
 
 </head>
 
@@ -339,7 +339,7 @@ Main Banner START -->
 
 
 	<!-- Template Functions -->
-	<script src="assets/js/functions.js"></script>
+	<script src="<?php echo BASE_URL; ?>assets/js/functions.js"></script>
 
 </body>
 
