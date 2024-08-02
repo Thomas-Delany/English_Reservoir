@@ -1,4 +1,4 @@
-<?php include 'config.php'; ?>
+<?php include __DIR__ . '/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
@@ -43,10 +43,10 @@
 <body>
   <!-- MAIN CONTENT START -->
   <!-- Nav START -->
-    <?php include 'includes/nav.php'; ?>
+    <?php include __DIR__ . '/includes/nav.php'; ?>
     <div class="container mb-5">
         <!-- Include the breadcrumbs file -->
-        <?php include 'includes/breadcrumbs.php'; ?>
+        <?php include __DIR__ . '/includes/breadcrumbs.php'; ?>
         <?php generate_breadcrumbs(); ?>
 
         <div class="row">
@@ -57,7 +57,7 @@
                 <?php
                 // Include image section if the $image_url and $image_alt are set
                 if (isset($image_url) && isset($image_alt)) {
-                    include 'includes/image-template.php';
+                    include __DIR__ . '/includes/image-template.php';
                 }
                 ?>
 
@@ -67,28 +67,28 @@
                 <?php
                 // Include TOC if $show_toc is set to true
                 if (isset($show_toc) && $show_toc === true) {
-                include 'includes/table-of-contents.php';
+                include __DIR__ . '/includes/table-of-contents.php';
                 }
                 ?>
                 
                 <!-- Include content sections -->
-                <?php include 'includes/content-section.php'; ?>
+                <?php include __DIR__ . '/includes/content-section.php'; ?>
 
                 <?php
                 // Include "see also" section only if the $see_also_links array is set and not empty
                 if (isset($see_also_links) && !empty($see_also_links)) {
-                    include 'includes/see-also-template.php';
+                    include __DIR__ . '/includes/see-also-template.php';
                 }
                 ?>
                 
             </div>
             <div class="col-lg-3 order-2 order-lg-2 d-lg-block my-5">
-                <?php include 'includes/sidebar.php'; ?>
+                <?php include __DIR__ . '/includes/sidebar.php'; ?>
             </div>
         </div>
     </div>
     <!-- Footer START -->
-    <?php include 'includes/footer.php'; ?>
+    <?php include __DIR__ . '/includes/footer.php'; ?>
 
     <!-- Back to top -->
     <div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>

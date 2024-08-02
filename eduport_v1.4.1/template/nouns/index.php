@@ -131,5 +131,5 @@ $see_also_links = [
 ];
 */
 
-include '../master-template.php';
+include __DIR__ . '/../master-template.php';
 ?>

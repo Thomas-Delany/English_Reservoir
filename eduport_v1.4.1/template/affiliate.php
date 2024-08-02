@@ -47,7 +47,7 @@
 </head>
 
 <body>
-	<?php include 'includes/nav.php'; ?>
+	<?php include __DIR__ . '/includes/nav.php'; ?>
 	<!-- **************** MAIN CONTENT START **************** -->
 	<main>
 
@@ -506,7 +506,7 @@
 	</main>
 	<!-- **************** MAIN CONTENT END **************** -->
 	<!-- Footer START -->
-	<?php include 'includes/footer.php'; ?>
+	<?php include __DIR__ . '/includes/footer.php'; ?>
 	<!-- Footer END -->
 
 	<!-- Back to top -->

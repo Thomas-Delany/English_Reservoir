@@ -1,6 +1,6 @@
 <?php
 // index.php in the root directory
-include 'config.php'; // Include config.php for BASE_URL
+include __DIR__ . '/config.php'; // Include config.php for BASE_URL
 ?>
 <style>
 .navbar-expand-xl .navbar-nav .dropdown:hover>.dropdown-menu {

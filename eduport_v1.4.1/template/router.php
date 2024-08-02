@@ -17,6 +17,6 @@ if (array_key_exists($request, $routes)) {
     include $routes[$request];
 } else {
     // Handle 404 - Not Found
-    include '404.php';
+    include __DIR__ . '/404.php';
 }
 ?> 

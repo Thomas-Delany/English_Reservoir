@@ -107,5 +107,5 @@ $see_also_links = [
     ['url' => 'page5.php', 'title' => 'Page 5']
 ];
 // Include the master template
-include '../master-template.php';
+include __DIR__ . '/../master-template.php';
 ?>

@@ -1,4 +1,4 @@
-<?php include '../config.php'; ?>
+<?php include __DIR__ . '/../config.php'; ?>
 
 <!-- Parent Page Template.php -->
 <?php

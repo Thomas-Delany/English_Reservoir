@@ -142,5 +142,5 @@ $see_also_links = [
 */
 
 // Include the master template
-include '../master-template.php';
+include __DIR__ . '/../master-template.php';
 ?>
