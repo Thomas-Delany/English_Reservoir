@@ -1,6 +1,6 @@
 <?php
-// index.php in the root directory
-include __DIR__ . '/config.php'; // Include config.php for BASE_URL
+/*index.php in the root directory
+include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 ?>
 <style>
 .navbar-expand-xl .navbar-nav .dropdown:hover>.dropdown-menu {
@@ -18,7 +18,7 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL
 
 
 
-<!-- nav.php -->
+<!-- nav.php --> 
 <!-- Header START -->  
 <header class="navbar-light header-static">
 		<!-- Logo Nav START -->
@@ -26,8 +26,9 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL
 			<div class="container-fluid px-3 px-xl-5">  
 				<!-- Logo START -->
 				<a class="navbar-brand me-0 d-block text-center d-md-flex" href="<?php echo BASE_URL; ?>index.php"> 
-					<img class="light-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>assets/images/engish-reservoir_light.png" alt="logo">
-					<img class="dark-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>assets/images/engish-reservoir_dark.png" alt="logo">
+					<img class="light-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>assets/images/logo_ER_TEST.svg" alt="logo">
+					
+					<img class="dark-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>assets/images/logo_ER_TEST.svg" alt="logo">
 				</a>
 				<!-- Logo END -->
 
