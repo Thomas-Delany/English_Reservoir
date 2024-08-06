@@ -14,7 +14,7 @@
 	<script src="<?php echo BASE_URL; ?>script.js"></script>
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="<?php echo BASE_URL; ?>assets/images/favicon.png">
+	<link rel="shortcut icon" href="<?php echo BASE_URL; ?>assets/images/favicon_ER.png">
 
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">

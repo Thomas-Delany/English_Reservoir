@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/fed40285ab.js" crossorigin="anonymous"></script>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="<?php echo BASE_URL; ?>assets/images/favicon.png">
+    <link rel="shortcut icon" href="<?php echo BASE_URL; ?>assets/images/favicon_ER.png"> 
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
