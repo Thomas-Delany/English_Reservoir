@@ -2,18 +2,15 @@
     RewriteEngine On
     RewriteBase /
 
-    # Redirect requests to corresponding .php files
+    # Redirect requests to non-.php URLs to their corresponding .php files
     RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^([^/]+)/?$ $1.php [L]
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
     # Optional: Remove trailing slash
     RewriteRule ^(.*)/$ /$1 [R=301,L]
-
-    # Ensure requests without file extension are treated as .php files
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.*)$ $1.php [L,QSA]
 </IfModule>
+
+
 
 

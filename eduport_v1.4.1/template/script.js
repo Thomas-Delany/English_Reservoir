@@ -1,3 +1,4 @@
+// dark mode
 const storedTheme = localStorage.getItem('theme');
 
 const getPreferredTheme = () => {
@@ -26,7 +27,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 
-
+/*
 document.addEventListener('DOMContentLoaded', function () {
     fetch('articles.json')
         .then(response => response.json())
@@ -52,5 +53,5 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         })
         .catch(error => console.error('Error fetching articles:', error));
-});
+});*/
 
