@@ -11,6 +11,8 @@
     RewriteRule ^(.*)/$ /$1 [R=301,L]
 </IfModule>
 
+# Prepend config.php to every PHP file
+php_value auto_prepend_file "/home/u152002334/domains/englishreservoir.co.uk/public_html/template/config.php"
 
 
 
