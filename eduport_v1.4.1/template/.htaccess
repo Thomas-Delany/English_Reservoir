@@ -1,18 +1,20 @@
 <IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteBase /
+RewriteEngine On
+RewriteBase /
 
-    # Redirect requests to non-.php URLs to their corresponding .php files
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME}.php -f
-    RewriteRule ^([^\.]+)$ $1.php [NC,L]
+# Ensure that index.php is used as the default directory index
+DirectoryIndex index.php
 
-    # Optional: Remove trailing slash
-    RewriteRule ^(.*)/$ /$1 [R=301,L]
+# Remove .php extension from URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Redirect requests to non-existent files or directories to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L]
 </IfModule>
 
 # Prepend config.php to every PHP file
-php_value auto_prepend_file "/home/u152002334/domains/englishreservoir.co.uk/public_html/template/config.php"
-
-
-
+php_value auto_prepend_file "/home/u152002334/domains/englishreservoir.co.uk/public_html/config.php" 
