@@ -6,15 +6,21 @@ The English language is the international language of business, science, and fin
 
 Our main page: https://www.englishreservoir.com/ 
 
-Our page for Spain: https://www.englishreservoir.es/
+Our page for Spanish speakers: https://www.englishreservoir.es/
 
 Our listed sites above (.com and .es) use WordPress, however, future ccTLDS that English Reservoir will be built on will be done using Bootstrap. 
 
-Moreover, I am building a template website for English Reservoir with the CSS framework, Bootstrap which will serve as a template for all future country-specific domains. You can follow the process of all future updates to this template in this project. 
+Importantly, I have completed (and continue to update and improve) a template website for English Reservoir made with HTML, CSS, JavaScript, Bootstrap, and PHP for the backend, which will serve as a template for all future country-specific domains. You can follow the process of all future updates to this template in this project. 
 
-This template site that I am building (you can see in this repository) will not be uploaded as a website, however, it will serve as the main template for English Reservoir's domains which will be built on .co.uk, .pl, in, .cn, .fr etc. That is, all future domains for English Reservoir will use said template website. Doing this will allow me to streamline all English Reservoir ccTLD's and keep a common framework for an improved workflow, and updating. 
+Here is where you can see the deployed template website: 
 
-Further, the template website that I am building will essentially be a much needed improved copy of the current website (englishreservoir.com), only it'll be built using Bootstrap and not WordPress. Moreover, it will also contain filler information for pages, links, headers, mega menu etc. which will be in English so you can get a good general idea how I structure the English Reservoir domains. 
+https://englishreservoir.co.uk/ 
+
+The above template site (the code for which is in this repository) will serve as the main template for English Reservoir's domains which will be built on .pl, in, .cn, .fr and many more domains. That is, all future domains for English Reservoir will use said template website. Doing this will allow me to streamline all English Reservoir ccTLD's and keep a common framework for an improved workflow, and updating. 
+
+Further, English Reservoir's template website is essentially a much needed improved copy for the current websites (englishreservoir.com and .es), only it's built using Bootstrap and not WordPress. This, in turn, has allowed me to take full control of all aspects in the development including both the frontend and backend. 
+
+Moreover, https://englishreservoir.co.uk/ also contains filler information for pages, links, headers, mega menu etc. which is in English so you can get a good general idea how I structure the English Reservoir domains. 
 
 All courses and related learning infrastructure are on our subdomain: 
 
@@ -22,15 +28,15 @@ https://cursos.englishreservoir.com/
 
 It should be noted that our courses, at this point, are geared to the Spanish-speaking world, however, as we progress, we will also cater to many other countries.  
 
-Later on, in 2024, I will embark on my second project which shall be the creation of a new infrastructure for our subdomain (https://cursos.englishreservoir.com/) which will use Moodle and the PHP programming language for the backend. 
+Later on, in 2024, I will embark on my second project which will be the creation of a new infrastructure for our subdomain (https://cursos.englishreservoir.com/) which I plan to build using React. This shall form part of a separate repository.  
 
 Importantly, given that the template files in this repository are to serve as a template for future English Reservoir domains, I also plan to use these repository files as a continuous testing ground before actually making any changes to said English Reservoir domains. 
 
 Our YouTube channels are where we upload loads of free English learning content. It's here, where you can get a good idea of the layout, style and teaching method of our English courses:
 
-Our main YouTube channel in English https://www.youtube.com/@EnglishReservoir 
-
 Our YouTube channel in Spanish https://www.youtube.com/@EnglishReservoirES 
+
+Our main YouTube channel in English https://www.youtube.com/@EnglishReservoir 
 
 Thomas Delany
 

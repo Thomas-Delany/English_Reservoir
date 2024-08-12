@@ -2,7 +2,7 @@
 const storedTheme = localStorage.getItem("theme");
 
 const getPreferredTheme = () => {
-  // If there is a stored theme, return it
+  // If there is a stored theme; return it
   if (storedTheme) {
     return storedTheme;
   }
