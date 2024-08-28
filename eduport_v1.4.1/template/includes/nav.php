@@ -75,27 +75,24 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 											<h2 class="mb-0"><i class="bi bi-rocket"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="https://www.englishreservoir.com/advanced-english-grammar/">Advanced
-													Grammar</a>
-												<p class="mb-0 small">Articles, Prefixes and Suffixes, Pronouns,
-													Emphasis in English, Question tags, Conditionals and more stuff!
-												</p>
-											</div>
-										</div>
-										<!-- sub item -->
-										<div class="d-flex mb-4 position-relative">
-											<h2 class="mb-0"><i class="bi bi-chat-dots"></i></h2>
-											<div class="ms-2">
-												<a class="stretched-link h6 mb-0"
 													href="<?php echo BASE_URL; ?>english-verbs/">Verbs in English</a>
 												<p class="mb-0 small">Main and Modal Auxiliaries, Active and Passive
 													forms, Phrasal Verbs, Copulas, Ordinary verbs, "Get" and more!
 												</p>
 											</div>
 										</div>
+
+										<!-- sub item -->
+										 <div class="d-flex mb-4 position-relative">
+											<h2 class="mb-0"><i class="bi bi-question-square"></i></h2>
+											<div class="ms-2">
+												<a class="stretched-link h6 mb-0"
+													href="<?php echo BASE_URL; ?>english-confusions/">English Confusions</a>
+												<p class="mb-0 small">Do vs. make, to vs. for, on vs. upon, every
+													frequent doubt, you name it, we have you covered.</p>
+											</div>
+										</div>
 									</div>
-
-
 
 									<!-- column item --> 
 									<div class="col-xl-4 col-xxl-4 mb-3">
@@ -113,16 +110,6 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 
 										<!-- sub item -->
 										<div class="d-flex mb-4 position-relative">
-											<h2 class="mb-0"><i class="bi bi-question-square"></i></h2>
-											<div class="ms-2">
-												<a class="stretched-link h6 mb-0"
-													href="<?php echo BASE_URL; ?>english-confusions/">English Confusions</a>
-												<p class="mb-0 small">Do vs. make, to vs. for, on vs. upon, every
-													frequent doubt, you name it, we have you covered.</p>
-											</div>
-										</div>
-										<!-- sub item -->
-										<div class="d-flex mb-4 position-relative">
 											<h2 class="mb-0"><i class="bi bi-brush"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
@@ -131,10 +118,7 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 													Fullstops, Question and Exclamation marks, and Quotation Marks.</p>
 											</div>
 										</div>
-									</div>
 
-									<!-- column item -->
-									<div class="col-xl-4 col-xxl-4 mb-3">
 										<!-- sub item -->
 										<div class="d-flex mb-4 position-relative">
 											<h2 class="mb-0"><i class="bi bi-volume-up"></i></h2>
@@ -145,7 +129,10 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 													Nasal Sounds, Common Mistakes, and more.</p>
 											</div>
 										</div>
+									</div>
 
+									<!-- column item -->
+									<div class="col-xl-4 col-xxl-4 mb-3">
 										<!-- sub item -->
 										<div class="d-flex mb-4 position-relative">
 											<h2 class="mb-0"><i class="bi bi-book"></i></h2>
@@ -163,6 +150,16 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 												<a class="stretched-link h6 mb-0"
 													href="https://www.youtube.com/@EnglishReservoir" target="_blank" rel="noopener noreferrer">Learn for Free!</a>
 												<p class="mb-0 small">100's of free learning tutorials on YouTube!</p>
+											</div>
+										</div>
+
+										<!-- sub item -->
+										<div class="d-flex mb-4 position-relative">
+											<h2 class="mb-0"><i class="bi bi-chat-dots"></i></h2>
+											<div class="ms-2">
+												<a class="stretched-link h6 mb-0"
+													href="https://cursos.englishreservoir.com/p/curso-de-ingles-gratuito" target="_blank" rel="noopener noreferrer">Take A Free English Course!</a>
+												<p class="mb-0 small">Start your learning right now. You'll learn heaps! No sign ups, completely free!</p>
 											</div>
 										</div>
 									</div>
