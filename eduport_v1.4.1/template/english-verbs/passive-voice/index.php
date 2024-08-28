@@ -14,44 +14,23 @@ HTML;
 // Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'english-verbs/passive-voice/present-simple-passive.php', 'title' => 'Present Simple - Passive'],
-    ['url' => BASE_URL . 'english-verbs/passive-voice/present-continuous-passive.php', 'title' => 'Present Continuous - Passive'],
-    ['url' => BASE_URL . 'english-verbs/passive-voice/present-perfect-continuous-passive.php', 'title' => 'Present Perfect Continuous - Passive'],
-    ['url' => BASE_URL . 'english-verbs/passive-voice/present-perfect-passive.php', 'title' => 'Present Perfect - Passive'],
-    ['url' => BASE_URL . 'english-verbs/passive-voice/past-continuous-passive.php', 'title' => 'Past Continuous - Passive'],
-    ['url' => BASE_URL . 'english-verbs/passive-voice/past-perfect-continuous-passive.php', 'title' => 'Past Perfect Continuous - Passive'],
-    ['url' => BASE_URL . 'english-verbs/passive-voice/past-simple-passive.php', 'title' => 'Past Simple - Passive'],
-    ['url' => BASE_URL . 'english-verbs/passive-voice/past-perfect-passive.php', 'title' => 'Past Perfect - Passive'],
-    ['url' => BASE_URL . 'english-verbs/passive-voice/future-simple-passive.php', 'title' => 'Future Simple - Passive'],
-    ['url' => BASE_URL . 'english-verbs/passive-voice/future-continuous-passive.php', 'title' => 'Future Continuous - Passive'],
-    ['url' => BASE_URL . 'english-verbs/passive-voice/future-perfect-passive.php', 'title' => 'Future Perfect - Passive'],
-    ['url' => BASE_URL . 'english-verbs/passive-voice/future-perfect-continuous-passive.php', 'title' => 'Future Perfect Continuous - Passive'],
+    ['url' => BASE_URL . 'english-verbs/passive-voice/present-simple-passive', 'title' => 'Present Simple - Passive'],
+    ['url' => BASE_URL . 'english-verbs/passive-voice/present-continuous-passive', 'title' => 'Present Continuous - Passive'],
+    ['url' => BASE_URL . 'english-verbs/passive-voice/present-perfect-continuous-passive', 'title' => 'Present Perfect Continuous - Passive'],
+    ['url' => BASE_URL . 'english-verbs/passive-voice/present-perfect-passive', 'title' => 'Present Perfect - Passive'],
+    ['url' => BASE_URL . 'english-verbs/passive-voice/past-continuous-passive', 'title' => 'Past Continuous - Passive'],
+    ['url' => BASE_URL . 'english-verbs/passive-voice/past-perfect-continuous-passive', 'title' => 'Past Perfect Continuous - Passive'],
+    ['url' => BASE_URL . 'english-verbs/passive-voice/past-simple-passive', 'title' => 'Past Simple - Passive'],
+    ['url' => BASE_URL . 'english-verbs/passive-voice/past-perfect-passive', 'title' => 'Past Perfect - Passive'],
+    ['url' => BASE_URL . 'english-verbs/passive-voice/future-simple-passive', 'title' => 'Future Simple - Passive'],
+    ['url' => BASE_URL . 'english-verbs/passive-voice/future-continuous-passive', 'title' => 'Future Continuous - Passive'],
+    ['url' => BASE_URL . 'english-verbs/passive-voice/future-perfect-passive', 'title' => 'Future Perfect - Passive'],
+    ['url' => BASE_URL . 'english-verbs/passive-voice/future-perfect-continuous-passive', 'title' => 'Future Perfect Continuous - Passive'],
     // Anchor links
     ['url' => '#section1', 'title' => 'Why is the passive voice used?'],
     ['url' => '#section2', 'title' => 'Indicating the agent in the passive'],
     // External links ['url' => '#', 'title' => 'External Link']
 ]; 
-
-/* Table of Contents sections
-$toc_sections = [
-    // Internal links
-    ['url' => '#', 'title' => 'Present Simple - Passive'],
-    ['url' => '#', 'title' => 'Present Continuous - Passive'],
-    ['url' => '#', 'title' => 'Present Perfect Continuous - Passive'],
-    ['url' => '#', 'title' => 'Present Perfect - Passive'],
-    ['url' => '#', 'title' => 'Past Continuous - Passive'],
-    ['url' => '#', 'title' => 'Past Perfect Continuous - Passive'],
-    ['url' => '#', 'title' => 'Past Simple - Passive'],
-    ['url' => '#', 'title' => 'Past Perfect - Passive'],
-    ['url' => '#', 'title' => 'Future Simple - Passive'],
-    ['url' => '#', 'title' => 'Future Continuous - Passive'],
-    ['url' => '#', 'title' => 'Future Perfect - Passive'],
-    ['url' => '#', 'title' => 'Future Perfect Continuous - Passive'],
-    // Anchor links
-    ['url' => '#section1', 'title' => 'Why is the passive voice used?'],
-    ['url' => '#section2', 'title' => 'Indicating the agent in the passive'],
-    // External links ['url' => '#', 'title' => 'External Link']
-];*/
 
 $sections = [
     [

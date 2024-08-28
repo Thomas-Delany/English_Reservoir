@@ -32,27 +32,6 @@ $toc_sections = [
     // External links ['url' => '#', 'title' => 'External Link']
 ]; 
 
-/* Table of Contents sections
-$toc_sections = [
-    // Internal links
-    ['url' => '#', 'title' => 'Main Auxiliary Verbs'],
-    ['url' => '#', 'title' => 'Modal Auxiliary Verbs'],
-    ['url' => '#', 'title' => 'Active Voice'],
-    ['url' => '#', 'title' => 'Passive Voice'],
-    ['url' => '#', 'title' => 'English Verbal Order'],
-    ['url' => '#', 'title' => 'Phrasal Verbs'],
-    ['url' => '#', 'title' => 'Copular Verbs'],
-    ['url' => '#', 'title' => 'Get'],
-    ['url' => '#', 'title' => 'Got and Gotten + Get and Got'],
-    ['url' => '#', 'title' => 'Ordinary Verbs'],
-    // Anchor links
-    ['url' => '#section1', 'title' => 'The present simple in English with the verb see'],
-    ['url' => '#section2', 'title' => 'Present simple in Spanish, with the same verb ver'],
-    ['url' => '#section3', 'title' => 'Knowing how verbs work in English'],
-    ['url' => '#section4', 'title' => 'Fewer inflections but lots of rules'],
-    // External links ['url' => '#', 'title' => 'External Link']
-];*/
-
 // Define sections
 $sections = [
     [

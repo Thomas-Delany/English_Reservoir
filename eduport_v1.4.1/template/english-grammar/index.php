@@ -28,23 +28,6 @@ $toc_sections = [
     // External links ['url' => '#', 'title' => 'External Link']
 ]; 
 
-/* Table of Contents sections
-$toc_sections = [
-    // Internal links
-    ['url' => '#', 'title' => 'Verbs'],
-    ['url' => '#', 'title' => 'Nouns'],
-    ['url' => '#', 'title' => 'Adjectives'],
-    ['url' => '#', 'title' => 'Adverbs'],
-    ['url' => '#', 'title' => 'Prepositions'],
-    ['url' => '#', 'title' => 'Conjunctions'],
-    ['url' => '#', 'title' => 'Interjections*'],
-    // Anchor links
-    ['url' => '#section1', 'title' => 'What are the six parts of speech?'],
-    ['url' => '#section2', 'title' => 'Knowing the six parts of speech'],
-    ['url' => '#section3', 'title' => 'Using the six parts of speech in English grammar'],
-    // External links ['url' => '#', 'title' => 'External Link']
-];*/
-
 // Define sections
 $sections = [
     [

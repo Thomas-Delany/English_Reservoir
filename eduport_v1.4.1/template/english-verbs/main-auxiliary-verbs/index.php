@@ -14,9 +14,9 @@ HTML;
 // Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs/to-be.php', 'title' => 'To be'],
-    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs/to-have.php', 'title' => 'To have'],
-    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs/to-do.php', 'title' => 'To do'],
+    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs/to-be', 'title' => 'To be'],
+    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs/to-have', 'title' => 'To have'],
+    ['url' => BASE_URL . 'english-verbs/main-auxiliary-verbs/to-do', 'title' => 'To do'],
     // Anchor links
     ['url' => '#section1', 'title' => 'Why do we use auxiliary verbs?'],
     ['url' => '#section2', 'title' => 'The main auxiliary verbs'],
@@ -27,23 +27,6 @@ $toc_sections = [
     ['url' => '#section7', 'title' => 'To form all passive forms, use continuous forms, and copulative structures - to be'],
     // External links ['url' => '#', 'title' => 'External Link']
 ]; 
-
-/* Table of Contents sections
-$toc_sections = [
-    // Internal links
-    ['url' => '#', 'title' => 'To be'],
-    ['url' => '#', 'title' => 'To have'],
-    ['url' => '#', 'title' => 'To do'],
-    // Anchor links
-    ['url' => '#section1', 'title' => 'Why do we use auxiliary verbs?'],
-    ['url' => '#section2', 'title' => 'The main auxiliary verbs'],
-    ['url' => '#section3', 'title' => 'English is an analytic language'],
-    ['url' => '#section4', 'title' => 'Learning how main auxiliaries work'],
-    ['url' => '#section5', 'title' => 'To ask a question, emphasize, negate or use ellipsis - to do'],
-    ['url' => '#section6', 'title' => 'To form all perfect forms, express obligation, and possession - to have'],
-    ['url' => '#section7', 'title' => 'To form all passive forms, use continuous forms, and copulative structures - to be'],
-    // External links ['url' => '#', 'title' => 'External Link']
-];*/
 
 // Define sections
 $sections = [

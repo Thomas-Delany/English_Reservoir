@@ -14,28 +14,15 @@ HTML;
 // Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'english-verbs/verbal-order/gerunds.php', 'title' => 'Gerunds (verb + ing)'],
-    ['url' => BASE_URL . 'english-verbs/verbal-order/to-infinitive.php', 'title' => 'To + Infinitive'],
-    ['url' => BASE_URL . 'english-verbs/verbal-order/bare-infinitive.php', 'title' => 'Bare Infinitive'],
+    ['url' => BASE_URL . 'english-verbs/verbal-order/gerunds', 'title' => 'Gerunds (verb + ing)'],
+    ['url' => BASE_URL . 'english-verbs/verbal-order/to-infinitive', 'title' => 'To + Infinitive'],
+    ['url' => BASE_URL . 'english-verbs/verbal-order/bare-infinitive', 'title' => 'Bare Infinitive'],
     // Anchor links
     ['url' => '#section1', 'title' => 'Why can we not say the following?'],
     ['url' => '#section2', 'title' => 'Gerunds also function as subjects and objects'],
     ['url' => '#section3', 'title' => 'What about when to use “to” or “for”?'],
     // External links ['url' => '#', 'title' => 'External Link']
 ]; 
-
-/* Table of Contents sections
-$toc_sections = [
-    // Internal links
-    ['url' => '#', 'title' => 'Gerunds (verb + ing)'],
-    ['url' => '#', 'title' => 'To + Infinitive'],
-    ['url' => '#', 'title' => 'Bare Infinitive'],
-    // Anchor links
-    ['url' => '#section1', 'title' => 'Why can we not say the following?'],
-    ['url' => '#section2', 'title' => 'Gerunds also function as subjects and objects'],
-    ['url' => '#section3', 'title' => 'What about when to use “to” or “for”?'],
-    // External links ['url' => '#', 'title' => 'External Link']
-];*/
 
 // Define sections
 $sections = [

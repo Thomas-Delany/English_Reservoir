@@ -7,8 +7,9 @@ DirectoryIndex index.php
 
 # Remove .php extension from URLs
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*)$ $1.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.+)$ $1.php [L,QSA]
 
 # Redirect requests to non-existent files or directories to index.php
 RewriteCond %{REQUEST_FILENAME} !-f

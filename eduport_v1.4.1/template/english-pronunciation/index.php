@@ -14,15 +14,15 @@ HTML;
 // Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'english-pronunciation/english-pronunciation-our-course.php', 'title' => 'English Pronunciation - Our Course'],
-    ['url' => BASE_URL . 'english-pronunciation/vowels.php', 'title' => 'Vowels'],
-    ['url' => BASE_URL . 'english-pronunciation/consonants.php', 'title' => 'Consonants'],
-    ['url' => BASE_URL . 'english-pronunciation/common-pronunciation-mistakes.php', 'title' => 'Common Pronunciation Mistakes'],
-    ['url' => BASE_URL . 'english-pronunciation/contractions.php', 'title' => 'Contractions in English - How to Pronounce them'],
-    ['url' => BASE_URL . 'english-pronunciation/ipa.php', 'title' => 'Introduction to IPA'],
-    ['url' => BASE_URL . 'english-pronunciation/ipa-chart.php', 'title' => 'IPA Chart (Inernational Phonetic Alphabet)'],
-    ['url' => BASE_URL . 'english-pronunciation/ed-ending-of-verbs.php', 'title' => 'The "ed" ending'],
-    ['url' => BASE_URL . 'english-pronunciation/nasal-sounds-in-english.php', 'title' => 'Nasal sound in English'],
+    ['url' => BASE_URL . 'english-pronunciation/english-pronunciation-our-course', 'title' => 'English Pronunciation - Our Course'],
+    ['url' => BASE_URL . 'english-pronunciation/vowels', 'title' => 'Vowels'],
+    ['url' => BASE_URL . 'english-pronunciation/consonants', 'title' => 'Consonants'],
+    ['url' => BASE_URL . 'english-pronunciation/common-pronunciation-mistakes', 'title' => 'Common Pronunciation Mistakes'],
+    ['url' => BASE_URL . 'english-pronunciation/contractions', 'title' => 'Contractions in English - How to Pronounce them'],
+    ['url' => BASE_URL . 'english-pronunciation/ipa', 'title' => 'Introduction to IPA'],
+    ['url' => BASE_URL . 'english-pronunciation/ipa-chart', 'title' => 'IPA Chart (Inernational Phonetic Alphabet)'],
+    ['url' => BASE_URL . 'english-pronunciation/ed-ending-of-verbs', 'title' => 'The "ed" ending'],
+    ['url' => BASE_URL . 'english-pronunciation/nasal-sounds-in-english', 'title' => 'Nasal sound in English'],
     // Anchor links
     ['url' => '#section1', 'title' => 'How to speak English with correct pronunciation'],
     ['url' => '#section2', 'title' => 'English pronunciation is irregular'],
@@ -30,29 +30,6 @@ $toc_sections = [
     ['url' => '#section4', 'title' => 'To learn or not to learn IPA?'],
     // External links ['url' => '#', 'title' => 'External Link']
 ]; 
-
-/* Table of Contents sections
-$toc_sections = [
-    // Internal links
-    ['url' => '#', 'title' => 'English Pronunciation - An Introduction'],
-    ['url' => '#', 'title' => 'English Pronunciation - Our Course'],
-    ['url' => '#', 'title' => 'Vowels'],
-    ['url' => '#', 'title' => 'Consonants'],
-    ['url' => '#', 'title' => 'Common Pronunciation Mistakes'],
-    ['url' => '#', 'title' => 'Contractions in English - How to Pronounce them'],
-    ['url' => '#', 'title' => 'Introduction to IPA'],
-    ['url' => '#', 'title' => 'IPA Chart (Inernational Phonetic Alphabet)'],
-    ['url' => '#', 'title' => 'The "ed" ending'],
-    ['url' => '#', 'title' => 'Nasal sound in English'],
-    ['url' => '#', 'title' => '3 Pronunciation Tips!'],
-    ['url' => '#', 'title' => '3 Pronunciaton Must-Dos!'],
-    // Anchor links
-    ['url' => '#section1', 'title' => 'How to speak English with correct pronunciation'],
-    ['url' => '#section2', 'title' => 'English pronunciation is irregular'],
-    ['url' => '#section3', 'title' => 'So, how do you, the learner, get around this?'],
-    ['url' => '#section4', 'title' => 'To learn or not to learn IPA?'],
-    // External links ['url' => '#', 'title' => 'External Link']
-];*/
 
 // Define sections
 $sections = [

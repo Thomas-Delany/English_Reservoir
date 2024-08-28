@@ -80,14 +80,14 @@
             <!-- Courses -->
             <ul class="nav flex-column">
                 <li class="nav-item"><a class="nav-link text-white"
-                        href="<?php echo BASE_URL; ?>about-english-reservoir.php">About Us</a></li>
+                        href="<?php echo BASE_URL; ?>about-english-reservoir">About Us</a></li>
                 <li class="nav-item"><a class="nav-link text-white"
                         href="https://www.youtube.com/@EnglishReservoir/featured">Learn for Free!</a></li>
                 <li class="nav-item"><a class="nav-link text-white"
-                        href="<?php echo BASE_URL; ?>method-english-reservoir.php">Our Teaching
+                        href="<?php echo BASE_URL; ?>method-english-reservoir">Our Teaching
                         Method</a></li>
                 <li class="nav-item"><a class="nav-link text-white"
-                        href="<?php echo BASE_URL; ?>affiliate.php">Affiliate
+                        href="<?php echo BASE_URL; ?>affiliate">Affiliate
                         Programme</a></li>
             </ul>
         </div>

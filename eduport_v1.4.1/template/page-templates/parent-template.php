@@ -1,5 +1,3 @@
-<?php include __DIR__ . '/../config.php'; ?>
-
 <!-- Parent Page Template.php -->
 <?php
 $page_title = "Parent Page Template"; 

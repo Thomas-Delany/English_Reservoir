@@ -14,15 +14,15 @@ HTML;
 // Table of Contents sections
 $toc_sections = [
     // Internal links
-    ['url' => BASE_URL . 'english-punctuation/apostrophes.php', 'title' => 'Apostrophes'],
-    ['url' => BASE_URL . 'english-punctuation/colons.php', 'title' => 'Colons'],
-    ['url' => BASE_URL . 'english-punctuation/semi-colons.php', 'title' => 'Semi-colons'],
-    ['url' => BASE_URL . 'english-punctuation/commas.php', 'title' => 'Commas'],
-    ['url' => BASE_URL . 'english-punctuation/dashes.php', 'title' => 'Dashes/Hyphens'],
-    ['url' => BASE_URL . 'english-punctuation/full-stops.php', 'title' => 'Full Stops'],
-    ['url' => BASE_URL . 'english-punctuation/question-marks.php', 'title' => 'Question Marks'],
-    ['url' => BASE_URL . 'english-punctuation/exclamation-marks.php', 'title' => 'Exclamation Marks'],
-    ['url' => BASE_URL . 'english-punctuation/quotation-marks.php', 'title' => 'Quotation Marks'],
+    ['url' => BASE_URL . 'english-punctuation/apostrophes', 'title' => 'Apostrophes'],
+    ['url' => BASE_URL . 'english-punctuation/colons', 'title' => 'Colons'],
+    ['url' => BASE_URL . 'english-punctuation/semi-colons', 'title' => 'Semi-colons'],
+    ['url' => BASE_URL . 'english-punctuation/commas', 'title' => 'Commas'],
+    ['url' => BASE_URL . 'english-punctuation/dashes', 'title' => 'Dashes/Hyphens'],
+    ['url' => BASE_URL . 'english-punctuation/full-stops', 'title' => 'Full Stops'],
+    ['url' => BASE_URL . 'english-punctuation/question-marks', 'title' => 'Question Marks'],
+    ['url' => BASE_URL . 'english-punctuation/exclamation-marks', 'title' => 'Exclamation Marks'],
+    ['url' => BASE_URL . 'english-punctuation/quotation-marks', 'title' => 'Quotation Marks'],
      // Anchor links
     ['url' => '#section1', 'title' => 'Why is punctuation so important?'],
     ['url' => '#section2', 'title' => 'Mistakes to avoid in English punctuation'],
@@ -30,26 +30,6 @@ $toc_sections = [
     ['url' => '#section4', 'title' => 'How to improve your punctuation'],
     // External links ['url' => '#', 'title' => 'External Link']
 ]; 
-
-/* Table of Contents sections
-$toc_sections = [
-    // Internal links
-    ['url' => '#', 'title' => 'Apostrophes'],
-    ['url' => '#', 'title' => 'Colons'],
-    ['url' => '#', 'title' => 'Semi-colons'],
-    ['url' => '#', 'title' => 'Commas'],
-    ['url' => '#', 'title' => 'Dashes/Hyphens'],
-    ['url' => '#', 'title' => 'Full Stops'],
-    ['url' => '#', 'title' => 'Question Marks'],
-    ['url' => '#', 'title' => 'Exclamation Marks'],
-    ['url' => '#', 'title' => 'Quotation Marks'],
-    // Anchor links
-    ['url' => '#section1', 'title' => 'Why is punctuation so important?'],
-    ['url' => '#section2', 'title' => 'Mistakes to avoid in English punctuation'],
-    ['url' => '#section3', 'title' => 'Let us analyse the punctuation mistakes above'],
-    ['url' => '#section4', 'title' => 'How to improve your punctuation'],
-    // External links ['url' => '#', 'title' => 'External Link']
-];*/
 
 // Define sections
 $sections = [

@@ -39,11 +39,11 @@
     <!-- Title -->
     <li class="nav-item lead fw-bold my-2">More about us</li>
 
-    <li class="nav-item"><a href="<?php echo BASE_URL; ?>about-english-reservoir.php" class="nav-link"><i class="bi bi-house me-2"></i>About Us</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>about-english-reservoir" class="nav-link"><i class="bi bi-house me-2"></i>About Us</a></li>
 
-    <li class="nav-item"><a href="<?php echo BASE_URL; ?>method-english-reservoir.php" class="nav-link"><i class="bi bi-easel2 me-2"></i>Our Method</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>method-english-reservoir" class="nav-link"><i class="bi bi-easel2 me-2"></i>Our Method</a></li>
 
-    <li class="nav-item"><a href="<?php echo BASE_URL; ?>affiliate.php" class="nav-link"><i class="far fa-chart-bar me-2"></i>Affiliate Programme</a></li>
+    <li class="nav-item"><a href="<?php echo BASE_URL; ?>affiliate" class="nav-link"><i class="far fa-chart-bar me-2"></i>Affiliate Programme</a></li>
 
     <li class="nav-item"><a href="https://www.youtube.com/@EnglishReservoir/featured" target="_blank" rel="noopener noreferrer" class="nav-link"><i class="bi bi-youtube me-2"></i>YouTube</a></li>
     
