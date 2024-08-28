@@ -381,7 +381,7 @@
 						</ul>
 						<!-- Image -->
 						<div class="text-center m-5">
-							<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/affiliate/affiliate_programme_1.png"
+							<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/affiliate_programme_1.png"
 								alt="affiliate dashboard">
 							</a>
 						</div>
@@ -405,7 +405,7 @@
 								href="https://sso.teachable.com/secure/528091/identity/login">this link.</a>
 						</p>
 						<div class="text-center m-5">
-							<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/affiliate/affiliate_programme_2.png"
+							<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/affiliate_programme_2.png"
 								alt="affiliate data">
 							</a>
 						</div>
@@ -465,7 +465,7 @@
 								free
 								portion of each course is available to anyone.</a></p>
 						<div class="text-center m-5">
-							<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/affiliate/affiliate_programme_3.png"
+							<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/affiliate_programme_3.png"
 								alt="affiliate programme">
 							</a>
 						</div>
@@ -492,7 +492,7 @@
 						<p class="mb-3">Here's what your dashboard looks like:
 						</p>
 						<div class="text-center m-5">
-							<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/affiliate/affiliate_programme_4.png"
+							<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/affiliate_programme_4.png"
 								alt="affiliate payments">
 							</a>
 						</div>
