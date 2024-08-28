@@ -25,7 +25,7 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 		<nav class="navbar navbar-expand-xl">
 			<div class="container-fluid px-3 px-xl-5">  
 				<!-- Logo START -->
-				<a class="navbar-brand me-0 d-block text-center d-md-flex" href="<?php echo BASE_URL; ?>index.php"> 
+				<a class="navbar-brand me-0 d-block text-center d-md-flex" href="<?php echo BASE_URL; ?>"> 
 					<img class="light-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>assets/images/LOGO-LIGHT.png" alt="logo">
 					
 					<img class="dark-mode-item navbar-brand-item" src="<?php echo BASE_URL; ?>assets/images/LOGO-DARK.png" alt="logo">
@@ -63,7 +63,7 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 											<h2 class="mb-0"><i class="bi bi-gear"></i></h2>
 											<div class="ms-2">
 												<a class="stretched-link h6 mb-0"
-													href="<?php echo BASE_URL; ?>english-grammar/">Essential
+													href="<?php echo BASE_URL; ?>english-grammar/">English
 													Grammar</a>
 												<p class="mb-0 small">Nouns, Adjectives, Prepositions, Adverbs,
 													Conjunctions and Interjections.</p>

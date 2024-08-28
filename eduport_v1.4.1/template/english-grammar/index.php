@@ -13,6 +13,11 @@ HTML;
 
 // Table of Contents sections
 $toc_sections = [
+    // Anchor links
+    ['url' => '#section1', 'title' => 'What are the six parts of speech?'],
+    ['url' => '#section2', 'title' => 'Knowing the six parts of speech'],
+    ['url' => '#section3', 'title' => 'Using the six parts of speech in English grammar'],
+    // External links ['url' => '#', 'title' => 'External Link']
     // Internal links
     ['url' => BASE_URL . 'english-verbs', 'title' => 'Verbs'],
     ['url' => BASE_URL . 'nouns', 'title' => 'Nouns'],
@@ -20,11 +25,56 @@ $toc_sections = [
     ['url' => BASE_URL . 'adverbs', 'title' => 'Adverbs'],
     ['url' => BASE_URL . 'prepositions', 'title' => 'Prepositions'],
     ['url' => BASE_URL . 'conjunctions', 'title' => 'Conjunctions'],
-    ['url' => BASE_URL . 'english-grammar/interjections.php', 'title' => 'Interjections*'],
-    // Anchor links
-    ['url' => '#section1', 'title' => 'What are the six parts of speech?'],
-    ['url' => '#section2', 'title' => 'Knowing the six parts of speech'],
-    ['url' => '#section3', 'title' => 'Using the six parts of speech in English grammar'],
+    ['url' => BASE_URL . 'english-grammar/interjections', 'title' => 'Interjections*'],
+    ['url' => BASE_URL . 'english-grammar/articles-a-an-the-and-zero-article
+', 'title' => 'Articles: A/an, The, and Zero Article
+'],
+    ['url' => BASE_URL . 'english-grammar/affixes-an-introduction
+', 'title' => 'Affixes: An Introduction
+'],
+    ['url' => BASE_URL . 'english-grammar/prefixes-and-suffixes-a-complete-list
+', 'title' => 'Prefixes and Suffixes: A Complete List
+'],
+    ['url' => BASE_URL . 'english-grammar/pronouns-subject-object-and-possessive-pronouns
+', 'title' => 'Pronouns: Subject, Object and Possessive Pronouns
+'],
+    ['url' => BASE_URL . 'english-grammar/question-tags
+', 'title' => 'Question Tags
+'],
+    ['url' => BASE_URL . 'english-grammar/english-conditionals
+', 'title' => 'English Conditionals
+'],
+    ['url' => BASE_URL . 'english-grammar/interrogative-words
+', 'title' => 'Interrogative Words
+'],
+    ['url' => BASE_URL . 'english-grammar/determiners', 'title' => 'Determiners'],
+    ['url' => BASE_URL . 'english-grammar/reported-speech
+', 'title' => 'Reported Speech
+'],
+    ['url' => BASE_URL . 'english-grammar/numbers', 'title' => 'Numbers'],
+    ['url' => BASE_URL . 'english-grammar/cleft-sentences
+', 'title' => 'Cleft Sentences
+'],
+    ['url' => BASE_URL . 'english-grammar/subjunctive-in-english
+', 'title' => 'Subjunctive in English
+'],
+    ['url' => BASE_URL . 'english-grammar/jargon-and-taboo
+', 'title' => 'Jargon and Taboo
+'],
+    ['url' => BASE_URL . 'english-grammar/ellpsis', 'title' => 'Ellpsis'],
+    ['url' => BASE_URL . 'english-grammar/split-infinitive
+', 'title' => 'Split Infinitive
+'],
+    ['url' => BASE_URL . 'english-grammar/emphasis-in-english
+', 'title' => 'Emphasis in English
+'],
+    ['url' => BASE_URL . 'english-grammar/emphasis-with-inversion
+', 'title' => 'Emphasis with Inversion
+'],
+    ['url' => BASE_URL . 'english-grammar/british-and-american-spelling
+', 'title' => 'British and American Spelling
+'],
+
     // External links ['url' => '#', 'title' => 'External Link']
 ]; 
 
