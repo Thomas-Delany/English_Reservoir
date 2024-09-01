@@ -302,7 +302,7 @@
 							</p>
 						</div>
 						<!-- Button -->
-						<a href="#" class="btn btn-md btn-primary me-2 mb-4 mb-sm-0">Get Started</a>
+						<a href="https://cursos.englishreservoir.com/p/cursos-de-ingles-metodo-divertido" class="btn btn-md btn-primary me-2 mb-4 mb-sm-0">Get Started</a>
 					</div>
 				</div>
 			</div>
