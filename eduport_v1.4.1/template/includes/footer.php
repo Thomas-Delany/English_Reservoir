@@ -52,24 +52,33 @@
             </h5>
             <!-- Courses -->
             <ul class="nav flex-column">
+
                 <li class="nav-item"><a class="nav-link text-white"
-                        href="<?php echo BASE_URL; ?>english-grammar/">Essential Grammar</a>
+                        href="<?php echo BASE_URL; ?>english-grammar/">English Grammar</a>
                 </li>
+
                 <li class="nav-item"><a class="nav-link text-white"
-                        href="https://www.englishreservoir.com/advanced-english-grammar/">Advanced Grammar</a>
+                        href="<?php echo BASE_URL; ?>english-verbs/">Verbs in English</a>
                 </li>
+
                 <li class="nav-item"><a class="nav-link text-white"
-                        href="<?php echo BASE_URL; ?>english-pronunciation/">English Pronunciation</a></li>
-                <li class="nav-item"><a class="nav-link text-white"
-                        href="<?php echo BASE_URL; ?>english-verbs/">English Verbs</a>
-                </li>
-                <li class="nav-item"><a class="nav-link text-white"
-                        href="<?php echo BASE_URL; ?>english-confusions/">Common English
+                        href="<?php echo BASE_URL; ?>english-confusions/">English
                         Confusions</a></li>
+
                 <li class="nav-item"><a class="nav-link text-white"
-                        href="<?php echo BASE_URL; ?>english-punctuation">Punctuation</a></li>
+                        href="<?php echo BASE_URL; ?>cambridge/">Cambridge Courses</a></li>
+
                 <li class="nav-item"><a class="nav-link text-white"
-                        href="<?php echo BASE_URL; ?>blog/">Blog!</a></li>
+                        href="<?php echo BASE_URL; ?>english-punctuation/">Punctuation</a></li>
+
+                <li class="nav-item"><a class="nav-link text-white"
+                        href="<?php echo BASE_URL; ?>english-pronunciation/">Pronunciation</a></li>
+
+                <li class="nav-item"><a class="nav-link text-white"
+                        href="https://cursos.englishreservoir.com/p/curso-de-ingles-gratuito">Take a free course!</a></li>
+
+                <li class="nav-item"><a class="nav-link text-white"
+                        href="<?php echo BASE_URL; ?>blog">Blog</a></li>
             </ul>
         </div>
         <!-- Widget 3 END -->
@@ -81,11 +90,14 @@
             <ul class="nav flex-column">
                 <li class="nav-item"><a class="nav-link text-white"
                         href="<?php echo BASE_URL; ?>about-english-reservoir">About Us</a></li>
+
                 <li class="nav-item"><a class="nav-link text-white"
                         href="https://www.youtube.com/@EnglishReservoir/featured">Learn for Free!</a></li>
+
                 <li class="nav-item"><a class="nav-link text-white"
                         href="<?php echo BASE_URL; ?>method-english-reservoir">Our Teaching
                         Method</a></li>
+                        
                 <li class="nav-item"><a class="nav-link text-white"
                         href="<?php echo BASE_URL; ?>affiliate">Affiliate
                         Programme</a></li>
