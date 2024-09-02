@@ -32,7 +32,7 @@ Later on, in 2024, I will embark on my second project which will be the creation
 
 Importantly, given that the template files in this repository are to serve as a template for future English Reservoir domains, I also plan to use these repository files as a continuous testing ground before actually making any changes to said English Reservoir domains. 
 
-Our YouTube channels are where we upload loads of free English learning content. It's here, where you can get a good idea of the layout, style and teaching method of our English courses:
+Our YouTube channels are where we upload loads of free English learning content. It's here, where you can get a good idea of the layout, style and teaching method of our English courses
 
 Our YouTube channel in Spanish https://www.youtube.com/@EnglishReservoirES 
 
