@@ -38,5 +38,10 @@ Our YouTube channel in Spanish https://www.youtube.com/@EnglishReservoirES
 
 Our main YouTube channel in English https://www.youtube.com/@EnglishReservoir 
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
 Thomas Delany
 
