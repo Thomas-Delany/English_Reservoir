@@ -94,7 +94,7 @@
 						</h1>
 
 						<!-- Content -->
-						<p class="d-none d-lg-block my-4 lead">Video Based Lessons with Interactive Exercises and Structure, all of which follows the Common European Framework of Reference for Languages.</p>
+						<p class="d-none d-lg-block my-4 lead">Learn English with Video Based Lessons, Interactive Exercises, and Structure, all of which align with the Common European Framework of Reference for Languages.</p>
 
 						<div class="d-sm-flex align-items-center justify-content-center justify-content-lg-start pt-4 pt-lg-2">
 							<!-- Button -->
