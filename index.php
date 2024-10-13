@@ -121,6 +121,90 @@
 		<section class="position-relative pb-0 pb-sm-5 bg-success">
 			<div class="container">
 
+			<div class="row g-4">
+					<!-- Item -->
+					<div class="col-sm-6 col-md-4 col-xl-4">
+						<div class="bg-opacity-10 rounded-3 text-center p-3 position-relative btn-transition">
+							<!-- Image -->
+							<div class="">
+								<a href="#">
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png"
+										alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="col-sm-6 col-md-4 col-xl-4">
+						<div class="bg-opacity-10 rounded-3 text-center p-3 position-relative btn-transition">
+							<!-- Image -->
+							<div class="">
+								<a href="#">
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/A2-new.png"
+										alt="c1 cambridge advanced">
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="col-sm-6 col-md-4 col-xl-4">
+						<div class="bg-opacity-10 rounded-3 text-center p-3 position-relative btn-transition">
+							<!-- Image -->
+							<div class="">
+								<a href="#">
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/B1-new.png"
+										alt="c2 cambridge proficiency">
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="col-sm-6 col-md-4 col-xl-4">
+						<div class="bg-opacity-10 rounded-3 text-center p-3 position-relative btn-transition">
+							<!-- Image -->
+							<div class="">
+								<a href="#">
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/B2-new.png"
+										alt="verbos en ingles">
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="col-sm-6 col-md-4 col-xl-4">
+						<div class="bg-opacity-10 rounded-3 text-center p-3 position-relative btn-transition">
+							<!-- Image -->
+							<div class="">
+								<a href="#">
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/C1-new.png"
+										alt="pronunciacion en inglés">
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item -->
+					<div class="col-sm-6 col-md-4 col-xl-4">
+						<div class="bg-opacity-10 rounded-3 text-center p-3 position-relative btn-transition">
+							<!-- Image -->
+							<div class="">
+								<a href="#">
+									<img class="rounded-2" src="<?php echo BASE_URL; ?>assets/images/courses/C2-new.png"
+										alt="gramatica esencial">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>	
+				
+				<div class="d-flex justify-content-center align-items-center py-3 w-100"><h2 class="text-center text-white font-dosis fw-bold fs-1 w-100">Specialized Courses</h2>
+			    </div>
+
+
 				<div class="row g-4">
 					<!-- Item -->
 					<div class="col-sm-6 col-md-4 col-xl-4">

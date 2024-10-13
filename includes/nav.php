@@ -401,13 +401,6 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 					</ul>
 				</div>
 				<!-- Dark mode options END -->
-
-				<!-- Log in button -->
-				<div class="navbar-nav ms-3 d-none d-sm-block">
-					<button class="btn btn-sm btn-primary mb-0">
-						<a href="https://sso.teachable.com/secure/528091/identity/login" class="text-white">Log in</a>
-					</button>
-				</div>
 			</div>
 		</nav>
 		<!-- Logo Nav END -->
