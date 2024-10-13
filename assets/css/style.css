@@ -26151,5 +26151,10 @@ html[dir=rtl] .choices__input {
   display: none !important;
 }
 
+.font-dosis {
+  font-family: 'Dosis', sans-serif;
+}
+
+
 /*User CSS*/
 /*# sourceMappingURL=style.css.map */

@@ -31,11 +31,15 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="<?php echo BASE_URL; ?>assets/images/favicon_ER.png">
 
-	<!-- Google Font -->
+	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet"
 		href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
 
 	<!-- Plugins CSS -->
 
@@ -75,7 +79,7 @@
 						class="col-lg-5 col-xl-6 position-relative z-index-1 text-center text-lg-start mb-1 mb-sm-0 pt-md-3">
 
 						<!-- Title -->
-						<h1 class="mb-0 display-6">English learning at your
+						<h1 class="mb-0 display-6 pt-4 font-dosis">English learning at your
 							<span class="position-relative">fingertips!
 								<!-- SVG START -->
 								<span class="position-absolute top-50 start-50 translate-middle ms-3 z-index-n1">
@@ -90,17 +94,18 @@
 						</h1>
 
 						<!-- Content -->
-						<p class="my-4 lead">Video Based Lessons with Interactive Exercises and Structure, all of which follows the Common European Framework of Reference for Languages.</p>
+						<p class="d-none d-lg-block my-4 lead">Video Based Lessons with Interactive Exercises and Structure, all of which follows the Common European Framework of Reference for Languages.</p>
 
-						<div class="d-sm-flex align-items-center justify-content-center justify-content-lg-start">
+						<div class="d-sm-flex align-items-center justify-content-center justify-content-lg-start pt-4 pt-lg-2">
 							<!-- Button -->
-							<a href="https://cursos.englishreservoir.com/p/cursos-de-ingles-metodo-divertido" class="btn btn-lg btn-success me-2 mb-4 mb-sm-0">Get Started</a>
+							<a href="https://cursos.englishreservoir.com/p/cursos-de-ingles-metodo-divertido" class="btn btn-success btn-lg me-2 mb-4 mb-sm-0 w-100 w-sm-auto flex-fill" style="max-width: 200px;">Level Test</a>
+							<a href="https://cursos.englishreservoir.com/p/cursos-de-ingles-metodo-divertido" class="btn btn-light border border-success btn-lg me-2 mb-4 mb-sm-0 w-100 w-sm-auto flex-fill" style="max-width: 200px;">Log in</a>
 						</div>
 					</div>
 					<!-- Left content END -->
 
 					<!-- Right content START -->
-					<div class="col-lg-4 col-xl-4 text-center mx-auto position-relative pt-md-5 d-none d-sm-block">
+					<div class="d-none d-lg-block col-lg-4 col-xl-4 text-center mx-auto position-relative pt-md-5">
 						<!-- Image -->
 						<div class="position-relative">
 							<img src="<?php echo BASE_URL; ?>assets/images/element/20.svg" alt="">
