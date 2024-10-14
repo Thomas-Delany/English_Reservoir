@@ -53,16 +53,16 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 						<li class="nav-item dropdown dropdown-fullwidth">
 							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
 								aria-expanded="false">Reservoir!</a>
-							<div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
-								<div class="row p-4 m-4">
+							<div class="dropdown-menu dropdown-menu-end bg-light bg-gradient border border-success" data-bs-popper="none">
+								<div class="row p-4 m-4 font-dosis">
 
 									<!-- column item -->
 									<div class="col-xl-4 col-xxl-4 mb-3">
 										<!-- item -->
 										<div class="d-flex mb-4 position-relative">
-											<h2 class="mb-0"><i class="bi bi-gear"></i></h2>
+											<h2 class="mb-0"><i class="bi bi-gear text-success"></i></h2>
 											<div class="ms-2">
-												<a class="stretched-link h6 mb-0"
+												<a class="stretched-link h6 mb-0 font-dosis"
 													href="<?php echo BASE_URL; ?>english-grammar/">English
 													Grammar</a>
 												<p class="mb-0 small">Nouns, Adjectives, Prepositions, Adverbs,
@@ -72,9 +72,9 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 
 										<!-- sub item -->
 										<div class="d-flex mb-4 position-relative">
-											<h2 class="mb-0"><i class="bi bi-rocket"></i></h2>
+											<h2 class="mb-0"><i class="bi bi-rocket text-success"></i></h2>
 											<div class="ms-2">
-												<a class="stretched-link h6 mb-0"
+												<a class="stretched-link h6 mb-0 font-dosis"
 													href="<?php echo BASE_URL; ?>english-verbs/">Verbs in English</a>
 												<p class="mb-0 small">Main and Modal Auxiliaries, Active and Passive
 													forms, Phrasal Verbs, Copulas, Ordinary verbs, "Get" and more!
@@ -84,9 +84,9 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 
 										<!-- sub item -->
 										 <div class="d-flex mb-4 position-relative">
-											<h2 class="mb-0"><i class="bi bi-question-square"></i></h2>
+											<h2 class="mb-0"><i class="bi bi-question-square text-success"></i></h2>
 											<div class="ms-2">
-												<a class="stretched-link h6 mb-0"
+												<a class="stretched-link h6 mb-0 font-dosis"
 													href="<?php echo BASE_URL; ?>english-confusions/">English Confusions</a>
 												<p class="mb-0 small">Do vs. make, to vs. for, on vs. upon, every
 													frequent doubt, you name it, we have you covered.</p>
@@ -98,9 +98,9 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 									<div class="col-xl-4 col-xxl-4 mb-3">
 										<!-- sub item -->
 										<div class="d-flex mb-4 position-relative">
-											<h2 class="mb-0"><i class="bi bi-mortarboard"></i></h2>
+											<h2 class="mb-0"><i class="bi bi-mortarboard text-success"></i></h2>
 											<div class="ms-2">
-												<a class="stretched-link h6 mb-0"
+												<a class="stretched-link h6 mb-0 font-dosis"
 													href="<?php echo BASE_URL; ?>cambridge/">Cambridge
 													Courses</a>
 												<p class="mb-0 small">B2 Cambridge First, C1 Cambridge Advanced and C2
@@ -110,9 +110,9 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 
 										<!-- sub item -->
 										<div class="d-flex mb-4 position-relative">
-											<h2 class="mb-0"><i class="bi bi-brush"></i></h2>
+											<h2 class="mb-0"><i class="bi bi-brush text-success"></i></h2>
 											<div class="ms-2">
-												<a class="stretched-link h6 mb-0"
+												<a class="stretched-link h6 mb-0 font-dosis"
 													href="<?php echo BASE_URL; ?>english-punctuation">Punctuation</a>
 												<p class="mb-0 small">Apostrophes, Colons, Semicolons, Commas, Hyphens,
 													Fullstops, Question and Exclamation marks, and Quotation Marks.</p>
@@ -121,9 +121,9 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 
 										<!-- sub item -->
 										<div class="d-flex mb-4 position-relative">
-											<h2 class="mb-0"><i class="bi bi-volume-up"></i></h2>
+											<h2 class="mb-0"><i class="bi bi-volume-up text-success"></i></h2>
 											<div class="ms-2">
-												<a class="stretched-link h6 mb-0"
+												<a class="stretched-link h6 mb-0 font-dosis"
 													href="<?php echo BASE_URL; ?>english-pronunciation/">Pronunciation</a>
 												<p class="mb-0 small">IPA, Vowels, Consonants, Dipthongs, Triphthongs,
 													Nasal Sounds, Common Mistakes, and more.</p>
@@ -135,9 +135,9 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 									<div class="col-xl-4 col-xxl-4 mb-3">
 										<!-- sub item -->
 										<div class="d-flex mb-4 position-relative">
-											<h2 class="mb-0"><i class="bi bi-book"></i></h2>
+											<h2 class="mb-0"><i class="bi bi-book text-success"></i></h2>
 											<div class="ms-2">
-												<a class="stretched-link h6 mb-0"
+												<a class="stretched-link h6 mb-0 font-dosis"
 													href="<?php echo BASE_URL; ?>blog/">Blog</a>
 												<p class="mb-0 small">Lots of Interesting reads in both English and
 													Spanish.</p>
@@ -145,9 +145,9 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 										</div>
 										<!-- sub item -->
 										<div class="d-flex mb-4 position-relative">
-											<h2 class="mb-0"><i class="bi bi-youtube"></i></h2>
+											<h2 class="mb-0"><i class="bi bi-youtube text-success"></i></h2>
 											<div class="ms-2">
-												<a class="stretched-link h6 mb-0"
+												<a class="stretched-link h6 mb-0 font-dosis"
 													href="https://www.youtube.com/@EnglishReservoir" target="_blank" rel="noopener noreferrer">Learn for Free!</a>
 												<p class="mb-0 small">100's of free learning tutorials on YouTube!</p>
 											</div>
@@ -155,9 +155,9 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 
 										<!-- sub item -->
 										<div class="d-flex mb-4 position-relative">
-											<h2 class="mb-0"><i class="bi bi-chat-dots"></i></h2>
+											<h2 class="mb-0"><i class="bi bi-chat-dots text-success"></i></h2>
 											<div class="ms-2">
-												<a class="stretched-link h6 mb-0"
+												<a class="stretched-link h6 mb-0 font-dosis"
 													href="https://cursos.englishreservoir.com/p/curso-de-ingles-gratuito" target="_blank" rel="noopener noreferrer">Take A Free English Course!</a>
 												<p class="mb-0 small">Start your learning right now. You'll learn heaps! No sign ups, completely free!</p>
 											</div>
@@ -171,7 +171,7 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 						<li class="nav-item dropdown dropdown-fullwidth">
 							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
 								aria-expanded="false">Academy</a>
-							<div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
+							<div class="dropdown-menu dropdown-menu-end bg-light bg-gradient border border-success" data-bs-popper="none">
 								<div class="row p-4 m-4">
 
 									<!-- column item -->
@@ -264,16 +264,16 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 						<li class="nav-item dropdown dropdown-fullwidth">
 							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
 								aria-expanded="false">More</a>
-							<div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
+							<div class="dropdown-menu dropdown-menu-end bg-light bg-gradient border border-success" data-bs-popper="none">
 								<div class="row p-4 m-4">
 
 									<!-- column item -->
-									<div class="col-xl-6 col-xxl-6 mb-3">
+									<div class="col-xl-6 col-xxl-6 mb-3 font-dosis">
 										<!-- item -->
 										<div class="d-flex mb-4 position-relative">
-											<h2 class="mb-0"><i class="bi bi-question-circle"></i></h2>
+											<h2 class="mb-0"><i class="bi bi-question-circle text-success"></i></h2>
 											<div class="ms-2">
-												<a class="stretched-link h6 mb-0"
+												<a class="stretched-link h6 mb-0 font-dosis"
 													href="<?php echo BASE_URL; ?>about-english-reservoir">About us</a>
 												<p class="mb-0 small">Who we are, How the courses work and how much time
 													you should dedicate.</p>
@@ -282,9 +282,9 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 
 										<!-- item -->
 										<div class="d-flex mb-4 position-relative">
-											<h2 class="mb-0"><i class="bi bi-easel2"></i></h2>
+											<h2 class="mb-0"><i class="bi bi-easel2 text-success"></i></h2>
 											<div class="ms-2">
-												<a class="stretched-link h6 mb-0"
+												<a class="stretched-link h6 mb-0 font-dosis"
 													href="<?php echo BASE_URL; ?>method-english-reservoir">English
 													Reservoir Method</a>
 												<p class="mb-0 small">Get to know all about our teaching method.
@@ -296,12 +296,12 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 
 
 									<!-- column item -->
-									<div class="col-xl-6 col-xxl-6 mb-3">
+									<div class="col-xl-6 col-xxl-6 mb-3 font-dosis">
 										<!-- item -->
 										<div class="d-flex mb-4 position-relative">
-											<h2 class="mb-0"><i class="bi bi-currency-exchange"></i></h2>
+											<h2 class="mb-0"><i class="bi bi-currency-exchange text-success"></i></h2>
 											<div class="ms-2">
-												<a class="stretched-link h6 mb-0"
+												<a class="stretched-link h6 mb-0 font-dosis"
 													href="<?php echo BASE_URL; ?>affiliate">Affiliate
 													Programme</a>
 												<p class="mb-0 small">Are you a content creator or teacher? Would you
@@ -311,9 +311,9 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 
 										<!-- item -->
 										<div class="d-flex mb-4 position-relative">
-											<h2 class="mb-0"><i class="bi bi-wechat"></i></h2>
+											<h2 class="mb-0"><i class="bi bi-wechat text-success"></i></h2>
 											<div class="ms-2">
-												<a class="stretched-link h6 mb-0" href="#">Our Social Media</a>
+												<a class="stretched-link h6 mb-0 font-dosis" href="#">Our Social Media</a>
 												<p class="mb-0 small">Learn more about us.</p>
 												<div>
 													<ul class="list-inline mb-0 mt-3">

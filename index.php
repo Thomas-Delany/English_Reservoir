@@ -300,7 +300,7 @@
 
 					<div class="col-lg-6 position-relative order-1 order-lg-2">
 						<!-- Title -->
-						<h2>A Fun Method</h2>
+						<h2 class="font-dosis">A Fun Method</h2>
 						<p class="mb-2 lead">Our English courses are dynamic and interactive with quizzes to test your
 							knowlege.
 						</p>
@@ -336,7 +336,7 @@
 				<div class="row g-4 align-items-center">
 					<div class="col-md-5 position-relative z-index-9 mx-auto">
 						<!-- Title -->
-						<h2>Communicate with the teachers!
+						<h2 class="font-dosis">Communicate with the teachers!
 						</h2>
 						<p class="lead">No more isolation. Community based learning is key. Communicate with the
 							teachers in every lesson. Response time usally within 24 hours! </p>
@@ -355,14 +355,14 @@
 		<section class="pb-0 pb-lg-5">
 			<div class="container">
 				<div class="row g-4 g-lg-5 align-items-center">
-					<div class="col-lg-5 text-center order-2 d-none d-sm-block">
+					<div class="col-lg-5 text-center order-2 d-none d-lg-block">
 						<!-- Image -->
 						<img src="<?php echo BASE_URL; ?>assets/images/element/category-1.svg" class="position-relative" alt="">
 					</div>
 
 					<div class="col-lg-6 position-relative order-1 order-lg-2">
 						<!-- Title -->
-						<h2>Learn English with Efficacy and Structure</h2>
+						<h2 class="font-dosis">Learn English with Efficacy and Structure</h2>
 						<p class="mb-2 lead">Whether it's English grammar, verbs, Pronunciation or the Cambridge Exams,
 							we've got you covered.
 							Step by step learning and everything all in one place.
@@ -380,8 +380,8 @@
 					<div class="col-lg-12">
 						<h2 class="mb-5"><i class="fa-solid fa-shuttle-space fa-rotate-270 fa-2xl"
 								style="color: #00c699;"></i></h2>
-						<h2 class="mb-2">$7,99</h2>
-						<h3 class="mb-2">Per month</h3>
+						<h2 class="mb-2 font-dosis">$7,99</h2>
+						<h3 class="mb-2 font-dosis">Per month</h3>
 						<div class="col-lg-6 mb-3 mx-auto text-center">
 							<p class="lead">Enjoy all of English Reservoir for a fixed monthly fee. Access all our
 								English courses in one place for 7,99 USD per month. There are no additional charges
@@ -403,7 +403,7 @@
 				<div class="row g-4 align-items-center">
 					<div class="col-md-5 position-relative mx-auto z-index-9">
 						<!-- Title -->
-						<h2>Short and fun videos
+						<h2 class="font-dosis">Short and fun videos
 						</h2>
 						<p class="lead">Our English courses are fun, dynamic and most importantly: interactive. Every
 							video is a lesson that teaches something new.
@@ -430,11 +430,11 @@
 
 					<div class="col-lg-5 position-relative mx-auto order-1 order-lg-2">
 						<!-- Title -->
-						<h2>Method</h2>
+						<h2 class="font-dosis">Method</h2>
 						<p class="mb-5 lead">Concise, dynamic, and example-based lessons to contextualize what you're
 							learning.
 						</p>
-						<h2>Native accents
+						<h2 class="font-dosis">Native accents
 						</h2>
 						<p class="mb-2 lead">You will learn with different and diverse native accents: British,
 							Australian, Indian and American accents.
@@ -452,7 +452,7 @@
 
 					<div class="col-lg-5 mx-auto position-relative order-1 order-lg-2">
 						<!-- Title -->
-						<h2>Summary</h2>
+						<h2 class="font-dosis">Summary</h2>
 						<p class="mb-2 lead">The courses have more than 10 hours of material. You can take them online
 							(streaming). The dialogues are in English with various native accents. The narration and
 							explanations are in Spanish. At this point, our courses are for Spanish speakers.
@@ -475,7 +475,7 @@
 				<div class="row">
 					<div class="col-md-12 mb-2 position-relative">
 						<!-- Title -->
-						<h2 class="text-center">What is English Reservoir?</h2>
+						<h2 class="text-center font-dosis">What is English Reservoir?</h2>
 					</div>
 					<div class="col-md-9 mx-auto">
 						<div class="row gx-5">

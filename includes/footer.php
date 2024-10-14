@@ -1,5 +1,5 @@
 <!-- Footer START -->
-<footer class="pt-5 bg-blue">
+<footer class="pt-5 bg-success">
 
 <div class="container">
     <!-- Row START -->
@@ -7,7 +7,7 @@
 
         <!-- Widget 1 START -->
         <div class="col-lg-4">
-            <h5 class="mb-2 mb-md-2 text-white">English Reservoir — A Fun Method
+            <h5 class="mb-2 mb-md-2 text-white font-dosis">English Reservoir — A Fun Method
             </h5>
             <p class="my-3 lead text-white">English Courses — Learn English on a fun, interactive and dynamic
                 platform! — 1 Amazing App.
@@ -20,7 +20,7 @@
 
         <!-- Widget 2 START -->
         <div class="col-lg-2">
-            <h5 class="mb-2 mb-md-2 text-white">Our Courses
+            <h5 class="mb-2 mb-md-2 text-white font-dosis">Our Courses
             </h5>
             <!-- Courses -->
             <ul class="nav flex-column">
@@ -48,7 +48,7 @@
 
         <!-- Widget 3 START -->
         <div class="col-lg-2">
-            <h5 class="mb-2 mb-md-2 text-white">Reservoir!
+            <h5 class="mb-2 mb-md-2 text-white font-dosis">Reservoir!
             </h5>
             <!-- Courses -->
             <ul class="nav flex-column">
@@ -84,7 +84,7 @@
         <!-- Widget 3 END -->
         <!-- Widget 4 START -->
         <div class="col-lg-2">
-            <h5 class="mb-2 mb-md-2 text-white">More
+            <h5 class="mb-2 mb-md-2 text-white font-dosis">More
             </h5>
             <!-- Courses -->
             <ul class="nav flex-column">
@@ -107,7 +107,7 @@
 
         <!-- Widget 5 START -->
         <div class="col-lg-2">
-            <h5 class="mb-2 mb-md-2 text-white">Social
+            <h5 class="mb-2 mb-md-2 text-white font-dosis">Social
             </h5>
             <!-- Social media -->
             <ul class="nav flex-column">
