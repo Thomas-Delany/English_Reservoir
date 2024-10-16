@@ -178,18 +178,18 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 									<div class="col-12 col-lg-4 mb-3 d-flex flex-column justify-content-center align-items-stretch"> 
 
 										<!-- item -->
-										 <a href="#" class="stretched-link h6 mb-0 font-dosis">
+										 <a href="#" class="stretched-link h6 mb-3 font-dosis mx-auto">
 										  <div class="d-flex align-items-center mb-4 position-relative w-100">
 											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png" alt="A1 Breakthrough" style="width: 80px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— Breakthrough</h5>
+											<h5 class="mb-0 ms-2 font-dosis flex-grow-1">— fdhdt</h5>
 										  </div>
 										 </a>
 										
 										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-0 font-dosis">
+										<a href="#" class="stretched-link h6 mb-3 font-dosis mx-auto">
 										  <div class="d-flex align-items-center mb-4 position-relative w-100">
 											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png" alt="A1 Breakthrough" style="width: 80px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— Breakthrough</h5>
+											<h5 class="mb-0 ms-2 font-dosis flex-grow-1">— Breakthrough</h5>
 										  </div>
 										 </a>
 									</div>
@@ -197,18 +197,18 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 									<!-- column item -->
 									<div class="col-12 col-lg-4 mb-3 d-flex flex-column justify-content-center align-items-stretch">
 										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-0 font-dosis">
+										<a href="#" class="stretched-link h6 mb-3 font-dosis mx-auto">
 										  <div class="d-flex align-items-center mb-4 position-relative w-100">
 											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png" alt="A1 Breakthrough" style="width: 80px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— Breakthrough</h5>
+											<h5 class="mb-0 ms-2 font-dosis flex-grow-1">— xxx</h5>
 										  </div>
 										 </a>
 
 										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-0 font-dosis">
+										<a href="#" class="stretched-link h6 mb-3 font-dosis mx-auto">
 										  <div class="d-flex align-items-center mb-4 position-relative w-100">
 											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png" alt="A1 Breakthrough" style="width: 80px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— Breakthrough</h5>
+											<h5 class="mb-0 ms-2 font-dosis flex-grow-1">— Breakthrough</h5>
 										  </div>
 										 </a>
 									</div>
@@ -216,18 +216,18 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 									<!-- column item -->
 									<div class="col-12 col-lg-4 mb-3 d-flex flex-column justify-content-center align-items-stretch">
 										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-0 font-dosis">
+										<a href="#" class="stretched-link h6 mb-3 font-dosis mx-auto">
 										  <div class="d-flex align-items-center mb-4 position-relative w-100">
 											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png" alt="A1 Breakthrough" style="width: 80px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— Breakthrough</h5>
+											<h5 class="mb-0 ms-2 font-dosis flex-grow-1">— Breakthrough</h5>
 										  </div>
 										 </a>
 
 										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-0 font-dosis">
+										<a href="#" class="stretched-link h6 mb-3 font-dosis mx-auto">
 										  <div class="d-flex align-items-center mb-4 position-relative w-100">
 											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png" alt="A1 Breakthrough" style="width: 80px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— Breakthrough</h5>
+											<h5 class="mb-0 ms-2 font-dosis flex-grow-1">— Breakthrough</h5>
 										  </div>
 										 </a>
 									</div>
@@ -235,10 +235,10 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 
 								<div class="d-flex justify-content-center align-items-center flex-wrap g-5 p-4 m-4"> 
 									<!-- column item -->
-									<div class="col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-stretch">
-										<h5 class="text-center font-dosis fs-4 font-medium p-3">Cambridge Courses</h5>
+									<div class="col-12 col-lg-5 mb-3 d-flex flex-column justify-content-center align-items-stretch mx-auto">
+										<h5 class="text-center font-dosis fs-3 font-medium p-3">Cambridge</h5>
 										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-0 font-dosis">
+										<a href="#" class="stretched-link h6 mb-0 font-dosis mx-auto">
 										  <div class="d-flex align-items-center mb-4 position-relative w-100">
 											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png" alt="A1 Breakthrough" style="width: 150px; height: auto;">
 											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— Breakthrough</h5>
@@ -246,7 +246,7 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 										 </a>
 										
 										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-0 font-dosis">
+										<a href="#" class="stretched-link h6 mb-0 font-dosis mx-auto">
 										  <div class="d-flex align-items-center mb-4 position-relative w-100">
 											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png" alt="A1 Breakthrough" style="width: 150px; height: auto;">
 											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— Breakthrough</h5>
@@ -254,7 +254,7 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 										 </a>
 
 										 <!-- item -->
-										 <a href="#" class="stretched-link h6 mb-0 font-dosis">
+										 <a href="#" class="stretched-link h6 mb-0 font-dosis mx-auto">
 										  <div class="d-flex align-items-center mb-4 position-relative w-100">
 											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png" alt="A1 Breakthrough" style="width: 150px; height: auto;">
 											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— Breakthrough</h5>
@@ -263,10 +263,10 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 									</div>
 
 									<!-- column item -->
-									<div class="col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-stretch">
-									<h5 class="text-center font-dosis fs-4 font-medium p-3">Specialized Courses</h5>
+									<div class="col-12 col-lg-5 mb-3 d-flex flex-column justify-content-center align-items-stretch mx-auto">
+									<h5 class="text-center font-dosis fs-3 font-medium p-3">Specialized</h5>
 										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-0 font-dosis">
+										<a href="#" class="stretched-link h6 mb-0 font-dosis mx-auto">
 										  <div class="d-flex align-items-center mb-4 position-relative w-100">
 											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png" alt="A1 Breakthrough" style="width: 150px; height: auto;">
 											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— Breakthrough</h5>
@@ -274,18 +274,18 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 										 </a>
 
 										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-0 font-dosis">
+										<a href="#" class="stretched-link h6 mb-0 font-dosis mx-auto">
 										  <div class="d-flex align-items-center mb-4 position-relative w-100">
 											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png" alt="A1 Breakthrough" style="width: 150px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— jkcvkj</h5>
+											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— Breakthrough</h5>
 										  </div>
 										 </a>
 
 										 <!-- item -->
-										 <a href="#" class="stretched-link h6 mb-0 font-dosis">
+										 <a href="#" class="stretched-link h6 mb-0 font-dosis mx-auto">
 										  <div class="d-flex align-items-center mb-4 position-relative w-100">
 											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png" alt="A1 Breakthrough" style="width: 150px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— kjh</h5>
+											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— Breakthrough</h5>
 										  </div>
 										 </a>
 									</div>
