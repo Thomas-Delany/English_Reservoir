@@ -59,6 +59,15 @@
 	<!-- Theme CSS -->
 	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/style.css">
 
+	<style>
+        @media (max-width: 768px) { /* Medium screens and below (Bootstrap's md breakpoint) */
+    .custom-line-height {
+        line-height: 1.8; /* Adjust this value as needed */
+    }
+}
+
+    </style>
+
 </head>
 
 <body>
@@ -79,8 +88,8 @@
 						class="col-lg-5 col-xl-6 position-relative z-index-1 text-center text-lg-start mb-1 mb-sm-0 pt-md-3">
 
 						<!-- Title -->
-						<h1 class="mb-0 display-6 pt-4 font-dosis">English learning at your
-							<span class="position-relative">fingertips!
+						<h1 class="mb-0 display-6 pt-4 font-dosis custom-line-height">English learning at your
+							<span class="position-relative custom-line-height">fingertips!
 								<!-- SVG START -->
 								<span class="position-absolute top-50 start-50 translate-middle ms-3 z-index-n1">
 									<svg width="300px" height="62.1px" enable-background="new 0 0 366 62.1"
@@ -94,7 +103,7 @@
 						</h1>
 
 						<!-- Content -->
-						<p class="d-none d-lg-block my-4 lead">Learn English with Video Based Lessons, Interactive Exercises, and Structure, all of which align with the Common European Framework of Reference for Languages.</p>
+						<p class="d-none d-lg-block my-4 lead">Learn English with Video Based Lessons, Interactive Exercises, and Structure.</p>
 
 						<div class="d-sm-flex align-items-center justify-content-center justify-content-lg-start pt-4 pt-lg-2">
 							<!-- Button -->
@@ -121,7 +130,7 @@
 		<section class="position-relative pb-0 pb-sm-5 bg-success">
 			<div class="container">
 
-			<div class="row g-4">
+			<div class="row g-4 pb-3">
 					<!-- Item -->
 					<div class="col-sm-6 col-md-4 col-xl-4">
 						<div class="bg-opacity-10 rounded-3 text-center p-3 position-relative btn-transition">
@@ -201,9 +210,8 @@
 					</div>
 				</div>	
 				
-				<div class="d-flex justify-content-center align-items-center py-3 w-100"><h2 class="text-center text-white font-dosis fw-bold fs-1 w-100">Specialized Courses</h2>
+				<div class="d-flex justify-content-center align-items-center py-4 w-100"><h2 class="text-center text-white font-dosis fw-bold fs-1 w-100">Camridge</h2>
 			    </div>
-
 
 				<div class="row g-4">
 					<!-- Item -->
@@ -244,6 +252,9 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="d-flex justify-content-center align-items-center py-3 w-100"><h2 class="text-center text-white font-dosis fw-bold fs-1 w-100">Specialized</h2>
+				    </div>
 
 					<!-- Item -->
 					<div class="col-sm-6 col-md-4 col-xl-4">
