@@ -210,7 +210,7 @@
 					</div>
 				</div>	
 				
-				<div class="d-flex justify-content-center align-items-center py-4 w-100"><h2 class="text-center text-white font-dosis fw-bold fs-1 w-100">Camridge</h2>
+				<div class="d-flex justify-content-center align-items-center py-4 w-100"><h2 class="text-center text-white font-dosis fw-bold fs-1 w-100">Cambridge</h2>
 			    </div>
 
 				<div class="row g-4">
