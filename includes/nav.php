@@ -181,7 +181,7 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 										<a href="#" class="stretched-link h6 mb-3 font-dosis">
 										  <div class="d-flex align-items-center mb-4 position-relative w-100">
 											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png" alt="A1 Breakthrough" style="width: 80px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1">— Breakthrough</h5>
+											<h5 class="mb-0 ms-2 font-dosis flex-grow-1">— fjghjh</h5>
 										  </div>
 										 </a>
 										
