@@ -105,10 +105,10 @@
 						<!-- Content -->
 						<p class="d-none d-lg-block my-4 lead">Learn English with Video Based Lessons, Interactive Exercises, and Structure.</p>
 
-						<div class="d-sm-flex align-items-center justify-content-center justify-content-lg-start pt-4 pt-lg-2">
+						<div class="d-lg-flex align-items-center justify-content-center justify-content-lg-start pt-4 pt-lg-2">
 							<!-- Button -->
-							<a href="https://cursos.englishreservoir.com/p/cursos-de-ingles-metodo-divertido" class="btn btn-success btn-lg me-2 mb-4 mb-sm-0 w-100 w-sm-auto flex-fill" style="max-width: 200px;">Level Test</a>
-							<a href="https://cursos.englishreservoir.com/p/cursos-de-ingles-metodo-divertido" class="btn btn-light border border-success btn-lg me-2 mb-4 mb-sm-0 w-100 w-sm-auto flex-fill" style="max-width: 200px;">Log in</a>
+							<a href="https://cursos.englishreservoir.com/p/cursos-de-ingles-metodo-divertido" class="btn btn-success btn-lg me-2 mb-4 mb-lg-0 w-75 w-xl-auto">Level Test</a>
+							<a href="https://cursos.englishreservoir.com/p/cursos-de-ingles-metodo-divertido" class="btn btn-light border border-success btn-lg me-2 mb-4 mb-lg-0 w-75 w-xl-auto">Log in</a>
 						</div>
 					</div>
 					<!-- Left content END -->

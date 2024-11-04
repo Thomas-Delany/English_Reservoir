@@ -172,125 +172,148 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true"
 								aria-expanded="false">Academy</a>
 							<div class="dropdown-menu dropdown-menu-end bg-light bg-gradient border border-success" data-bs-popper="none">
+								<div class="d-flex flex-wrap justify-content-between p-4 m-4 font-dosis">
+									<div class="row justify-content-center g-4 pb-1">
 
-								<div class="d-flex justify-content-center align-items-center flex-wrap g-3 p-4 m-4" style="min-height: 80vh;"> 
-									<!-- column item -->
-									<div class="col-12 col-lg-4 mb-3 d-flex flex-column justify-content-center align-items-stretch"> 
+										<div class="col-12 col-md-4 col-xl-4">
+											<div class="bg-opacity-10 rounded-3 text-center p-1 position-relative btn-transition">
+												<!-- Image -->
+												 <div class="">
+													<a href="#">
+														<img class="rounded-2 w-75" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png"
+														alt="A1 Breakthrough">
+													</a>
+												</div>
+											</div>
+										</div>
 
+										<div class="col-12 col-md-4 col-xl-4">
+											<div class="bg-opacity-10 rounded-3 text-center p-1 position-relative btn-transition">
+												<!-- Image -->
+												 <div class="">
+													<a href="#">
+														<img class="rounded-2 w-75" src="<?php echo BASE_URL; ?>assets/images/courses/A2-new.png" alt="A2 Waystage">
+													</a>
+												</div>
+											</div>
+										</div>
 
-										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-3 font-dosis">
-										  <div class="d-flex align-items-center mb-4 position-relative w-100">
-											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/A1-new.png" alt="A1 Breakthrough" style="width: 80px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1">— Breakthrough</h5>
-										  </div>
-										 </a>
-										
-										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-3 font-dosis">
-										  <div class="d-flex align-items-center mb-4 position-relative w-100">
-											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/A2-new.png" alt="A2 Waystage" style="width: 80px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1">— Waystage</h5>
-										  </div>
-										 </a>
-									</div>
+										<div class="col-12 col-md-4 col-xl-4">
+											<div class="bg-opacity-10 rounded-3 text-center p-1 position-relative btn-transition">
+												<!-- Image -->
+												 <div class="">
+													<a href="#">
+														<img class="rounded-2 w-75" src="<?php echo BASE_URL; ?>assets/images/courses/B1-new.png" alt="B1 Threshold">
+													</a>
+												</div>
+											</div>
+										</div>
 
-									<!-- column item -->
-									<div class="col-12 col-lg-4 mb-3 d-flex flex-column justify-content-center align-items-stretch">
-										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-3 font-dosis">
-										  <div class="d-flex align-items-center mb-4 position-relative w-100">
-											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/B1-new.png" alt="B1 Threshold" style="width: 80px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1">— Threshold</h5>
-										  </div>
-										 </a>
+										<div class="col-12 col-md-4 col-xl-4">
+											<div class="bg-opacity-10 rounded-3 text-center p-1 position-relative btn-transition">
+												<!-- Image -->
+												 <div class="">
+													<a href="#">
+														<img class="rounded-2 w-75" src="<?php echo BASE_URL; ?>assets/images/courses/B2-new.png" alt="B2 Vantage">
+													</a>
+												</div>
+											</div>
+										</div>
 
-										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-3 font-dosis">
-										  <div class="d-flex align-items-center mb-4 position-relative w-100">
-											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/B2-new.png" alt="B2 Vantage" style="width: 80px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1">— Vantage</h5>
-										  </div>
-										 </a>
-									</div>
+										<div class="col-12 col-md-4 col-xl-4">
+											<div class="bg-opacity-10 rounded-3 text-center p-1 position-relative btn-transition">
+												<!-- Image -->
+												 <div class="">
+													<a href="#">
+														<img class="rounded-2 w-75" src="<?php echo BASE_URL; ?>assets/images/courses/C1-new.png" alt="C1 Advanced">
+													</a>
+												</div>
+											</div>
+										</div>
 
-									<!-- column item -->
-									<div class="col-12 col-lg-4 mb-3 d-flex flex-column justify-content-center align-items-stretch">
-										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-3 font-dosis">
-										  <div class="d-flex align-items-center mb-4 position-relative w-100">
-											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/C1-new.png" alt="C1 Advanced" style="width: 80px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1">— Advanced</h5>
-										  </div>
-										 </a>
+										<div class="col-12 col-md-4 col-xl-4">
+											<div class="bg-opacity-10 rounded-3 text-center p-1 position-relative btn-transition">
+												<!-- Image -->
+												 <div class="">
+													<a href="#">
+														<img class="rounded-2 w-75" src="<?php echo BASE_URL; ?>assets/images/courses/C2-new.png" alt="C2 Mastery">
+													</a>
+												</div>
+											</div>
+										</div>
 
-										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-3 font-dosis">
-										  <div class="d-flex align-items-center mb-4 position-relative w-100">
-											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/C2-new.png" alt="C2 Mastery" style="width: 80px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1">— Mastery</h5>
-										  </div>
-										 </a>
-									</div>
+										<h5 class="text-center font-dosis fs-3 font-medium p-2">Cambridge</h5>
 
-								
-									<!-- column item -->
-									<div class="col-12 col-lg-5 mb-3 d-flex flex-column justify-content-center align-items-stretch">
-										<h5 class="text-center font-dosis fs-3 font-medium p-3">Cambridge</h5>
-										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-0 font-dosis">
-										  <div class="d-flex align-items-center mb-4 position-relative w-100">
-											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/b2_first.png" alt="B2 first" style="width: 150px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— B2 First</h5>
-										  </div>
-										 </a>
-										
-										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-0 font-dosis">
-										  <div class="d-flex align-items-center mb-4 position-relative w-100">
-											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/c1_advanced.png" alt="C1 advanced" style="width: 150px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— C1 Advanced</h5>
-										  </div>
-										 </a>
+										<div class="col-12 col-md-4 col-xl-4">
+											<div class="bg-opacity-10 rounded-3 text-center p-1 position-relative btn-transition">
+												<!-- Image -->
+												 <div class="">
+													<a href="#">
+														<img class="rounded-2 w-75" src="<?php echo BASE_URL; ?>assets/images/courses/b2_first.png" alt="B2 first">
+													</a>
+												</div>
+											</div>
+										</div>
 
-										 <!-- item -->
-										 <a href="#" class="stretched-link h6 mb-0 font-dosis">
-										  <div class="d-flex align-items-center mb-4 position-relative w-100">
-											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/c2_pro.png" alt="C2 proficiency" style="width: 150px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— C2 Proficiency</h5>
-										  </div>
-										 </a>
-									</div>
+										<div class="col-12 col-md-4 col-xl-4">
+											<div class="bg-opacity-10 rounded-3 text-center p-1 position-relative btn-transition">
+												<!-- Image -->
+												 <div class="">
+													<a href="#">
+														<img class="rounded-2 w-75" src="<?php echo BASE_URL; ?>assets/images/courses/c1_advanced.png" alt="C1 advanced">
+													</a>
+												</div>
+											</div>
+										</div>
 
-									<!-- column item -->
-									<div class="col-12 col-lg-5 mb-3 d-flex flex-column justify-content-center align-items-stretch">
-									<h5 class="text-center font-dosis fs-3 font-medium p-3">Specialized</h5>
-										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-0 font-dosis">
-										  <div class="d-flex align-items-center mb-4 position-relative w-100">
-											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/pronunciacion-en-ingles.png" alt="Pronunciación en Inglés" style="width: 150px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— Pronunciación</h5>
-										  </div>
-										 </a>
+										<div class="col-12 col-md-4 col-xl-4">
+											<div class="bg-opacity-10 rounded-3 text-center p-1 position-relative btn-transition">
+												<!-- Image -->
+												 <div class="">
+													<a href="#">
+														<img class="rounded-2 w-75" src="<?php echo BASE_URL; ?>assets/images/courses/c2_pro.png" alt="C2 proficiency">
+													</a>
+												</div>
+											</div>
+										</div>
 
-										<!-- item -->
-										<a href="#" class="stretched-link h6 mb-0 font-dosis">
-										  <div class="d-flex align-items-center mb-4 position-relative w-100">
-											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/Gramatica-esencial.png" alt="Gramatica esencial" style="width: 150px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— Gramática Esencial</h5>
-										  </div>
-										 </a>
+										<h5 class="text-center font-dosis fs-3 font-medium p-2">Specialized</h5>
 
-										 <!-- item -->
-										 <a href="#" class="stretched-link h6 mb-0 font-dosis">
-										  <div class="d-flex align-items-center mb-4 position-relative w-100">
-											<img class="rounded-2 img-fluid flex-shrink-0" src="<?php echo BASE_URL; ?>assets/images/courses/verbos-en-ingles.png" alt="verbos en ingles" style="width: 150px; height: auto;">
-											<h5 class="mb-0 ms-2 font-dosis flex-grow-1 text-start">— Verbos en Inglés</h5>
-										  </div>
-										 </a>
-									</div>
-								</div>								
-							</div>
+										<div class="col-12 col-md-4 col-xl-4">
+											<div class="bg-opacity-10 rounded-3 text-center p-1 position-relative btn-transition">
+												<!-- Image -->
+												 <div class="">
+													<a href="#">
+														<img class="rounded-2 w-75" src="<?php echo BASE_URL; ?>assets/images/courses/pronunciacion-en-ingles.png" alt="Pronunciación en Inglés">
+													</a>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-12 col-md-4 col-xl-4">
+											<div class="bg-opacity-10 rounded-3 text-center p-1 position-relative btn-transition">
+												<!-- Image -->
+												 <div class="">
+													<a href="#">
+														<img class="rounded-2 w-75" src="<?php echo BASE_URL; ?>assets/images/courses/Gramatica-esencial.png" alt="Gramatica esencial">
+													</a>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-12 col-md-4 col-xl-4">
+											<div class="bg-opacity-10 rounded-3 text-center p-1 position-relative btn-transition">
+												<!-- Image -->
+												 <div class="">
+													<a href="#">
+														<img class="rounded-2 w-75" src="<?php echo BASE_URL; ?>assets/images/courses/verbos-en-ingles.png" alt="verbos en ingles">
+													</a>
+												</div>
+											</div>
+										</div>
+
+									</div>						
+								</div>
 						</li>
 
 						<!-- Nav item 3 More-->
