@@ -315,11 +315,11 @@
 					<div class="col-lg-6 position-relative order-1 order-lg-2">
 						<!-- Title -->
 						<h2 class="font-dosis">A Fun Method</h2>
-						<p class="mb-2 fs-4">Our English courses are dynamic and interactive with quizzes to test your
+						<p class="mb-2 font-dosis fs-5 fw-semibold">Our English courses are dynamic and interactive with quizzes to test your
 							knowlege.
 						</p>
 						<!-- Info list -->
-						<ul class="list-group list-group-borderless mb-2">
+						<ul class="list-group list-group-borderless mb-2 font-dosis">
 							<li class="list-group-item d-flex align-items-center px-0">
 								<p class="mb-0 h6 fw-light"><i class="bi bi-arrow-right text-primary me-2"></i>Short,
 									goal-oriented video lessons.</p>
@@ -352,7 +352,7 @@
 						<!-- Title -->
 						<h2 class="font-dosis">Communicate with the teachers!
 						</h2>
-						<p class="fs-4">No more isolation. Community based learning is key. Communicate with the
+						<p class="font-dosis fs-5 fw-semibold">No more isolation. Community based learning is key. Communicate with the
 							teachers in every lesson. Response time usally within 24 hours! </p>
 					</div>
 
@@ -377,7 +377,7 @@
 					<div class="col-lg-6 position-relative order-1 order-lg-2">
 						<!-- Title --> 
 						<h2 class="font-dosis">Learn English with Efficacy and Structure</h2>
-						<p class="mb-2 fs-4">Whether it's English grammar, verbs, Pronunciation or the Cambridge Exams,
+						<p class="mb-2 font-dosis fs-5 fw-semibold">Whether it's English grammar, verbs, Pronunciation or the Cambridge Exams,
 							we've got you covered.
 							Step by step learning and everything all in one place.
 						</p>
@@ -397,7 +397,7 @@
 						<h2 class="mb-2 font-dosis">$7,99</h2>
 						<h3 class="mb-2 font-dosis">Per month</h3>
 						<div class="col-lg-6 mb-3 mx-auto text-center">
-							<p class="fs-4">Enjoy all of English Reservoir for a fixed monthly fee. Access all our
+							<p class="font-dosis fs-5 fw-semibold">Enjoy all of English Reservoir for a fixed monthly fee. Access all our
 								English courses in one place for 7,99 USD per month. There are no additional charges
 								or
 								contracts. You can stop whenever you want.
@@ -419,7 +419,7 @@
 						<!-- Title -->
 						<h2 class="font-dosis">Short and fun lessons
 						</h2>
-						<p class="fs-4">Our English courses are fun, dynamic and most importantly: interactive. Every lesson teaches something new.
+						<p class="font-dosis fs-5 fw-semibold">Our English courses are fun, dynamic and most importantly: interactive. Every lesson teaches something new.
 						</p>
 					</div>
 
@@ -444,12 +444,12 @@
 					<div class="col-lg-5 position-relative mx-auto order-1 order-lg-2">
 						<!-- Title -->
 						<h2 class="font-dosis">Method</h2>
-						<p class="mb-5 fs-4">Concise, dynamic, and example-based lessons to contextualize what you're
+						<p class="mb-5 font-dosis fs-5 fw-semibold">Concise, dynamic, and example-based lessons to contextualize what you're
 							learning.
 						</p>
 						<h2 class="font-dosis">Native accents
 						</h2>
-						<p class="mb-2 fs-4">You will learn with different and diverse native accents: British,
+						<p class="mb-2 font-dosis fs-5 fw-semibold">You will learn with different and diverse native accents: British,
 							Australian, Indian and American accents.
 						</p>
 					</div>
@@ -471,23 +471,23 @@
 						<div class="row gx-5">
 							<!-- FIrst column paragraph -->
 							<div class="col-md-6">
-								<p class="fs-4">A “reservoir” is a large supply of something. That's exactly what we aim
+								<p class="font-dosis fs-5 fw-semibold">A “reservoir” is a large supply of something. That's exactly what we aim
 									to be here at English Reservoir: a reservoir of English courses, resources and
 									grammar for English learners.
 								</p>
-								<p class="fs-4">We specialize in the English language and our courses are adapted to
+								<p class="font-dosis fs-5 fw-semibold">We specialize in the English language and our courses are adapted to
 									your needs.
 								</p>
 							</div>
 
 							<!-- Second column paragraph -->
 							<div class="col-md-6">
-								<p class="fs-4">It is important to us and our students that learning English is fun,
+								<p class="font-dosis fs-5 fw-semibold">It is important to us and our students that learning English is fun,
 									dynamic and interactive, and not boring. Therefore, we have designed our courses to
 									teach you everything you need to know, from essential grammar to verbs and the
 									Cambridge First exam.
 								</p>
-								<p class="fs-4">Everything is taught in an especially inductive way with context and
+								<p class="font-dosis fs-5 fw-semibold">Everything is taught in an especially inductive way with context and
 									dialogue while we implement our instructional method: explanation - context -
 									analysis.
 								</p>

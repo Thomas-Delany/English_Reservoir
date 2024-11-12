@@ -9,7 +9,7 @@
         <div class="col-lg-4">
             <h5 class="mb-2 mb-md-2 text-white font-dosis">English Reservoir — A Fun Method
             </h5>
-            <p class="my-3 lead text-white">English Courses — Learn English on a fun, interactive and dynamic
+            <p class="my-3 fw-medium fs-5 text-white font-dosis">English Courses — Learn English on a fun, interactive and dynamic
                 platform! — 1 Amazing App.
             </p>
             <!-- Button -->
