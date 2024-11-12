@@ -13,6 +13,8 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
         margin: 0 auto;
     }
 }
+.custom-title-header {
+	color: #1C4F59;}
 
 </style>
 
@@ -174,6 +176,7 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 							<div class="dropdown-menu dropdown-menu-end bg-light bg-gradient border border-success" data-bs-popper="none">
 								<div class="d-flex flex-wrap justify-content-between p-4 m-4 font-dosis">
 									<div class="row justify-content-center g-4 pb-1">
+									<h5 class="text-center font-dosis fs-3 font-medium p-2 custom-title-header">Start Learning!</h5>
 
 										<div class="col-12 col-md-4 col-xl-4">
 											<div class="bg-opacity-10 rounded-3 text-center p-1 position-relative btn-transition">
@@ -242,7 +245,7 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 											</div>
 										</div>
 
-										<h5 class="text-center font-dosis fs-3 font-medium p-2">Cambridge</h5>
+										<h5 class="text-center font-dosis fs-3 font-medium p-2 custom-title-header">Cambridge</h5>
 
 										<div class="col-12 col-md-4 col-xl-4">
 											<div class="bg-opacity-10 rounded-3 text-center p-1 position-relative btn-transition">
@@ -277,7 +280,7 @@ include __DIR__ . '/config.php'; // Include config.php for BASE_URL*/
 											</div>
 										</div>
 
-										<h5 class="text-center font-dosis fs-3 font-medium p-2">Specialized</h5>
+										<h5 class="text-center font-dosis fs-3 font-medium p-2 custom-title-header">Specialized</h5>
 
 										<div class="col-12 col-md-4 col-xl-4">
 											<div class="bg-opacity-10 rounded-3 text-center p-1 position-relative btn-transition">

@@ -63,8 +63,9 @@
         @media (max-width: 768px) { /* Medium screens and below (Bootstrap's md breakpoint) */
     .custom-line-height {
         line-height: 1.8; /* Adjust this value as needed */
-    }
-}
+    }}
+	.custom-title-header {
+		color: #1C4F59;}
 
     </style>
 
@@ -82,13 +83,13 @@
 			<!-- Content START -->
 			<div class="container">
 				<!-- Title -->
-				<div class="row align-items-center g-5">
+				<div class="row align-items-center g-5"> 
 					<!-- Left content START -->
 					<div
 						class="col-lg-5 col-xl-6 position-relative z-index-1 text-center text-lg-start mb-1 mb-sm-0 pt-md-3">
 
-						<!-- Title -->
-						<h1 class="mb-0 display-6 pt-4 font-dosis custom-line-height">English learning at your
+						<!-- Title --> 
+						<h1 class="mb-0 display-6 pt-4 font-dosis custom-line-height custom-title-header text-center">English learning at your
 							<span class="position-relative custom-line-height">fingertips!
 								<!-- SVG START -->
 								<span class="position-absolute top-50 start-50 translate-middle ms-3 z-index-n1">
@@ -103,7 +104,7 @@
 						</h1>
 
 						<!-- Content -->
-						<p class="d-none d-lg-block my-4 lead">Learn English with Video Based Lessons, Interactive Exercises, and Structure.</p>
+						<p class="d-none text-center d-lg-block my-4 fs-4">Learn English with Structure, Interactivity and Fun!</p>
 
 						<div class="d-lg-flex align-items-center justify-content-center justify-content-lg-start pt-4 pt-lg-2">
 							<!-- Button -->
@@ -117,7 +118,7 @@
 					<div class="d-none d-lg-block col-lg-4 col-xl-4 text-center mx-auto position-relative pt-md-5">
 						<!-- Image -->
 						<div class="position-relative">
-							<img src="<?php echo BASE_URL; ?>assets/images/element/20.svg" alt="">
+							<img src="<?php echo BASE_URL; ?>assets/images/element/category-2.svg" alt="">
 						</div>
 					</div>
 					<!-- Right content END -->
@@ -131,6 +132,8 @@
 			<div class="container">
 
 			<div class="row g-4 pb-3">
+				<div class="d-flex justify-content-center align-items-center"><h2 class="text-center text-white font-dosis fw-bold fs-1 w-100">Start Learning</h2>
+			    </div>
 					<!-- Item -->
 					<div class="col-sm-6 col-md-4 col-xl-4">
 						<div class="bg-opacity-10 rounded-3 text-center p-3 position-relative btn-transition">
@@ -436,7 +439,7 @@
 				<div class="row g-4 g-lg-5">
 					<div class="col-lg-6 order-2 text-center mx-auto">
 						<!-- Image -->
-						<img src="<?php echo BASE_URL; ?>assets/images/element/category-2.svg" class="position-relative" alt="">
+						<img src="<?php echo BASE_URL; ?>assets/images/element/20.svg" class="position-relative" alt="">
 					</div>
 
 					<div class="col-lg-5 position-relative mx-auto order-1 order-lg-2">
