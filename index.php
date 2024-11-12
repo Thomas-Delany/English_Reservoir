@@ -86,7 +86,7 @@
 				<div class="row align-items-center g-5"> 
 					<!-- Left content START -->
 					<div
-						class="col-lg-5 col-xl-6 position-relative z-index-1 text-center text-lg-start mb-1 mb-sm-0 pt-md-3">
+						class="col-lg-5 col-xl-6 position-relative z-index-1 text-center mb-1 mb-sm-0 pt-md-3">
 
 						<!-- Title --> 
 						<h1 class="mb-0 display-6 pt-4 font-dosis custom-line-height custom-title-header text-center">English learning at your
@@ -104,21 +104,21 @@
 						</h1>
 
 						<!-- Content -->
-						<p class="d-none text-center d-lg-block my-4 fs-4">Learn English with Structure, Interactivity and Fun!</p>
+						<p class="d-none text-center d-lg-block font-dosis my-4 fs-4 fw-medium">Learn English with Structure, Interactivity and Fun!</p>
 
 						<div class="d-lg-flex align-items-center justify-content-center justify-content-lg-start pt-4 pt-lg-2">
 							<!-- Button -->
-							<a href="https://cursos.englishreservoir.com/p/cursos-de-ingles-metodo-divertido" class="btn btn-success btn-lg me-2 mb-4 mb-lg-0 w-75 w-xl-auto">Level Test</a>
-							<a href="https://cursos.englishreservoir.com/p/cursos-de-ingles-metodo-divertido" class="btn btn-light border border-success btn-lg me-2 mb-4 mb-lg-0 w-75 w-xl-auto">Log in</a>
+							<a href="https://cursos.englishreservoir.com/p/cursos-de-ingles-metodo-divertido" class="btn btn-success btn-lg me-2 mb-4 mb-lg-0 w-75 w-xl-auto font-dosis fs-5 fw-bolder">Level Test</a>
+							<a href="https://cursos.englishreservoir.com/p/cursos-de-ingles-metodo-divertido" class="btn btn-light border border-success btn-lg me-2 mb-4 mb-lg-0 w-75 w-xl-auto font-dosis fs-5 fw-bolder">Log in</a>
 						</div>
 					</div>
 					<!-- Left content END -->
 
 					<!-- Right content START -->
-					<div class="d-none d-lg-block col-lg-4 col-xl-4 text-center mx-auto position-relative pt-md-5">
+					<div class="d-none d-lg-block col-lg-5 col-xl-5 text-center mx-auto position-relative pt-md-5">
 						<!-- Image -->
-						<div class="position-relative">
-							<img src="<?php echo BASE_URL; ?>assets/images/element/category-2.svg" alt="">
+						<div class="text-end">
+							<img src="<?php echo BASE_URL; ?>assets/images/element/category-2.svg" class="w-75 text-end" alt="">
 						</div>
 					</div>
 					<!-- Right content END -->
@@ -132,7 +132,7 @@
 			<div class="container">
 
 			<div class="row g-4 pb-3">
-				<div class="d-flex justify-content-center align-items-center"><h2 class="text-center text-white font-dosis fw-bold fs-1 w-100">Start Learning</h2>
+				<div class="d-flex justify-content-center align-items-center"><h2 class="text-center text-white font-dosis fw-bold fs-1 w-100">Select your level</h2>
 			    </div>
 					<!-- Item -->
 					<div class="col-sm-6 col-md-4 col-xl-4">
@@ -309,13 +309,13 @@
 					<div class="col-lg-6 position-relative text-center order-2">
 
 						<!-- Image -->
-						<img src="<?php echo BASE_URL; ?>assets/images/element/29.svg" class="position-relative" alt="">
+						<img src="<?php echo BASE_URL; ?>assets/images/element/29.svg" class="d-none d-lg-block" alt="position-relative">
 					</div>
 
 					<div class="col-lg-6 position-relative order-1 order-lg-2">
 						<!-- Title -->
 						<h2 class="font-dosis">A Fun Method</h2>
-						<p class="mb-2 lead">Our English courses are dynamic and interactive with quizzes to test your
+						<p class="mb-2 fs-4">Our English courses are dynamic and interactive with quizzes to test your
 							knowlege.
 						</p>
 						<!-- Info list -->
@@ -348,15 +348,15 @@
 		<section class="overflow-hidden">
 			<div class="container">
 				<div class="row g-4 align-items-center">
-					<div class="col-md-5 position-relative z-index-9 mx-auto">
+					<div class="col-lg-5 position-relative z-index-9 mx-auto">
 						<!-- Title -->
 						<h2 class="font-dosis">Communicate with the teachers!
 						</h2>
-						<p class="lead">No more isolation. Community based learning is key. Communicate with the
+						<p class="fs-4">No more isolation. Community based learning is key. Communicate with the
 							teachers in every lesson. Response time usally within 24 hours! </p>
 					</div>
 
-					<div class="col-md-4 text-md-end text-center mx-auto">
+					<div class="col-lg-4 text-md-end text-center mx-auto d-none d-lg-block">
 						<!-- Image -->
 						<img src="<?php echo BASE_URL; ?>assets/images/element/10.svg" class="position-relative" alt="">
 					</div>
@@ -375,9 +375,9 @@
 					</div>
 
 					<div class="col-lg-6 position-relative order-1 order-lg-2">
-						<!-- Title -->
+						<!-- Title --> 
 						<h2 class="font-dosis">Learn English with Efficacy and Structure</h2>
-						<p class="mb-2 lead">Whether it's English grammar, verbs, Pronunciation or the Cambridge Exams,
+						<p class="mb-2 fs-4">Whether it's English grammar, verbs, Pronunciation or the Cambridge Exams,
 							we've got you covered.
 							Step by step learning and everything all in one place.
 						</p>
@@ -397,7 +397,7 @@
 						<h2 class="mb-2 font-dosis">$7,99</h2>
 						<h3 class="mb-2 font-dosis">Per month</h3>
 						<div class="col-lg-6 mb-3 mx-auto text-center">
-							<p class="lead">Enjoy all of English Reservoir for a fixed monthly fee. Access all our
+							<p class="fs-4">Enjoy all of English Reservoir for a fixed monthly fee. Access all our
 								English courses in one place for 7,99 USD per month. There are no additional charges
 								or
 								contracts. You can stop whenever you want.
@@ -417,16 +417,15 @@
 				<div class="row g-4 align-items-center">
 					<div class="col-md-5 position-relative mx-auto z-index-9">
 						<!-- Title -->
-						<h2 class="font-dosis">Short and fun videos
+						<h2 class="font-dosis">Short and fun lessons
 						</h2>
-						<p class="lead">Our English courses are fun, dynamic and most importantly: interactive. Every
-							video is a lesson that teaches something new.
+						<p class="fs-4">Our English courses are fun, dynamic and most importantly: interactive. Every lesson teaches something new.
 						</p>
 					</div>
 
 					<div class="col-md-4 text-md-end mx-auto text-center">
 						<!-- Image -->
-						<img src="<?php echo BASE_URL; ?>assets/images/element/instructor-course.svg" class="position-relative" alt="">
+						<img src="<?php echo BASE_URL; ?>assets/images/element/instructor-course.svg" class="d-block mx-auto w-75 w-md-50 w-lg-25" alt="">
 					</div>
 				</div>
 			</div>
@@ -437,20 +436,20 @@
 		<section class="pb-0 pb-lg-5">
 			<div class="container">
 				<div class="row g-4 g-lg-5">
-					<div class="col-lg-6 order-2 text-center mx-auto">
+					<div class="col-lg-6 order-2 text-center mx-auto d-none d-lg-block position-relative">
 						<!-- Image -->
-						<img src="<?php echo BASE_URL; ?>assets/images/element/20.svg" class="position-relative" alt="">
+						<img src="<?php echo BASE_URL; ?>assets/images/element/20.svg" class="img-fluid" alt="">
 					</div>
 
 					<div class="col-lg-5 position-relative mx-auto order-1 order-lg-2">
 						<!-- Title -->
 						<h2 class="font-dosis">Method</h2>
-						<p class="mb-5 lead">Concise, dynamic, and example-based lessons to contextualize what you're
+						<p class="mb-5 fs-4">Concise, dynamic, and example-based lessons to contextualize what you're
 							learning.
 						</p>
 						<h2 class="font-dosis">Native accents
 						</h2>
-						<p class="mb-2 lead">You will learn with different and diverse native accents: British,
+						<p class="mb-2 fs-4">You will learn with different and diverse native accents: British,
 							Australian, Indian and American accents.
 						</p>
 					</div>
@@ -459,31 +458,8 @@
 		</section>
 		<!-- Section 6 END -->
 
+		
 		<!-- Section 7 START -->
-		<section class="pb-0 pb-lg-5">
-			<div class="container">
-				<div class="row g-4 g-lg-5 align-items-center">
-
-					<div class="col-lg-5 mx-auto position-relative order-1 order-lg-2">
-						<!-- Title -->
-						<h2 class="font-dosis">Summary</h2>
-						<p class="mb-2 lead">The courses have more than 10 hours of material. You can take them online
-							(streaming). The dialogues are in English with various native accents. The narration and
-							explanations are in Spanish. At this point, our courses are for Spanish speakers.
-						</p>
-					</div>
-					<div class="col-lg-3 mx-auto position-relative text-center order-2">
-
-						<!-- Image -->
-						<img src="<?php echo BASE_URL; ?>assets/images/element/rocket.svg" class="position-relative" alt="">
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Section 7 END -->
-
-		<!-- Section 8 START -->
 		<section class="overflow-hidden">
 			<div class="container">
 				<div class="row">
@@ -495,23 +471,23 @@
 						<div class="row gx-5">
 							<!-- FIrst column paragraph -->
 							<div class="col-md-6">
-								<p class="lead">A “reservoir” is a large supply of something. That's exactly what we aim
+								<p class="fs-4">A “reservoir” is a large supply of something. That's exactly what we aim
 									to be here at English Reservoir: a reservoir of English courses, resources and
 									grammar for English learners.
 								</p>
-								<p class="lead">We specialize in the English language and our courses are adapted to
+								<p class="fs-4">We specialize in the English language and our courses are adapted to
 									your needs.
 								</p>
 							</div>
 
 							<!-- Second column paragraph -->
 							<div class="col-md-6">
-								<p class="lead">It is important to us and our students that learning English is fun,
+								<p class="fs-4">It is important to us and our students that learning English is fun,
 									dynamic and interactive, and not boring. Therefore, we have designed our courses to
 									teach you everything you need to know, from essential grammar to verbs and the
 									Cambridge First exam.
 								</p>
-								<p class="lead">Everything is taught in an especially inductive way with context and
+								<p class="fs-4">Everything is taught in an especially inductive way with context and
 									dialogue while we implement our instructional method: explanation - context -
 									analysis.
 								</p>
@@ -521,6 +497,7 @@
 				</div>
 			</div>
 		</section>
+		<!-- Section 7 END -->
 	</main>
 	<!-- MAIN CONTENT END -->
 	
